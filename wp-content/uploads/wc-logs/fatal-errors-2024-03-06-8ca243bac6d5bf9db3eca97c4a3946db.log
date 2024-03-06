@@ -1,0 +1,24 @@
+2024-03-06T19:10:29+00:00 CRITICAL syntax error, unexpected token "<" in /var/www/html/servicesite/wp-content/plugins/truelysell-core/templates/account/logged_section.php on line 143
+
+2024-03-06T19:16:35+00:00 CRITICAL syntax error, unexpected token "endif" in /var/www/html/servicesite/wp-content/plugins/truelysell-core/templates/account/logged_section.php on line 212
+
+2024-03-06T19:18:45+00:00 CRITICAL syntax error, unexpected token "endif" in /var/www/html/servicesite/wp-content/plugins/truelysell-core/templates/account/logged_section.php on line 212
+
+2024-03-06T19:36:17+00:00 CRITICAL syntax error, unexpected token "<" in /var/www/html/servicesite/wp-content/plugins/truelysell-core/templates/account/logged_section.php on line 150
+
+2024-03-06T19:37:09+00:00 CRITICAL syntax error, unexpected token "endif" in /var/www/html/servicesite/wp-content/plugins/truelysell-core/templates/account/logged_section.php on line 196
+
+2024-03-06T19:40:10+00:00 CRITICAL syntax error, unexpected token ":", expecting ";" in /var/www/html/servicesite/wp-content/plugins/truelysell-core/templates/account/logged_section.php on line 147
+
+2024-03-06T19:59:38+00:00 CRITICAL syntax error, unexpected token "else" in /var/www/html/servicesite/wp-content/plugins/truelysell-core/templates/account/logged_section.php on line 167
+
+2024-03-06T20:05:33+00:00 CRITICAL syntax error, unexpected token "{", expecting ":" in /var/www/html/servicesite/wp-content/plugins/truelysell-core/templates/account/logged_section.php on line 184
+
+2024-03-06T20:13:08+00:00 CRITICAL syntax error, unexpected token "elseif" in /var/www/html/servicesite/wp-content/plugins/truelysell-core/templates/account/logged_section.php on line 180
+
+2024-03-06T20:13:36+00:00 CRITICAL syntax error, unexpected token "elseif" in /var/www/html/servicesite/wp-content/plugins/truelysell-core/templates/account/logged_section.php on line 180
+
+2024-03-06T20:23:51+00:00 CRITICAL syntax error, unexpected token "{", expecting ":" in /var/www/html/servicesite/wp-content/plugins/truelysell-core/templates/account/logged_section.php on line 184
+
+2024-03-06T20:24:47+00:00 CRITICAL syntax error, unexpected token "{", expecting ":" in /var/www/html/servicesite/wp-content/plugins/truelysell-core/templates/account/logged_section.php on line 184
+

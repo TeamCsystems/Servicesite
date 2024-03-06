@@ -1,0 +1,6051 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Truelysell-Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-09 06:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: truelysell_core"
+
+#: includes/truelysell-core-activities-log.php:205
+msgid " ago"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:484
+#: includes/truelysell-core-bookings-admin.php:500
+#: includes/truelysell-core-emails.php:845
+#: includes/truelysell-core-emails.php:870 templates/booking.php:149
+#: templates/booking.php:161 templates/booking.php:190
+#: templates/booking.php:207
+#: templates/single-partials/single-listing-main-details.php:81
+msgid " at "
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:254
+msgid " Closing"
+msgstr ""
+
+#: templates/account/reviews.php:211
+msgid " is waiting for approval"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:239
+msgid " Opening"
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:929
+#: includes/truelysell-core-widgets.php:1006
+msgid " slots available"
+msgstr ""
+
+#: truelysell-core-template-functions.php:2248
+#, php-format
+msgid "\"%s\" (filetype %s) needs to be one of the following file types: %s"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:853
+msgid "\"From name\" in email"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:861
+msgid "\"From\" email "
+msgstr ""
+
+#: templates/account/wallet.php:25 templates/account/wallet.php:50
+msgid "#"
+msgstr ""
+
+#: truelysell-core-template-functions.php:1426
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:527
+#: includes/truelysell-core-emails.php:888
+#, php-format
+msgid "%d Child"
+msgid_plural "%s Children"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:57
+#, php-format
+msgid "%d Days"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:530
+#: includes/truelysell-core-emails.php:892
+#, php-format
+msgid "%d Guest"
+msgid_plural "%s Guests"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/listing-submit-package.php:129
+#, php-format
+msgid "%d listing"
+msgid_plural "%s listings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/truelysell-core-bookings-admin.php:533
+#: includes/truelysell-core-emails.php:896
+#, php-format
+msgid "%d Ticket"
+msgid_plural "%s Tickets"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/truelysell-core-post-types.php:722
+#, php-format
+msgid "%s approved"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:727
+#, php-format
+msgid "%s expired"
+msgstr ""
+
+#: includes/truelysell-core-coupons.php:196
+#, php-format
+msgid "%s has been added"
+msgstr ""
+
+#: includes/truelysell-core-coupons.php:227
+#: includes/truelysell-core-users.php:1009
+#, php-format
+msgid "%s has been deleted"
+msgstr ""
+
+#: includes/truelysell-core-users.php:1036
+#, php-format
+msgid "%s has been renewed"
+msgstr ""
+
+#: includes/truelysell-core-users.php:1023
+#, php-format
+msgid "%s has been unpublished"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1527
+#: includes/truelysell-core-submit.php:1546
+#, php-format
+msgid "%s is a required field"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1541
+#, php-format
+msgid "%s is invalid"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:59
+#, php-format
+msgid "%s Posted"
+msgstr ""
+
+#: templates/single-listing.php:272 templates/single-listing.php:456
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: truelysell-core-template-functions.php:594
+msgid "--Choose page--"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:518
+#: includes/truelysell-core-admin.php:541
+#: includes/truelysell-core-admin.php:551
+msgid "."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:476
+msgid "<i class=\"fa fa-calendar-alt\"></i> Booking"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:849
+msgid "<i class=\"fa fa-envelope\"></i> Emails"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:496
+msgid "<i class=\"fa fa-facebook-square\"></i> Facebook"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:450
+msgid "<i class=\"fa fa-file\"></i> Single Service"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:529
+msgid "<i class=\"fa fa-instagram\"></i> Instagram"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:725
+msgid "<i class=\"fa fa-layer-group\"></i> Pages"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:647
+msgid "<i class=\"fa fa-paypal\"></i> PayPal Payout"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:382
+msgid "<i class=\"fa fa-plus-square\"></i> Submit Service"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:513
+msgid "<i class=\"fa fa-search-location\"></i> Browse/Search Options"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:622
+msgid "<i class=\"fa fa-shopping-cart\"></i> Dokan"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:550
+msgid "<i class=\"fa fa-skype\"></i> Skype"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:199
+msgid "<i class=\"fa fa-sliders-h\"></i> General"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:507
+msgid "<i class=\"fa fa-twitter-square\"></i> Twitter"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:530
+msgid "<i class=\"fa fa-user-friends\"></i> Registration"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:540
+msgid "<i class=\"fa fa-whatsapp\"></i> WhatsApp"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:518
+msgid "<i class=\"fa fa-youtube-square\"></i> YouTube"
+msgstr ""
+
+#: truelysell-core-template-functions.php:727
+msgid "<i class=\"fas fa-angle-left\"></i>"
+msgstr ""
+
+#: truelysell-core-template-functions.php:738
+msgid "<i class=\"fas fa-angle-right\"></i>"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-orders.php:115
+#, php-format
+msgid ""
+"<strong>%s</strong> has been submitted successfully and will be visible once "
+"approved."
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-orders.php:119
+#, php-format
+msgid ""
+"<strong>%s</strong> has been submitted successfully and will be visible once "
+"payment has been confirmed."
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-orders.php:122
+#, php-format
+msgid "<strong>%s</strong> has been submitted successfully."
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:722
+msgid "<strong>ERROR:</strong> A PHP extension stopped the file upload."
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:720
+msgid "<strong>ERROR:</strong> Failed to write file to disk."
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:718
+msgid "<strong>ERROR:</strong> Missing a temporary folder."
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:714
+msgid ""
+"<strong>ERROR:</strong> The uploaded file exceeds the MAX_FILE_SIZE "
+"directive that was specified in the HTML form."
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:712
+msgid ""
+"<strong>ERROR:</strong> The uploaded file exceeds the upload_max_filesize "
+"directive in php.ini."
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:716
+msgid ""
+"<strong>ERROR:</strong> The uploaded file was only partially uploaded. "
+"Please try again later."
+msgstr ""
+
+#: includes/truelysell-core-users.php:342
+msgid "<strong>ERROR</strong>: You must include a role."
+msgstr ""
+
+#: includes/truelysell-core-users.php:2651
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: templates/my-account.php:220 templates/account/change_password.php:23
+msgid "A bit short as a password, don't you think?"
+msgstr ""
+
+#: includes/truelysell-core-users.php:1778
+msgid "A confirmation link has been sent to your email address."
+msgstr ""
+
+#: templates/my-account.php:98
+msgid "About me"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:343
+msgid "Action"
+msgstr ""
+
+#: includes/truelysell-core-commissions.php:477
+#: includes/truelysell-core-payouts.php:696
+#: includes/truelysell-core-post-types.php:457
+#: includes/paid-services/truelysell-core-paid-services-admin-listings-table.php:83
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:123
+#: templates/account/coupons.php:25 templates/account/coupons.php:63
+msgid "Actions"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:656
+msgid "Activate"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:650
+msgid "Activate / Deactivate PayOut feature"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:651
+msgid "Activate/Deactivate PayPal Payout feature"
+msgstr ""
+
+#: truelysell-core-template-functions.php:2096
+#: templates/form-fields/slots.php:101
+msgid "Add"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:338
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: templates/listing-submit.php:63
+msgid "Add A New Listing"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:190
+msgid "Add another Menu"
+msgstr ""
+
+#: templates/form-fields/av_calendar.php:31
+#: templates/form-fields/av_calendar.php:47
+msgid "Add Dates"
+msgstr ""
+
+#: templates/form-fields/floorplans.php:75
+msgid "Add Floorplan"
+msgstr ""
+
+#: templates/form-fields/pricing.php:88 templates/form-fields/pricing.php:130
+msgid "Add Item"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:337
+msgid "Add New"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:428
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: templates/account/coupons.php:121
+msgid "Add New Coupon"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:437
+msgid "Add or Upload Images"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:588
+msgid "Add Password pickup field to registration form"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:249
+msgid "Add time"
+msgstr ""
+
+#: includes/class-wc-product-listing-booking.php:94
+#: includes/paid-services/class-wc-product-listing-package.php:98
+msgid "Add to cart"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin.php:80
+#: includes/paid-services/truelysell-core-paid-services-admin.php:99
+msgid "Add User Package"
+msgstr ""
+
+#: includes/class-truelysell-core.php:582
+#: includes/class-truelysell-core.php:592
+msgid "Add widgets here."
+msgstr ""
+
+#: includes/truelysell-core-search.php:1378
+#: includes/truelysell-core-search.php:1379
+msgid "Additional Features"
+msgstr ""
+
+#: templates/booking.php:277
+msgid "Additional Services"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:365
+#: includes/truelysell-core-post-types.php:454
+#: includes/truelysell-core-submit.php:334 templates/single-listing.php:230
+msgid "Address"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:583
+msgid "Address:"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:497
+msgid ""
+"Adds \"Expired\" subpage to Bookings page in provider Dashboard, with list "
+"of expired bookings "
+msgstr ""
+
+#: includes/truelysell-core-admin.php:577
+msgid "Adds optional input fields for first and last name"
+msgstr ""
+
+#: templates/account/logged_section.php:63
+msgid "Admin"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:417
+msgid "Admin approval required for editing service"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:410
+msgid "Admin approval required for new services"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:300
+msgid "Advanced meta data Listing"
+msgstr ""
+
+#: includes/truelysell-core-settings.php:179
+msgid "After or before the price."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:517
+msgid "Ajax based service browsing"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:336
+#: includes/truelysell-core-post-types.php:423
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: includes/truelysell-core-tcal.php:257
+msgid "All calendars are automaticaly refreshed every 30 minutes"
+msgstr ""
+
+#: includes/truelysell-core-search.php:1160
+#: includes/truelysell-core-search.php:1170
+msgid "All Categories"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:114
+msgid "Allow Booking Module"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services.php:100
+msgid "Allow booking on listings bought from this package."
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:156
+msgid "Allow Coupons"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services.php:156
+msgid ""
+"Allow Coupons widget to be displayed on the listings bought from this "
+"package."
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:164
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:172
+msgid "Allow Gallery"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services.php:115
+msgid "Allow gallery on listings bought from this package."
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:351
+#: includes/truelysell-core-submit.php:973
+msgid "Allow online payment"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:140
+msgid "Allow Opening Hours Module"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services.php:143
+msgid ""
+"Allow Opening Hours widget to be displayed on the listings bought from this "
+"package."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:464
+msgid "Allow providers to add reviews"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:124
+msgid "Allow Reviews Module"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services.php:107
+msgid "Allow reviews on listings bought from this package."
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:132
+msgid "Allow Social Links Module"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services.php:136
+msgid ""
+"Allow social links to be displayed on the listings bought from this package."
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:148
+msgid "Allow Video"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services.php:150
+msgid ""
+"Allow Video widget to be displayed on the listings bought from this package."
+msgstr ""
+
+#: templates/account/coupon-submit.php:196
+msgid "Allowed emails"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:355 templates/archive/top-buttons.php:33
+msgid "Alphabetically"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:370
+msgid "Always show"
+msgstr ""
+
+#: truelysell-core-template-functions.php:2079
+#: templates/form-fields/slots.php:84 templates/form-fields/slots.php:94
+msgid "am"
+msgstr ""
+
+#: includes/truelysell-core-payouts.php:694 templates/account/dashboard.php:231
+#: templates/account/payout.php:189 templates/booking/content-booking.php:175
+#: templates/booking/content-user-booking.php:175
+msgid "Amount"
+msgstr ""
+
+#: templates/account/login.php:44
+msgid "An account exists with this email address."
+msgstr ""
+
+#: templates/my-account.php:226 templates/account/change_password.php:29
+msgid "An error occurred while updating your profile. Please retry."
+msgstr ""
+
+#: includes/truelysell-core-users.php:2157
+msgid "An unknown error occurred. Please try again later."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:716
+msgid "Any note that you want to add"
+msgstr ""
+
+#: includes/truelysell-core-settings.php:190
+msgid "API key"
+msgstr ""
+
+#: includes/class-truelysell-core.php:384
+#: includes/truelysell-core-search.php:1551
+#: includes/truelysell-core-search.php:1613
+msgid "Apply"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:522
+#: templates/booking/content-booking.php:252
+msgid "Approve"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:721
+#, php-format
+msgid "Approve %s"
+msgstr ""
+
+#: templates/booking/content-booking.php:55
+#: templates/booking/content-booking.php:75
+#: templates/booking/content-user-booking.php:49
+#: templates/booking/content-user-booking.php:64
+msgid "Approved"
+msgstr ""
+
+#: includes/class-truelysell-core.php:430
+msgid "April"
+msgstr ""
+
+#: includes/class-truelysell-core.php:373
+msgid "Are you sure you want to cancel this upload?"
+msgstr ""
+
+#: templates/form-fields/floorplans.php:32
+#: templates/form-fields/floorplans.php:65
+msgid "Area"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:265
+#: includes/truelysell-core-settings.php:124
+msgid "Argentine Peso"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-edit-listing-package.php:52
+msgid "Assigned to Listing Package"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:463
+#: includes/truelysell-core-bookings-admin.php:624
+#: includes/truelysell-core-bookings-admin.php:640
+msgid "at"
+msgstr ""
+
+#: includes/class-truelysell-core.php:434
+msgid "August"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:266
+#: includes/truelysell-core-settings.php:125
+msgid "Australian Dollars"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:550
+msgid "Automatically login user after successful registration"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:849
+msgid "Availability"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1036
+msgid "Availability Calendar"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:860
+msgid "Availability Slots"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:879
+msgid "Available Tickets"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:268
+#: includes/truelysell-core-settings.php:127
+msgid "Bahraini Dinar"
+msgstr ""
+
+#: includes/truelysell-core-commissions.php:475
+msgid "Balance to pay"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:267
+#: includes/truelysell-core-settings.php:126
+msgid "Bangladeshi Taka"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:283
+msgid "Basic Information"
+msgstr ""
+
+#: includes/truelysell-core-users.php:527
+#: includes/truelysell-core-widgets.php:671
+#: includes/truelysell-core-widgets.php:1249
+#: templates/content-listing-compact.php:62
+#: templates/content-listing-grid.php:71 templates/content-listing.php:64
+#: templates/single-listing.php:418
+msgid "Book Now"
+msgstr ""
+
+#: templates/single-listing.php:521
+msgid "Book Service"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:637
+msgid "Bookable"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:649
+msgid "Bookable Options"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:662
+msgid "Bookable Quantity"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:15
+#: includes/truelysell-core-submit.php:834
+#: includes/truelysell-core-widgets.php:666
+#: includes/truelysell-core-widgets.php:750
+msgid "Booking"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1227
+msgid "Booking approved - payment needed email to user"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1337
+msgid "Booking cancelled notification email content"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1330
+msgid "Booking cancelled notification email subject"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1319
+msgid "Booking cancelled notification to user "
+msgstr ""
+
+#: includes/truelysell-core-admin.php:758
+msgid "Booking confirmation"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1213
+msgid "Booking confirmation \"pay with cash\" notification email content"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1205
+msgid "Booking confirmation \"pay with cash\" notification email subject"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1052
+msgid "Booking confirmation notification email content"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1044
+msgid "Booking confirmation notification email subject"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1033
+msgid "Booking confirmation to user (paid - not instant booking) "
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1194
+msgid "Booking confirmation to user, pay in cash only"
+msgstr ""
+
+#: templates/account/dashboard.php:201
+#: templates/booking/content-booking.php:145
+#: templates/booking/content-user-booking.php:135
+msgid "Booking Date"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:450
+msgid "Booking Date:"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:523
+msgid "Booking Details:"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:114
+#: includes/paid-services/truelysell-core-paid-services.php:99
+msgid "Booking Module"
+msgstr ""
+
+#: templates/listing-submit-package.php:147
+msgid "Booking Module enabled"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:321
+msgid "Booking options"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1288
+msgid "Booking paid confirmation  to user"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1306
+msgid "Booking paid confirmation email content"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1299
+msgid "Booking paid confirmation email subject"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1258
+msgid "Booking paid notification  to owner"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1276
+msgid "Booking paid notification email content"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1269
+msgid "Booking paid notification email subject"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:874
+msgid "Booking prices and settings"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1115
+#: includes/truelysell-core-admin.php:1179
+#: includes/truelysell-core-admin.php:1245
+msgid "Booking request notification email content"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1107
+#: includes/truelysell-core-admin.php:1171
+#: includes/truelysell-core-admin.php:1238
+msgid "Booking request notification email subject"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:334
+msgid "Booking Status"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:840
+#: includes/truelysell-core-submit.php:854
+msgid "Booking status"
+msgstr ""
+
+#: templates/booking.php:115
+msgid "Booking Summary"
+msgstr ""
+
+#: templates/account/dashboard.php:216
+#: templates/booking/content-booking.php:160
+#: templates/booking/content-user-booking.php:152
+msgid "Booking Time"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:757
+msgid "Booking was successfully changed"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:16
+#: templates/account/logged_section.php:125
+msgid "Bookings"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:744
+msgid "Bookings Page"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:932
+msgid "Bookings per page"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:483
+msgid ""
+"Bookings will have prices but the payments won't be handled by the site. "
+"Disable Wallet page in Truelysell Core -> Pages"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:347
+msgid "Bookmark button"
+msgstr ""
+
+#: includes/truelysell-core-users.php:552
+msgid "Bookmark this listing"
+msgstr ""
+
+#: includes/truelysell-core-users.php:545
+msgid "Bookmarked"
+msgstr ""
+
+#: templates/account/navigation.php:23
+msgid "Bookmarked Listings"
+msgstr ""
+
+#: includes/truelysell-core-users.php:550
+msgid "Bookmarked!"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:793
+msgid "Bookmarks Page"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:269
+#: includes/truelysell-core-settings.php:128
+msgid "Brazilian Real"
+msgstr ""
+
+#: templates/single-partials/single-listing-store.php:14
+msgid "Browse All Products"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:270
+#: includes/truelysell-core-settings.php:129
+msgid "Bulgarian Lev"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:672
+msgid "Button Label"
+msgstr ""
+
+#: templates/listing-submit-package.php:216
+msgid "Buy this package"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:511
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:511
+msgid "by a guest"
+msgstr ""
+
+#: templates/listing-submit.php:94
+msgid ""
+"By default booking widget in your listing has time picker. Enable this "
+"section to configure time slots."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:405
+msgid ""
+"By default bookings are enabled, check this checkbox to disable it and "
+"remove booking options from Submit Service"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:345
+msgid "By default sort listings by:"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:366
+msgid ""
+"By enabling this option phone and emails fields will be visible only for:"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:416
+msgid ""
+"By selecting (clicking on a photo) one of the uploaded photos you will set "
+"it as Featured Image for this service (marked by icon with star). Drag and "
+"drop thumbnails to re-order images in gallery."
+msgstr ""
+
+#: templates/listing-submit.php:123
+msgid ""
+"By turning on switch on the right, you'll enable booking feature, it will "
+"add Booking widget on your listing. You'll see more configuration settings "
+"below."
+msgstr ""
+
+#: includes/truelysell-core-tcal.php:194
+msgid "Calendar was removed, no events deleted"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1713
+msgid "Call"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:271
+#: includes/truelysell-core-settings.php:130
+msgid "Canadian Dollars"
+msgstr ""
+
+#: includes/class-truelysell-core.php:385
+#: templates/booking/content-booking.php:244
+#: templates/booking/content-user-booking.php:246
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-truelysell-core.php:372
+msgid "Cancel upload"
+msgstr ""
+
+#: templates/booking/content-booking.php:88
+#: templates/booking/content-user-booking.php:75
+msgid "Cancelled"
+msgstr ""
+
+#: templates/booking/content-booking.php:59
+#: templates/booking/content-user-booking.php:38
+#: templates/booking/content-user-booking.php:52
+msgid "Cash payment"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:405
+#: includes/truelysell-core-search.php:1223
+msgid "Categories"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:404
+#: includes/truelysell-core-submit.php:299
+msgid "Category"
+msgstr ""
+
+#: includes/truelysell-core-search.php:941
+#: includes/truelysell-core-search.php:1050
+#, php-format
+msgid "Category \"%s\" doesn't have any additional filters"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:788
+#: includes/truelysell-core-meta-boxes.php:820
+msgid "Category Cover"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:795
+#: includes/truelysell-core-meta-boxes.php:839
+msgid "Category Cover Icon"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:815
+msgid "Category Icon"
+msgstr ""
+
+#: includes/class-truelysell-core.php:409 templates/form-fields/pricing.php:28
+msgid "Category Title"
+msgstr ""
+
+#: templates/account/my_listings.php:98
+msgid "Change Package"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-listings-table.php:67
+msgid "Change package"
+msgstr ""
+
+#: templates/account/change_password.php:7 templates/account/navigation.php:64
+msgid "Change Password"
+msgstr ""
+
+#: templates/my-account.php:57
+msgid "Change your role"
+msgstr ""
+
+#: templates/booking/content-booking.php:234
+#: templates/booking/content-user-booking.php:235
+msgid "Chat"
+msgstr ""
+
+#: includes/class-truelysell-core.php:801
+#: includes/class-truelysell-core.php:810
+#: includes/truelysell-core-settings.php:391
+#: includes/truelysell-core-settings.php:400
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: templates/compare-listings.php:25
+msgid "Check Other Properties"
+msgstr ""
+
+#: templates/account/coupon-submit.php:183
+msgid ""
+"Check this box if the coupon cannot be used in conjunction with other "
+"coupons."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:884
+msgid "Check this checkbox to disable sending emails to new users"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:920
+#: includes/truelysell-core-admin.php:951
+#: includes/truelysell-core-admin.php:979
+msgid "Check this checkbox to enable sending emails to listing authors"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1264
+msgid ""
+"Check this checkbox to enable sending emails to owner when booking was paid "
+"by use"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1102
+msgid ""
+"Check this checkbox to enable sending emails to owners when new booking was "
+"requested"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1134
+msgid ""
+"Check this checkbox to enable sending emails to owners when new instant "
+"booking was made"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1009
+msgid "Check this checkbox to enable sending emails to service authors"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1325
+msgid ""
+"Check this checkbox to enable sending emails to user when booking is "
+"cancelled"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1356
+msgid ""
+"Check this checkbox to enable sending emails to user when there was new "
+"conversation started"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1387
+msgid ""
+"Check this checkbox to enable sending emails to user when there was new "
+"message send"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1294
+msgid ""
+"Check this checkbox to enable sending emails to user with confirmation of "
+"payment"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1039
+#: includes/truelysell-core-admin.php:1070
+msgid ""
+"Check this checkbox to enable sending emails to users after they request "
+"booking"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1166
+msgid ""
+"Check this checkbox to enable sending emails to users when booking was "
+"accepted by owner"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1200
+msgid ""
+"Check this checkbox to enable sending emails to users when booking was "
+"accepted by owner and requires payment in cash"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1233
+msgid ""
+"Check this checkbox to enable sending emails to users when booking was "
+"accepted by owner and they need to pay"
+msgstr ""
+
+#: includes/truelysell-core-search.php:1344
+msgid "Check-In - Check-Out"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:272
+#: includes/truelysell-core-settings.php:131
+msgid "Chilean Peso"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:273
+#: includes/truelysell-core-settings.php:132
+msgid "Chinese Yuan"
+msgstr ""
+
+#: templates/form-fields/term-select.php:77
+#: templates/form-fields/term-select.php:80
+msgid "Choose "
+msgstr ""
+
+#: includes/truelysell-core-admin.php:258
+msgid "Choose a currency used."
+msgstr ""
+
+#: includes/truelysell-core-settings.php:118
+msgid "Choose a currency."
+msgstr ""
+
+#: includes/truelysell-core-submit.php:2456
+msgid "Choose a package"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:204
+msgid "Choose a product&hellip;"
+msgstr ""
+
+#: includes/truelysell-core-settings.php:195
+msgid "Choose a scale."
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:490
+msgid "Choose contact form"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:603
+msgid "Choose form action"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:238
+msgid "Choose hyphen (-), slash (/), or dot (.)"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:626
+msgid "Choose if you want all new owners to be vendors"
+msgstr ""
+
+#: templates/listing-submit-package.php:77
+msgid "Choose Package"
+msgstr ""
+
+#: templates/listing-submit-package.php:216
+msgid "Choose this package"
+msgstr ""
+
+#: templates/listing-submit-type.php:30
+msgid "Choose Type"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:120
+msgid "Choose Type "
+msgstr ""
+
+#: templates/listing-submit-package.php:40
+msgid "Choose your Package"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:772
+msgid "Classifieds"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:495
+msgid "Classifieds fields"
+msgstr ""
+
+#: truelysell-core-template-functions.php:101
+msgid "Cleanliness"
+msgstr ""
+
+#: includes/class-truelysell-core.php:386
+msgid "Clear"
+msgstr ""
+
+#: templates/form-fields/hours.php:26
+msgid "Clear Time"
+msgstr ""
+
+#: templates/listing-submit.php:97
+msgid "Click date in calendar to mark the day as unavailable."
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1041
+msgid "Click day in calendar to mark it as unavailable"
+msgstr ""
+
+#: templates/form-fields/files.php:32
+msgid "Click here or drop files to upload"
+msgstr ""
+
+#: includes/class-truelysell-core.php:391
+msgid "Click to make this item bookable in booking widget"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:335
+msgid "Client"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:567
+msgid "Client:"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:226
+msgid "Clock format"
+msgstr ""
+
+#: includes/truelysell-core-search.php:1548
+#: includes/truelysell-core-search.php:1610
+msgid "Close"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:642
+#: includes/truelysell-core-widgets.php:644
+msgid "Close Filters"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1530
+#: includes/truelysell-core-widgets.php:1566
+msgid "Closed"
+msgstr ""
+
+#: includes/class-truelysell-core.php:440 templates/form-fields/hours.php:47
+#: templates/form-fields/hours.php:63
+msgid "Closing Time"
+msgstr ""
+
+#: truelysell-core.php:380
+msgid "CMB2 Plugin is missing CMB2!"
+msgstr ""
+
+#: templates/account/coupons.php:20 templates/account/coupons.php:39
+msgid "Code"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:274
+#: includes/truelysell-core-settings.php:133
+msgid "Colombian Peso"
+msgstr ""
+
+#: templates/single-partials/single-listing-google-reviews.php:36
+#: templates/single-partials/single-listing-reviews.php:18
+#, php-format
+msgctxt "comments title"
+msgid "Review %1$s"
+msgid_plural "%1$s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/truelysell-core-admin.php:246
+msgid "Commission rate"
+msgstr ""
+
+#: includes/truelysell-core-payouts.php:31
+#: includes/truelysell-core-payouts.php:32
+msgid "Commissions"
+msgstr ""
+
+#: templates/compare-side.php:77
+msgid "Compare"
+msgstr ""
+
+#: templates/compare-side.php:22
+msgid "Compare Properties"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:498
+msgid "Condition"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:788
+msgid "Condition "
+msgstr ""
+
+#: templates/booking.php:99
+msgid "Confirm"
+msgstr ""
+
+#: templates/booking.php:99 templates/booking.php:101
+msgid "Confirm and Book"
+msgstr ""
+
+#: templates/booking.php:101
+msgid "Confirm and Pay"
+msgstr ""
+
+#: templates/my-account.php:254 templates/account/change_password.php:46
+msgid "Confirm New Password"
+msgstr ""
+
+#: templates/booking/content-booking.php:236
+msgid "Confirm Payment"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:451
+msgid "Contact details"
+msgstr ""
+
+#: includes/truelysell-core-messages.php:478
+msgid "Conversation couldn't be removed."
+msgstr ""
+
+#: includes/truelysell-core-messages.php:476
+msgid "Conversation was removed"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:219
+msgid "Copyright Text Here"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:2102
+msgid "Coupon"
+msgstr ""
+
+#: templates/account/coupons.php:22 templates/account/coupons.php:41
+msgid "Coupon Amount"
+msgstr ""
+
+#: templates/account/coupon-submit.php:100
+msgid "Coupon amount"
+msgstr ""
+
+#: templates/booking.php:43 templates/account/coupon-submit.php:48
+msgid "Coupon code"
+msgstr ""
+
+#: templates/account/coupon-submit.php:54
+msgid "Coupon Description"
+msgstr ""
+
+#: templates/account/coupon-submit.php:107
+msgid "Coupon expiry date"
+msgstr ""
+
+#: templates/account/coupons.php:21 templates/account/coupons.php:40
+msgid "Coupon Type"
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:661
+#: includes/truelysell-core-bookings-calendar.php:712
+msgid "Coupon usage limit has been reached"
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:615
+msgid "Coupon was not provided"
+msgstr ""
+
+#: templates/account/coupon-submit.php:70
+msgid "Coupon Widget Background"
+msgstr ""
+
+#: includes/truelysell-core-coupons.php:198
+#, php-format
+msgid "Coupon with code \"%s\" already exists"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:119
+#: includes/paid-services/truelysell-core-paid-services.php:155
+msgid "Coupons Module"
+msgstr ""
+
+#: templates/listing-submit-package.php:188
+msgid "Coupons option enabled"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:341
+msgid "Created"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:823
+msgid "Created date"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:282
+#: includes/truelysell-core-settings.php:139
+msgid "Croatia kuna"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:257
+#: includes/truelysell-core-settings.php:117
+msgid "Currency"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:324
+msgid "Currency position"
+msgstr ""
+
+#: includes/truelysell-core-settings.php:178
+msgid "Currency symbol postion"
+msgstr ""
+
+#: templates/my-account.php:246 templates/account/change_password.php:40
+msgid "Current Password"
+msgstr ""
+
+#: includes/class-truelysell-core.php:389
+msgid "Custom"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:530
+msgid "Custom fields"
+msgstr ""
+
+#: includes/truelysell-core-users.php:207 templates/account/dashboard.php:261
+#: templates/account/logged_section.php:60
+#: templates/account/register-form.php:42
+#: templates/booking/content-booking.php:205
+msgid "Customer"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:614
+msgid "Customer redirect after login to page"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:608
+msgid "Customer redirect after registration to page"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:275
+#: includes/truelysell-core-settings.php:134
+msgid "Czech Koruna"
+msgstr ""
+
+#: truelysell-core-template-functions.php:415
+msgid "Daily"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:276
+#: includes/truelysell-core-settings.php:135
+msgid "Danish Krone"
+msgstr ""
+
+#: templates/account/logged_section.php:76
+msgid "Dashboard"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:730
+msgid "Dashboard Page"
+msgstr ""
+
+#: includes/truelysell-core-payouts.php:695
+#: includes/truelysell-core-widgets.php:976
+#: includes/truelysell-core-widgets.php:1159 templates/booking.php:219
+#: templates/account/wallet.php:30
+msgid "Date"
+msgstr ""
+
+#: templates/booking.php:178
+msgid "Date End"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:808
+msgid "Date end"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:237
+msgid "Date format separator"
+msgstr ""
+
+#: templates/booking.php:137
+msgid "Date Start"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:803
+msgid "Date start"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:655
+msgid "Deactivate"
+msgstr ""
+
+#: includes/class-truelysell-core.php:438
+msgid "December"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:336
+msgid "Decimal places for prices"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:101
+msgid "Default"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:709
+msgid "Default Email Message"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:702
+msgid "Default Email Subject"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:454
+msgid "Default Gallery Type"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:503
+msgid "Default is 48 hours, set to 0 to disable"
+msgstr ""
+
+#: templates/archive/sorting.php:7 templates/archive/top-buttons.php:26
+#: templates/search-form/sortby.php:5
+msgid "Default Order"
+msgstr ""
+
+#: templates/archive/sorting.php:6 templates/archive/top-buttons.php:25
+#: templates/search-form/sortby.php:4
+msgid "Default order"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:893
+msgid "Default price for booking on Monday - Friday"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:910
+msgid "Default price for booking on weekend"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:625
+msgid "Default user role for new users with Dokan active"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:192
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:90
+#: templates/account/coupons.php:75 templates/account/my_listings.php:122
+#: templates/booking/content-booking.php:248
+#: templates/booking/content-user-booking.php:243
+msgid "Delete"
+msgstr ""
+
+#: templates/my-account.php:280
+msgid "Delete Your Account"
+msgstr ""
+
+#: includes/class-truelysell-core.php:382
+#: includes/truelysell-core-meta-boxes.php:675
+#: includes/truelysell-core-submit.php:430 templates/account/my_packages.php:7
+#: templates/form-fields/floorplans.php:34
+#: templates/form-fields/floorplans.php:66 templates/form-fields/pricing.php:61
+#: templates/form-fields/pricing.php:110
+msgid "Description"
+msgstr ""
+
+#: templates/account/coupon-submit.php:55
+msgid "Description (optional)"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:831
+#: includes/truelysell-core-submit.php:426
+msgid "Details"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:110
+msgid "Determines booking options"
+msgstr ""
+
+#: includes/truelysell-core-search.php:1546
+#: includes/truelysell-core-search.php:1608
+#: includes/truelysell-core-search.php:1608
+msgid "Disable"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:404
+msgid "Disable Bookings module"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:262
+#: includes/truelysell-core-settings.php:121
+msgid "Disable Currency Symbol"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:482
+msgid "Disable payments in bookings"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:636
+msgid "Disable product categories from Dokan"
+msgstr ""
+
+#: includes/truelysell-core-search.php:1521
+msgid "Disable Radius"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:469
+msgid "Disable reviews on services"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:883
+msgid "Disable Welcome email to user (enabled by default)"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:522
+msgid "Disabled"
+msgstr ""
+
+#: templates/account/coupon-submit.php:88
+msgid "Discount type"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:587
+msgid "Display a Advanced Search Form."
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:340
+msgid "Display a Bookmarks and share buttons."
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:476
+msgid "Display a Contact form."
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:235
+msgid "Display a list of featured listings on your site."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:576
+msgid "Display First and Last name fields in registration form"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:816
+msgid "Displays login page"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:766
+msgid "Displays or listings added by user, content [truelysell_my_listings]"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:773
+msgid "Displays or owners earnings, content [truelysell_wallet]"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:780
+msgid "Displays or payout history, content [truelysell_payout]"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:759
+msgid ""
+"Displays page for booking confirmation, content: "
+"[truelysell_booking_confirmation]"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:787
+msgid "Displays reviews of user listings, content: [truelysell_reviews]"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:801
+msgid "Displays submit listing page, content: [truelysell_submit_listing]"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:794
+msgid "Displays user bookmarks, content: [truelysell_bookmarks]"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:808
+msgid "Displays user profile page, content: [truelysell_my_account]"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:824
+msgid "Displays user register page"
+msgstr ""
+
+#: includes/truelysell-core-search.php:1240
+msgid "Distance Radius"
+msgstr ""
+
+#: includes/class-truelysell-core.php:376
+msgid "Do you want to remove this service?"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:277
+#: includes/truelysell-core-settings.php:136
+msgid "Dominican Peso"
+msgstr ""
+
+#: templates/account/login-form.php:47
+msgid "Don't have an account ?"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:138
+msgid "Done"
+msgstr ""
+
+#: templates/single-partials/single-listing-main-details.php:103
+msgid "Download"
+msgstr ""
+
+#. Author of the plugin
+msgid "Dreamguys"
+msgstr ""
+
+#: includes/class-truelysell-core.php:366
+msgid "Drop files here to upload"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:112
+msgid "Duration"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:471 templates/my-account.php:94
+msgid "E-mail"
+msgstr ""
+
+#: templates/booking.php:64
+msgid "E-Mail Address"
+msgstr ""
+
+#: includes/truelysell-core-users.php:2648
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:191
+#: includes/truelysell-core-post-types.php:339
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:89
+#: templates/account/coupons.php:69 templates/account/my_listings.php:95
+#: templates/account/my_listings.php:109
+#: templates/form-fields/floorplans.php:25
+#: templates/form-fields/floorplans.php:59
+msgid "Edit"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:340
+#: includes/truelysell-core-post-types.php:426
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:2614
+msgid "Edit Listing"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-listings.php:90
+msgid "Edit Listing Package"
+msgstr ""
+
+#: templates/listing-preview.php:131
+msgid "Edit service"
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:824 templates/account/reviews.php:39
+#: templates/account/reviews.php:139
+msgid "Edit your reply"
+msgstr ""
+
+#: templates/account/reviews.php:268
+msgid "Edit your review"
+msgstr ""
+
+#: templates/listing-preview.php:123
+msgid ""
+"Editing listing requires admin approval, your listing will be unpublished if "
+"you Save Changes."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:317
+#: includes/truelysell-core-settings.php:171
+msgid "Egyptian Pound"
+msgstr ""
+
+#: templates/single-listing.php:240
+msgid "Email"
+msgstr ""
+
+#: templates/account/login-form.php:17 templates/account/login-register.php:20
+#: templates/account/register-form.php:75
+msgid "Email / Username"
+msgstr ""
+
+#: templates/account/login-form.php:19 templates/account/register-form.php:77
+msgid "Email is required."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:708
+msgid "Email Message"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1350
+msgid "Email notification about new conversation"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1381
+msgid "Email notification about new message"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:701
+msgid "Email Subject"
+msgstr ""
+
+#: includes/truelysell-core-messages.php:163
+msgid "Empty message"
+msgstr ""
+
+#: includes/truelysell-core-search.php:1546
+#: includes/truelysell-core-search.php:1608
+msgid "Enable"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1324
+msgid "Enable Booking cancellation notification email"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1038
+#: includes/truelysell-core-admin.php:1165
+#: includes/truelysell-core-admin.php:1232
+msgid "Enable Booking confirmation notification email"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1293
+msgid "Enable Booking paid confirmation email to user"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1263
+msgid "Enable Booking paid confirmation notification email"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1199
+msgid "Enable Booking pay in cash confirmation notification email"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1101
+msgid "Enable Booking request notification email"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:482
+msgid "Enable Contact Widget"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:992
+msgid "Enable End Hour time-picker"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:978
+msgid "Enable expired service notification email"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1008
+msgid "Enable Expiring soon service notification email"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:534
+msgid "Enable Forced Front End Login"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:340
+#: includes/truelysell-core-submit.php:950
+msgid "Enable Instant Booking"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1069
+msgid "Enable Instant Booking confirmation notification email"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1133
+msgid "Enable Instant Booking notification email"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1355
+msgid "Enable new conversation notification email"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:950
+msgid "Enable new listing notification email"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1386
+msgid "Enable new message notification email"
+msgstr ""
+
+#: templates/archive-listing.php:32
+msgid "Enable or disable scrolling on map"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:979
+msgid "Enable Price per Guest"
+msgstr ""
+
+#: includes/truelysell-core-search.php:1521
+msgid "Enable Radius"
+msgstr ""
+
+#: templates/archive-listing.php:32 templates/archive/map.php:24
+msgid "Enable Scrolling"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:919
+msgid "Enable service published notification email"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:589
+msgid ""
+"Enable to add password field, when disabled it will be randomly generated "
+"and sent via email"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:583
+msgid "Enable to make those fields required"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:224
+msgid "Enable to show Opening Hours widget online"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:521
+msgid "Enabled"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:535
+msgid ""
+"Enabling this option will redirect all wp-login request to frontend form. Be "
+"aware that on some servers or some configuration, especially with security "
+"plugins, this might cause a redirect loop, so always test this setting on "
+"different browser, while being still logged in Dashboard to have option to "
+"disable that if things go wrong."
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:339
+msgid "End date"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1033
+msgid "End Time"
+msgstr ""
+
+#: templates/archive/keyword-search.php:10
+msgid "Enter address e.g. street, city and state or zip"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:755
+msgid "Error while updating"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:279
+#: includes/truelysell-core-settings.php:137
+msgid "Euros"
+msgstr ""
+
+#: truelysell-core-template-functions.php:401
+#: includes/truelysell-core-post-types.php:480
+msgid "Event"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:743
+#: includes/truelysell-core-submit.php:747
+msgid "Event Date"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1293
+msgid "Event date"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:758
+msgid "Event Date End"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:386
+msgid "Event fields"
+msgstr ""
+
+#: includes/truelysell-core-tcal.php:220
+msgid "Events from calendars were imported"
+msgstr ""
+
+#: includes/class-truelysell-core.php:867
+msgid "Every Week"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:533
+msgid "Example field"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:536
+msgid "Example field description"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:90
+msgid "Expiration date"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:726
+#, php-format
+msgid "Expire %s"
+msgstr ""
+
+#: truelysell-core-template-functions.php:799
+#: templates/booking/content-booking.php:97
+#: templates/booking/content-booking.php:123
+#: templates/booking/content-user-booking.php:83
+#: templates/booking/content-user-booking.php:117
+msgid "Expired"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:389
+#, php-format
+msgid "Expired <span class=\"count\">(%s)</span>"
+msgid_plural "Expired <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/truelysell-core-admin.php:973
+msgid "Expired service notification email"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:990
+msgid "Expired service notification email content"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:984
+msgid "Expired service notification email subject"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:456
+#: includes/truelysell-core-widgets.php:2200
+msgid "Expires"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:854
+msgid "Expiring date"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1003
+msgid "Expiring service in next 5 days notification email "
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1020
+msgid "Expiring soon service notification email content"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1014
+msgid "Expiring soon service notification email subject"
+msgstr ""
+
+#: templates/account/coupons.php:53
+msgid "Expiry Date"
+msgstr ""
+
+#: templates/account/coupons.php:24
+msgid "Expiry date"
+msgstr ""
+
+#: templates/booking/content-user-booking.php:92
+msgid "External"
+msgstr ""
+
+#: includes/truelysell-core-users.php:1451
+msgid "Extra profile information"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1061
+#: includes/truelysell-core-widgets.php:1180
+msgid "Extra Services"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:604
+msgid "Extra Services:"
+msgstr ""
+
+#: includes/truelysell-core-users.php:1071
+msgid "Facebook URL"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:404
+msgid "Favourite"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:395
+#: includes/truelysell-core-widgets.php:404
+msgid "Favourited"
+msgstr ""
+
+#: templates/account/logged_section.php:111
+msgid "Favourites"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services.php:91
+msgid "Feature Listing?"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:106
+msgid "Feature Listings?"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services.php:92
+msgid "Feature this listing - it will have a badge and sticky status."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:352
+#: includes/truelysell-core-meta-boxes.php:292
+#: templates/content-listing-compact-shortcode.php:12
+#: templates/listing-submit-package.php:108
+#: templates/listing-widget-content.php:8 templates/archive/sorting.php:12
+#: templates/archive/top-buttons.php:34 templates/search-form/sortby.php:11
+msgid "Featured"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:280
+#: templates/content-listing-compact-shortcode.php:7
+msgid "Featured Listing"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:237
+#: includes/truelysell-core-widgets.php:241
+msgid "Featured Properties"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:113
+msgid "Featured?"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:854
+#: includes/truelysell-core-search.php:1181
+msgid "Features"
+msgstr ""
+
+#: includes/class-truelysell-core.php:428
+msgid "February"
+msgstr ""
+
+#: templates/account/wallet.php:27
+msgid "Fee"
+msgstr ""
+
+#: includes/class-truelysell-core.php:369
+msgid "File is too big ({{filesize}}MiB). Max filesize: {{maxFilesize}}MiB."
+msgstr ""
+
+#: includes/truelysell-core-search.php:1466
+msgid "Filter by"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1335 templates/booking.php:348
+#: templates/booking.php:352
+msgid "Final Cost"
+msgstr ""
+
+#: templates/form-fields/text.php:33
+msgid "Find My Location"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:593
+msgid "Find New Home"
+msgstr ""
+
+#: templates/booking.php:48 templates/my-account.php:66
+#: templates/account/register-form.php:58
+msgid "First Name"
+msgstr ""
+
+#: templates/account/register-form.php:60
+msgid "First Name is required."
+msgstr ""
+
+#: templates/account/coupon-submit.php:92
+msgid "Fixed product discount"
+msgstr ""
+
+#: templates/form-fields/floorplans.php:30
+#: templates/form-fields/floorplans.php:64
+msgid "Floorplan Title"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:218
+msgid "Footer copyright"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:489
+msgid ""
+"For \"online payment option\" require payment first to confirm the booking"
+msgstr ""
+
+#: templates/listing-submit-package.php:135
+#, php-format
+msgid "for %s day"
+msgid_plural "for %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/account/coupon-submit.php:155
+msgid "For products:"
+msgstr ""
+
+#: truelysell-core-template-functions.php:435
+msgid "For Rent"
+msgstr ""
+
+#: truelysell-core-template-functions.php:431
+msgid "For Sale"
+msgstr ""
+
+#: templates/account/login-form.php:39 templates/account/login-register.php:42
+msgid "Forgot password?"
+msgstr ""
+
+#: includes/truelysell-core-shortcodes.php:95
+msgid "Found"
+msgstr ""
+
+#: truelysell-core-template-functions.php:2361
+#: truelysell-core-template-functions.php:2364
+#: includes/truelysell-core-widgets.php:1082
+#: includes/truelysell-core-widgets.php:1200 templates/booking.php:315
+#: templates/single-partials/single-listing-pricing.php:62
+#: templates/single-partials/single-listing-pricing.php:81
+msgid "Free"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1160
+msgid "Free booking confirmation to user"
+msgstr ""
+
+#: includes/truelysell-core-calendar.php:114
+msgid "FRI"
+msgstr ""
+
+#: truelysell-core-template-functions.php:1474
+#: truelysell-core-template-functions.php:2000
+#: includes/truelysell-core-bookings-calendar.php:914
+#: includes/truelysell-core-widgets.php:822 templates/form-fields/slots.php:9
+msgid "Friday"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:685
+#: includes/truelysell-core-submit.php:693
+#: includes/truelysell-core-submit.php:1280
+#: includes/truelysell-core-submit.php:1288
+msgid "Friday Opening Hour"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:345
+msgid "Friendly Address"
+msgstr ""
+
+#: includes/class-truelysell-core.php:387
+msgid "From"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:415
+#: includes/truelysell-core-submit.php:413 templates/single-listing.php:291
+#: templates/single-partials/single-listing-gallery-content.php:8
+msgid "Gallery"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:418
+msgid "Gallery display layout"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:120
+#: includes/paid-services/truelysell-core-paid-services.php:114
+msgid "Gallery Module"
+msgstr ""
+
+#: templates/listing-submit-package.php:196
+msgid "Gallery Module enabled"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services.php:121
+msgid "Gallery module images limit"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:424
+msgid "Gallery on top"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:457
+msgid "Gallery on top (requires minimum 4 photos)"
+msgstr ""
+
+#: templates/account/coupon-submit.php:44
+msgid "General Coupon Settings"
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:393
+msgid "General Rating"
+msgstr ""
+
+#: includes/truelysell-core-settings.php:187
+msgid "Generate API key for google maps functionality."
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:2193
+#, php-format
+msgid "Get %1$s%% discount!"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:2191
+#, php-format
+msgid "Get %1$s%2$s discount!"
+msgstr ""
+
+#: templates/single-partials/single-listing-location.php:52
+msgid "Get Direction"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:280
+msgid "Ghanaian Cedi"
+msgstr ""
+
+#: templates/booking-success.php:49
+msgid "Go to My Bookings"
+msgstr ""
+
+#: includes/truelysell-core-settings.php:186
+msgid "Google Maps API key"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:371
+msgid "Google Maps Place ID"
+msgstr ""
+
+#: templates/single-partials/single-listing-google-reviews.php:22
+msgid "Google Reviews"
+msgstr ""
+
+#: includes/class-truelysell-core.php:950
+#: includes/truelysell-core-admin.php:563
+#: includes/truelysell-core-users.php:386 templates/my-account.php:59
+msgid "Guest"
+msgstr ""
+
+#: includes/truelysell-core-users.php:2644
+msgid "guest"
+msgstr ""
+
+#: templates/booking.php:261
+msgid "Guests"
+msgstr ""
+
+#: includes/truelysell-core-activities-log.php:244
+msgid "has been approved!"
+msgstr ""
+
+#: templates/emails/footer.php:20
+msgid "Have a question?"
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:985
+#: includes/truelysell-core-reviews.php:991
+msgid "Helpful Review "
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:180
+msgid ""
+"Hide pricing table on listing page but show bookable services in booking "
+"widget"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:569
+msgid "Hide Username field in Registration Form"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:353 templates/archive/top-buttons.php:27
+#: templates/search-form/sortby.php:6
+msgid "Highest Rated"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:281
+#: includes/truelysell-core-settings.php:138
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:943
+msgid "hours"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:98
+msgid "How many days should listings posted with this package be active?"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:936
+msgid "How many hours you can wait for clients payment"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:89
+msgid "How many listings has the user already posted with this package?"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:80
+msgid "How many listings should this package allow the user to post?"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:880
+msgid "How many ticekts you have to offer"
+msgstr ""
+
+#: truelysell-core-template-functions.php:924
+msgid "Howdy, "
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:368
+msgid "Human readable address"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:350
+msgid "Human readable address, if not set, the Google address will be used"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:283
+#: includes/truelysell-core-settings.php:140
+msgid "Hungarian Forint"
+msgstr ""
+
+#: includes/truelysell-core-users.php:383
+msgid "I want to register as"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:176
+#: includes/truelysell-core-bookings-admin.php:185
+msgid "iCal import"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:284
+#: includes/truelysell-core-settings.php:141
+msgid "Icelandic krona"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:334
+#: includes/truelysell-core-payouts.php:690
+msgid "ID"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:994
+msgid ""
+"If you are not using slots, you can allow guest to set end time for booking "
+"by enabling that option "
+msgstr ""
+
+#: includes/truelysell-core-admin.php:387
+msgid ""
+"If you select one it will be the default type and Choose Service Type step "
+"in Submit Service form will be skipped. If you deselect all the default type "
+"will always be Service"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:558
+msgid ""
+"If you set it hidden, set default role in Settings -> General -> New User "
+"Default Role"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:121
+msgid "Images Limit"
+msgstr ""
+
+#: includes/truelysell-core-tcal.php:255
+msgid "Import manually all calendars now"
+msgstr ""
+
+#: includes/truelysell-core-tcal.php:240
+msgid "Imported Calendars"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:286
+#: includes/truelysell-core-settings.php:143
+msgid "Indian Rupee"
+msgstr ""
+
+#: templates/account/coupon-submit.php:183
+msgid "Individual use only"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:285
+#: includes/truelysell-core-settings.php:142
+msgid "Indonesia Rupiah"
+msgstr ""
+
+#: includes/truelysell-core-users.php:1074
+msgid "Instagram"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1083
+msgid "Instant Booking confirmation notification email content"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1075
+msgid "Instant Booking confirmation notification email subject"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1064
+msgid "Instant Booking confirmation to user"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1147
+msgid "Instant Booking notification email content"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1139
+msgid "Instant Booking notification email subject"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1901
+#: includes/truelysell-core-submit.php:1904
+#: includes/truelysell-core-submit.php:1910
+msgid "Invalid Package"
+msgstr ""
+
+#: includes/truelysell-core-users.php:1783
+msgid "Invalid password reset link."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:288
+#: includes/truelysell-core-settings.php:145
+msgid "Israeli Shekel"
+msgstr ""
+
+#: includes/truelysell-core-tcal.php:121
+msgid "It look's like you've already added that calendar URL"
+msgstr ""
+
+#: includes/truelysell-core-tcal.php:114
+msgid "It look's like you've already calendar with that name"
+msgstr ""
+
+#: templates/account/single_message.php:231
+msgid "It's not your converstation!"
+msgstr ""
+
+#: includes/class-truelysell-core.php:427
+msgid "January"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:289
+#: includes/truelysell-core-settings.php:146
+msgid "Japanese Yen"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:219
+msgctxt "Job permalink - resave permalinks after changing this"
+msgid "listing"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:290
+msgid "Jordanian Dinar"
+msgstr ""
+
+#: includes/class-truelysell-core.php:433
+msgid "July"
+msgstr ""
+
+#: includes/class-truelysell-core.php:432
+msgid "June"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:291
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:312
+msgid "Keywords"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:292
+#: includes/truelysell-core-settings.php:147
+msgid "Lao Kip"
+msgstr ""
+
+#: includes/class-truelysell-core.php:395
+msgid "Last 30 Days"
+msgstr ""
+
+#: includes/class-truelysell-core.php:394
+msgid "Last 7 Days"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:261
+msgid "Last 7 days"
+msgstr ""
+
+#: includes/class-truelysell-core.php:397
+msgid "Last Month"
+msgstr ""
+
+#: templates/booking.php:55 templates/my-account.php:70
+#: templates/account/register-form.php:68
+msgid "Last Name"
+msgstr ""
+
+#: templates/account/register-form.php:70
+msgid "Last Name is required."
+msgstr ""
+
+#: includes/truelysell-core-submit.php:395
+msgid "Latitude"
+msgstr ""
+
+#: templates/account/coupon-submit.php:155
+msgid "Leave empty to apply for all your listings"
+msgstr ""
+
+#: includes/truelysell-core-activities-log.php:263
+msgid "left a review"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:111
+msgid "Limit"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services.php:122
+msgid ""
+"Limit the number of images that can be uploaded. Set to empty or 0 set no "
+"limit"
+msgstr ""
+
+#: includes/truelysell-core-users.php:1073
+msgid "Linkedin"
+msgstr ""
+
+#: templates/listing-submit-package.php:57 templates/account/my_packages.php:25
+#, php-format
+msgid "listed for %s day"
+msgid_plural "listed for %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/truelysell-core-bookings-admin.php:337
+#: includes/truelysell-core-post-types.php:328
+#: includes/paid-services/truelysell-core-paid-services-admin-listings-table.php:81
+msgid "Listing"
+msgstr ""
+
+#: includes/truelysell-core-activities-log.php:211
+#: includes/truelysell-core-activities-log.php:217
+msgid "listing"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:82
+msgid "Listing admin data"
+msgstr ""
+
+#: includes/class-wc-product-listing-booking.php:13
+msgid "Listing Booking"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:220
+msgctxt "Listing category slug - resave permalinks after changing this"
+msgid "listing-category"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:88
+msgid "Listing Count"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:97
+msgid "Listing Duration"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services.php:77
+msgid "Listing duration"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:124
+msgid "Listing fields"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:429
+msgid "Listing gallery"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:798
+msgid "Listing id"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:79
+msgid "Listing Limit"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services.php:63
+msgid "Listing limit"
+msgstr ""
+
+#: includes/truelysell-core-settings.php:112
+msgid "Listing Options"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin.php:80
+msgid "Listing Packages"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:770
+msgid "Listing Taxonomy Meta"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:734
+msgid "Listing Timezone"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-cart.php:118
+#: includes/paid-services/truelysell-core-paid-services-cart.php:137
+#: includes/paid-services/truelysell-core-paid-services-cart.php:155
+msgid "Listing title"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:107
+msgid "Listing Type"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:101
+msgid "Listing type"
+msgstr ""
+
+#: includes/truelysell-core-bookmarks.php:66
+msgid "Listing was bookmarked"
+msgstr ""
+
+#: includes/truelysell-core-bookmarks.php:103
+msgid "Listing was removed from the list"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-listings.php:71
+msgid "Listing's Packages"
+msgstr ""
+
+#: templates/listing-submit-package.php:135
+msgid "Listings are visible "
+msgstr ""
+
+#: includes/class-truelysell-core.php:590
+msgid "Listings sidebar"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:668
+msgid "Live / Production"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:662
+msgid "Live/Sandbox"
+msgstr ""
+
+#: truelysell-core-template-functions.php:97
+#: includes/truelysell-core-meta-boxes.php:362
+#: includes/truelysell-core-search.php:1123
+#: includes/truelysell-core-search.php:1213
+#: includes/truelysell-core-search.php:1316
+#: includes/truelysell-core-search.php:1336
+#: includes/truelysell-core-submit.php:329 templates/account/dashboard.php:255
+#: templates/booking/content-booking.php:199
+#: templates/booking/content-user-booking.php:193
+#: templates/single-partials/single-listing-location.php:46
+msgid "Location"
+msgstr ""
+
+#: templates/account/login-form.php:4 templates/account/login-register.php:7
+#: templates/account/login.php:97
+msgid "Log In"
+msgstr ""
+
+#: templates/account/navigation.php:68
+msgid "Log Out"
+msgstr ""
+
+#: templates/account/logged_section.php:152
+#: templates/account/logged_section.php:170
+#: templates/account/logged_section_mobile.php:22
+msgid "Login"
+msgstr ""
+
+#: includes/truelysell-core-users.php:486
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1285
+msgid "Login To Book"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1278
+msgid "Login to Book"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1716
+msgid "Login to Call"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:409
+#: includes/truelysell-core-widgets.php:412
+msgid "Login To Favourite"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:540
+msgid "Login/Registration Form Type"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:202
+msgid "Logo "
+msgstr ""
+
+#: includes/truelysell-core-admin.php:869
+msgid "Logo for emails"
+msgstr ""
+
+#: templates/account/logged_section.php:138
+msgid "Logout"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:383
+msgid "Longitude"
+msgstr ""
+
+#: templates/compare-listings.php:13
+msgid "Looks like you haven't add anything to compare yet!"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:829
+msgid "Lost Password Page"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:510
+msgid "M j, Y"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:731
+msgid "Main Dashboard page for user, content: [truelysell_dashboard]"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:738
+msgid "Main page for user messages, content: [truelysell_messages]"
+msgstr ""
+
+#: includes/truelysell-core-users.php:524
+#: includes/truelysell-core-widgets.php:1246
+msgid "Make a Reservation"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:582
+msgid "Make First and Last name fields required"
+msgstr ""
+
+#: includes/truelysell-core-commissions.php:587
+msgid "Make Payout"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:295
+#: includes/truelysell-core-settings.php:150
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: templates/account/navigation.php:13
+msgid "Manage Account"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:900
+msgid "Manage Bookings"
+msgstr ""
+
+#: templates/account/navigation.php:29
+msgid "Manage Listings"
+msgstr ""
+
+#: includes/class-truelysell-core.php:429
+msgid "March"
+msgstr ""
+
+#: templates/search-form/double-input.php:33
+#: templates/search-form/double-input.php:35
+msgid "Max"
+msgstr ""
+
+#: templates/listing-submit-package.php:203
+#, php-format
+msgid "Maximum  %s images in gallery"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:437
+msgid "Maximum file size to upload "
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1019
+msgid "Maximum number of guests"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:314
+msgid "Maximum of 15 keywords related with your business, separated by coma"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:576
+msgid "Maximum Price Range"
+msgstr ""
+
+#: templates/account/coupon-submit.php:134
+msgid "Maximum spend"
+msgstr ""
+
+#: includes/class-truelysell-core.php:431
+msgid "May"
+msgstr ""
+
+#: templates/single-listing.php:220
+msgid "Member Since"
+msgstr ""
+
+#: includes/class-truelysell-core.php:390
+#: includes/truelysell-core-meta-boxes.php:189
+msgid "Menu"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:168
+msgid "Menu (Pricing)"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:814
+msgid "Menu status"
+msgstr ""
+
+#: templates/booking.php:88
+msgid "Message"
+msgstr ""
+
+#: includes/truelysell-core-messages.php:149
+#: includes/truelysell-core-messages.php:188
+msgid "Message couldn't be send"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:482
+msgid "Message Vendor"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:610
+msgid "Message:"
+msgstr ""
+
+#: templates/account/logged_section.php:117
+msgid "Messages"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:737
+msgid "Messages Page"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:296
+#: includes/truelysell-core-settings.php:151
+msgid "Mexican Peso"
+msgstr ""
+
+#: templates/search-form/double-input.php:18
+#: templates/search-form/double-input.php:20
+msgid "Min"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1006
+msgid "Minimum  stay"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:561
+msgid "Minimum Price Range"
+msgstr ""
+
+#: templates/account/coupon-submit.php:127
+msgid "Minimum spend"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:210
+msgid "Mobile logo "
+msgstr ""
+
+#: templates/account/payout.php:190
+msgid "Mode"
+msgstr ""
+
+#: includes/truelysell-core-calendar.php:110
+msgid "MON"
+msgstr ""
+
+#: truelysell-core-template-functions.php:1470
+#: truelysell-core-template-functions.php:1996
+#: includes/truelysell-core-bookings-calendar.php:910
+#: includes/truelysell-core-widgets.php:818 templates/form-fields/slots.php:5
+msgid "Monday"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:617
+#: includes/truelysell-core-submit.php:625
+#: includes/truelysell-core-submit.php:641
+#: includes/truelysell-core-submit.php:1213
+#: includes/truelysell-core-submit.php:1221
+#: includes/truelysell-core-submit.php:1237
+msgid "Monday Opening Hour"
+msgstr ""
+
+#: truelysell-core-template-functions.php:417
+msgid "Monthly"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1700
+msgid "More ads from this user "
+msgstr ""
+
+#: includes/truelysell-core-search.php:1231
+#: includes/truelysell-core-widgets.php:642
+#: includes/truelysell-core-widgets.php:644
+msgid "More Filters"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:278
+msgid "Moroccan Dirham"
+msgstr ""
+
+#: templates/archive/top-buttons.php:29 templates/search-form/sortby.php:7
+msgid "Most Reviewed"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:354
+msgid "Most Reviewed Rated"
+msgstr ""
+
+#: templates/archive/top-buttons.php:35 templates/search-form/sortby.php:12
+msgid "Most Views"
+msgstr ""
+
+#: includes/class-truelysell-core.php:444
+#: includes/truelysell-core-meta-boxes.php:657
+msgid "Multiply by days"
+msgstr ""
+
+#: includes/class-truelysell-core.php:445
+msgid "Multiply by guest & days"
+msgstr ""
+
+#: includes/class-truelysell-core.php:443
+#: includes/truelysell-core-meta-boxes.php:656
+msgid "Multiply by guests"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:658
+msgid "Multiply by guests & days "
+msgstr ""
+
+#: templates/account/login-form.php:34
+msgid "Must be 6 Characters at Least"
+msgstr ""
+
+#: templates/account/logged_section.php:92
+msgid "My Bookings"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:751
+msgid "My Bookings Page"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:815
+msgid "My Login Page"
+msgstr ""
+
+#: templates/account/navigation.php:53
+msgid "My Packages"
+msgstr ""
+
+#: templates/account/logged_section.php:133 templates/account/navigation.php:17
+msgid "My Profile"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:807
+msgid "My Profile Page"
+msgstr ""
+
+#: templates/account/navigation.php:35
+msgid "My Properties"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:823
+msgid "My Register Page"
+msgstr ""
+
+#: templates/account/logged_section.php:98
+msgid "My Services"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:765
+msgid "My Services Page"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:2245
+msgid "My shop"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:239
+msgid "N/A"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-listings-table.php:44
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:43
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:50
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:53
+msgid "n/a"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:287
+#: includes/truelysell-core-settings.php:144
+msgid "Nepali Rupee"
+msgstr ""
+
+#: truelysell-core-template-functions.php:885
+msgid "Never/not set"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:503
+#: includes/truelysell-core-submit.php:796
+msgid "New"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:341
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:429
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1096
+msgid "New booking request notification to owner "
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1368
+msgid "New conversation notification email content"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1361
+msgid "New conversation notification email subject"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1128
+msgid "New Instant booking notification to owner "
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1399
+msgid "New message notification email content"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1392
+msgid "New message notification email subject"
+msgstr ""
+
+#: templates/my-account.php:250 templates/account/change_password.php:43
+msgid "New Password"
+msgstr ""
+
+#: templates/account/reset_password.php:25
+msgid "New password"
+msgstr ""
+
+#: includes/truelysell-core-payouts.php:213
+msgid "New Payment for"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:945
+msgid "New service notification email"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:962
+msgid "New service notification email content"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:956
+msgid "New service notification email subject"
+msgstr ""
+
+#: includes/truelysell-core-users.php:2646
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:299
+#: includes/truelysell-core-settings.php:154
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: templates/archive/top-buttons.php:31 templates/search-form/sortby.php:8
+msgid "Newest Listings"
+msgstr ""
+
+#: templates/archive/sorting.php:10
+msgid "Newest Properties"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:351
+msgid "Newest Services"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:297
+#: includes/truelysell-core-settings.php:152
+msgid "Nigerian Naira"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:345
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:346
+#, php-format
+msgid "No %s found in trash"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:138
+msgid "No bookings avaliable."
+msgstr ""
+
+#: templates/account/coupons.php:114
+msgid "No coupons!"
+msgstr ""
+
+#: includes/truelysell-core-tcal.php:149
+msgid "No events imported"
+msgstr ""
+
+#: templates/account/bookmarks.php:90
+msgid "No favourites!"
+msgstr ""
+
+#: templates/compare-listings.php:12
+msgid "No listings to compare"
+msgstr ""
+
+#: templates/account/coupon-submit.php:135
+msgid "No maximum"
+msgstr ""
+
+#: templates/account/coupon-submit.php:129
+msgid "No minimum"
+msgstr ""
+
+#: templates/listing-submit-package.php:229
+msgid "No packages found"
+msgstr ""
+
+#: includes/truelysell-core-payouts.php:821
+msgid "No payouts set."
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:466
+msgid "No Rating Submitted"
+msgstr ""
+
+#: templates/account/coupon-submit.php:197
+msgid "No restrictions"
+msgstr ""
+
+#: includes/class-truelysell-core.php:424
+msgid "No results found"
+msgstr ""
+
+#: includes/class-truelysell-core.php:423
+msgid "No results match"
+msgstr ""
+
+#: templates/single-listing.php:274
+msgid "No Reviews"
+msgstr ""
+
+#: truelysell-core-template-functions.php:2044
+#: templates/form-fields/slots.php:49
+msgid "No slots added"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:989
+msgid "No slots for this day"
+msgstr ""
+
+#: includes/truelysell-core-commissions.php:595
+msgid "No users found."
+msgstr ""
+
+#: includes/truelysell-core-tcal.php:85
+msgid ""
+"No valid iCal file recognized. Please import 'ical', 'ics', 'ifb' or "
+"'icalendar' file"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:298
+#: includes/truelysell-core-settings.php:153
+msgid "Norwegian Krone"
+msgstr ""
+
+#: includes/class-truelysell-core.php:408
+msgid "Not rated yet"
+msgstr ""
+
+#: includes/truelysell-core-users.php:290
+#: templates/account/register-form.php:120
+msgid ""
+"Note: Your password will be generated automatically and sent to your email "
+"address."
+msgstr ""
+
+#: templates/archive/no-found.php:4
+msgid "Nothing found"
+msgstr ""
+
+#: templates/listing-preview.php:2
+msgid "Notice!"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:423
+msgid "Notify admin by email about new service waiting for approval"
+msgstr ""
+
+#: includes/class-truelysell-core.php:437
+msgid "November"
+msgstr ""
+
+#: templates/content-listing-compact-shortcode.php:58
+msgid "Now Closed"
+msgstr ""
+
+#: templates/content-listing-compact-shortcode.php:55
+msgid "Now Open"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:430
+msgid "Number of images that can be uploaded to one service"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:250
+msgid "Number of listings to show"
+msgstr ""
+
+#: includes/class-truelysell-core.php:436
+msgid "October"
+msgstr ""
+
+#: templates/single-partials/single-listing-reviews.php:84
+msgid "Older Comments"
+msgstr ""
+
+#: templates/archive/top-buttons.php:32 templates/search-form/sortby.php:9
+msgid "Oldest Listings"
+msgstr ""
+
+#: templates/archive/sorting.php:11
+msgid "Oldest Properties"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:350
+msgid "Oldest Services"
+msgstr ""
+
+#: includes/truelysell-core-activities-log.php:263
+msgid "on"
+msgstr ""
+
+#: includes/class-truelysell-core.php:442
+#: includes/truelysell-core-meta-boxes.php:655
+msgid "One time fee"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:924
+msgid "One time fee for booking"
+msgstr ""
+
+#: templates/single-partials/single-listing-addreviews.php:92
+msgid "Only customers who have booked can leave a review."
+msgstr ""
+
+#: templates/single-partials/single-listing-addreviews.php:84
+msgid "Only guests who have booked can leave a review."
+msgstr ""
+
+#: includes/truelysell-core-bookmarks.php:50
+#: includes/truelysell-core-bookmarks.php:91
+msgid "Oops, something went wrong, please try again"
+msgstr ""
+
+#: templates/booking-success.php:20
+msgid "Oops, we have some problem."
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:230
+#: includes/truelysell-core-submit.php:595
+#: includes/truelysell-core-submit.php:608
+#: includes/truelysell-core-widgets.php:1386
+msgid "Opening Hours"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:206
+msgid "Opening Hours (set here in 24:00 format)"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:117
+#: includes/paid-services/truelysell-core-paid-services.php:142
+msgid "Opening Hours Module"
+msgstr ""
+
+#: templates/listing-submit-package.php:172
+msgid "Opening Hours Module enabled"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:221
+msgid "Opening Hours Status"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:600
+msgid "Opening Hours status"
+msgstr ""
+
+#: includes/class-truelysell-core.php:439 templates/form-fields/hours.php:41
+#: templates/form-fields/hours.php:59
+msgid "Opening Time"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:201
+msgid "Optionally link this package to a product."
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:236
+msgid "Optionally link this package to an order."
+msgstr ""
+
+#: templates/listing-submit-package.php:75
+msgid "Or Purchase New Package"
+msgstr ""
+
+#: templates/account/wallet.php:29
+msgid "Order"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:235
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:122
+msgid "Order ID"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:813
+msgid "Order id"
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:1368
+msgid "Order is cancelled."
+msgstr ""
+
+#: includes/truelysell-core-commissions.php:476
+msgid "Orders counter"
+msgstr ""
+
+#: includes/truelysell-core-payouts.php:692
+msgid "Orders number"
+msgstr ""
+
+#: templates/single-partials/single-listing-reviews.php:30
+msgid "out of 5.0"
+msgstr ""
+
+#: truelysell-core-template-functions.php:94
+msgid "Overall experience received for the amount spent"
+msgstr ""
+
+#: includes/class-truelysell-core.php:882
+#: includes/truelysell-core-admin.php:562
+#: includes/truelysell-core-admin.php:631
+#: includes/truelysell-core-bookings-admin.php:336
+#: includes/truelysell-core-users.php:388 templates/my-account.php:60
+msgid "Owner"
+msgstr ""
+
+#: includes/truelysell-core-users.php:2641
+msgid "owner"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:788
+msgid "Owner id"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-listings-table.php:82
+msgid "Package"
+msgstr ""
+
+#: templates/account/my_packages.php:6
+msgid "Package name"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-edit-listing-package.php:103
+msgid "Package successfully changed"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin.php:69
+msgid "Package successfully deleted"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:326
+msgid "Package successfully saved"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:752
+msgid "Page for guest to see their bookings,content: [truelysell_my_bookings]"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:745
+msgid ""
+"Page for owners to manage their bookings, content: [truelysell_bookings]"
+msgstr ""
+
+#: templates/booking/content-booking.php:77
+#: templates/booking/content-user-booking.php:66
+msgid "Paid"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:300
+#: includes/truelysell-core-settings.php:155
+msgid "Paraguayan Guaraní"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:347
+#: includes/truelysell-core-post-types.php:424
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:425
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: templates/account/login-form.php:23 templates/account/register-form.php:99
+msgid "Password"
+msgstr ""
+
+#: includes/truelysell-core-users.php:1772
+msgid "Password has been changed."
+msgstr ""
+
+#: templates/account/login-form.php:27 templates/account/register-form.php:103
+msgid "Password is required."
+msgstr ""
+
+#: templates/my-account.php:223 templates/account/change_password.php:26
+msgid "Password may not contain the character \"\\\" (backslash)."
+msgstr ""
+
+#: includes/truelysell-core-users.php:709
+msgid ""
+"Password should be at least 8 characters in length and should include at "
+"least one upper case letter, one number, and one special character."
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:259
+msgid "Past bookings"
+msgstr ""
+
+#: templates/booking/content-user-booking.php:239
+msgid "Pay"
+msgstr ""
+
+#: templates/booking-success.php:43
+msgid "Pay now"
+msgstr ""
+
+#: includes/truelysell-core-payouts.php:123
+msgid "Payment amount"
+msgstr ""
+
+#: includes/truelysell-core-payouts.php:122
+msgid "Payment date"
+msgstr ""
+
+#: includes/truelysell-core-payouts.php:125
+msgid "Payment details"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:633
+msgid "Payment due:"
+msgstr ""
+
+#: includes/truelysell-core-payouts.php:121
+#: includes/truelysell-core-payouts.php:396
+msgid "Payment for"
+msgstr ""
+
+#: includes/truelysell-core-payouts.php:124
+#: includes/truelysell-core-payouts.php:693
+msgid "Payment method"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:345
+#: includes/truelysell-core-submit.php:962
+msgid "Payment options"
+msgstr ""
+
+#: templates/account/payout.php:188
+msgid "Payout Date"
+msgstr ""
+
+#: templates/account/payout.php:171
+msgid "Payout History"
+msgstr ""
+
+#: templates/account/payout.php:94
+msgid "Payout Method"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:779
+msgid "Payout Page"
+msgstr ""
+
+#: includes/truelysell-core-payouts.php:102
+msgid "Payout was created."
+msgstr ""
+
+#: templates/account/payout.php:107
+msgid "PayPal"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:674
+#: includes/truelysell-core-admin.php:688
+msgid "PayPal Client ID"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:691
+msgid "PayPal Client ID for Production / Live Environment"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:677
+msgid "PayPal Client ID for Sand box"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:680
+#: includes/truelysell-core-admin.php:694
+msgid "PayPal Client Secret"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:697
+msgid "PayPal Client Secret for Production / Live Environment"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:683
+#: includes/truelysell-core-admin.php:684
+msgid "PayPal Client Secret for Sand box"
+msgstr ""
+
+#: templates/account/payout.php:114
+msgid "PayPal Email"
+msgstr ""
+
+#: templates/account/payout.php:126
+msgid "PayPal Payout"
+msgstr ""
+
+#: templates/account/payout.php:133
+msgid "PayPal Payout Email"
+msgstr ""
+
+#: templates/booking/content-booking.php:35
+msgid "Pending"
+msgstr ""
+
+#: truelysell-core-template-functions.php:803
+msgid "Pending Approval"
+msgstr ""
+
+#: truelysell-core-template-functions.php:796
+msgid "Pending Payment"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:398
+#, php-format
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/account/coupon-submit.php:91
+msgid "Percentage discount"
+msgstr ""
+
+#: templates/booking.php:37
+msgid "Personal Details"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:301
+#: includes/truelysell-core-settings.php:156
+msgid "Philippine Pesos"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:450
+#: includes/truelysell-core-users.php:1069 templates/booking.php:74
+#: templates/single-listing.php:252
+msgid "Phone"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1608
+msgid "Phone number"
+msgstr ""
+
+#: truelysell-core-template-functions.php:1406
+msgid "Pingback:"
+msgstr ""
+
+#: templates/single-partials/single-listing-socials.php:68
+#, php-format
+msgid "Please %s sign %s in to see contact details."
+msgstr ""
+
+#: includes/truelysell-core-users.php:723
+msgid "Please accept Privacy Policy"
+msgstr ""
+
+#: includes/truelysell-core-users.php:735
+msgid "Please accept Terms and Conditions"
+msgstr ""
+
+#: templates/single-partials/single-listing-addreviews.php:107
+msgid "Please check reCAPTCHA checbox to post your review"
+msgstr ""
+
+#: templates/account/login.php:50
+msgid "Please check reCAPTCHA checbox to register."
+msgstr ""
+
+#: templates/form-fields/term-checkboxes.php:24
+msgid "Please choose category to display available features"
+msgstr ""
+
+#: includes/truelysell-core-search.php:951
+#: includes/truelysell-core-search.php:1058
+#: includes/truelysell-core-search.php:1063
+#: templates/search-form/multi-checkbox-row.php:3
+#: templates/search-form/multi-checkbox.php:4
+msgid "Please choose category to display filters"
+msgstr ""
+
+#: templates/my-account.php:229
+msgid "Please fill all password fields correctly."
+msgstr ""
+
+#: includes/truelysell-core-users.php:636
+msgid "Please fill email address"
+msgstr ""
+
+#: includes/truelysell-core-tcal.php:59
+msgid "Please fill the form fields"
+msgstr ""
+
+#: includes/truelysell-core-users.php:693
+msgid "Please provide password"
+msgstr ""
+
+#: includes/truelysell-core-tcal.php:73
+msgid "Please provide valid URL"
+msgstr ""
+
+#: includes/truelysell-core-users.php:668
+msgid "Please provide your username"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:550
+msgid "Please select a form"
+msgstr ""
+
+#: includes/truelysell-core-users.php:2017
+msgid "Please set a Lost Password Page in Truelysell_Core Options -> Pages"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1262
+msgid "Please use customer account"
+msgstr ""
+
+#: includes/class-truelysell-core.php:368
+msgid ""
+"Please use the fallback form below to upload your files like in the olden "
+"days."
+msgstr ""
+
+#: templates/booking-success.php:32
+#, php-format
+msgid ""
+"Please wait while you are redirected to payment page...or <a href=\"%s\">"
+"Click Here</a> if you do not want to wait."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1483
+#: includes/truelysell-core-settings.php:308
+msgid "Plugin Settings"
+msgstr ""
+
+#: truelysell-core-template-functions.php:2080
+#: templates/form-fields/slots.php:85 templates/form-fields/slots.php:95
+msgid "pm"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:302
+#: includes/truelysell-core-settings.php:157
+msgid "Polish Zloty"
+msgstr ""
+
+#: templates/account/logged_section.php:31
+#: templates/account/logged_section.php:72
+msgid "Post a Service"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:383
+msgctxt "post status"
+msgid "Expired"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:393
+msgctxt "post status"
+msgid "Pending Payment"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:374
+msgctxt "post status"
+msgid "Preview"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:204
+msgctxt "Post type archive slug - resave permalinks after changing this"
+msgid "listings"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:455
+msgid "Posted"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:303
+#: includes/truelysell-core-settings.php:158
+msgid "Pounds Sterling"
+msgstr ""
+
+#: truelysell-core-template-functions.php:1309
+#: includes/truelysell-core-submit.php:132
+#: includes/truelysell-core-submit.php:1661
+msgid "Preview"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:379
+#, php-format
+msgid "Preview <span class=\"count\">(%s)</span>"
+msgid_plural "Preview <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/truelysell-core-bookings-admin.php:342
+#: includes/truelysell-core-bookings-admin.php:859
+#: includes/truelysell-core-meta-boxes.php:508
+#: includes/truelysell-core-meta-boxes.php:627 templates/account/wallet.php:26
+msgid "Price"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:776
+msgid "Price "
+msgstr ""
+
+#: includes/class-truelysell-core.php:381 templates/form-fields/pricing.php:64
+#: templates/form-fields/pricing.php:111
+msgid "Price (optional)"
+msgstr ""
+
+#: includes/truelysell-core-search.php:1249
+msgid "Price Filter"
+msgstr ""
+
+#: includes/truelysell-core-calendar.php:167
+#: includes/truelysell-core-calendar.php:205
+msgid "Price for day"
+msgstr ""
+
+#: templates/archive/sorting.php:9
+msgid "Price High to Low"
+msgstr ""
+
+#: templates/archive/sorting.php:8
+msgid "Price Low to High"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:548
+msgid "Price:"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:400
+msgid "Prices fields"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:820
+msgid "Pricing"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:809
+msgid "Pricing & Bookable Services"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:175
+msgid "Pricing Status"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:200
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:110
+msgid "Product"
+msgstr ""
+
+#: templates/my-account.php:25
+msgid "Profile Picture"
+msgstr ""
+
+#: includes/truelysell-core-users.php:212
+#: includes/truelysell-core-users.php:217 templates/single-listing.php:210
+#: templates/account/logged_section.php:56
+#: templates/account/register-form.php:31
+#: templates/account/register-form.php:36
+#: templates/booking/content-user-booking.php:202
+msgid "Provider"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:602
+msgid "Provider  redirect after login to page"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:365
+msgid "Provider contact information visibility"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:596
+msgid "Provider redirect after registration to page"
+msgstr ""
+
+#: truelysell-core-template-functions.php:793
+msgid "Published"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:932
+msgid "Published notification Email Content"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:925
+msgid "Published notification Email Subject"
+msgstr ""
+
+#: templates/account/my_packages.php:43
+msgid "Purchase New Package"
+msgstr ""
+
+#: truelysell-core-template-functions.php:90
+msgid "Quality of customer service and attitude to work with you"
+msgstr ""
+
+#: includes/class-truelysell-core.php:446
+msgid "Quantity Buttons"
+msgstr ""
+
+#: includes/truelysell-core-search.php:1134
+msgid "Radius around selected destination"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:357
+#: includes/truelysell-core-admin.php:358 templates/archive/sorting.php:13
+#: templates/archive/top-buttons.php:36 templates/search-form/sortby.php:13
+msgid "Random"
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:385
+msgid "Rating"
+msgstr ""
+
+#: includes/class-wc-product-listing-booking.php:94
+#: includes/paid-services/class-wc-product-listing-package.php:98
+msgid "Read More"
+msgstr ""
+
+#: templates/single-partials/single-listing-google-reviews.php:73
+msgid "Read More Reviews"
+msgstr ""
+
+#: includes/truelysell-core-users.php:852
+msgid "reCAPTCHA was not validated"
+msgstr ""
+
+#: templates/account/dashboard.php:141
+msgid "Recent Bookings"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:600
+msgid "Redirect to current page"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:601
+msgid "Redirect to listings archive page"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:358
+msgid "Region"
+msgstr ""
+
+#: includes/truelysell-core-users.php:311
+#: templates/account/logged_section.php:156
+#: templates/account/logged_section.php:166
+#: templates/account/logged_section_mobile.php:18
+#: templates/account/login.php:98
+msgid "Register"
+msgstr ""
+
+#: templates/account/login.php:47
+msgid "Registering new users is currently not allowed."
+msgstr ""
+
+#: includes/truelysell-core-users.php:174
+#: includes/truelysell-core-users.php:614
+#: templates/account/register-form.php:12
+msgid "Registration is disabled"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:876
+#: includes/truelysell-core-admin.php:877
+msgid "Registration/Welcome email for new users"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:891
+msgid "Regular Price"
+msgstr ""
+
+#: templates/booking/content-booking.php:240
+msgid "Reject"
+msgstr ""
+
+#: templates/single-listing.php:339
+msgid "Related Services"
+msgstr ""
+
+#: includes/class-truelysell-core.php:441 includes/truelysell-core-tcal.php:249
+#: templates/form-fields/hours.php:36
+msgid "Remove"
+msgstr ""
+
+#: includes/class-truelysell-core.php:374 templates/form-fields/file.php:28
+#: templates/form-fields/file.php:31
+msgid "Remove file"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1758
+msgid "Remove image"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:191
+msgid "Remove Menu"
+msgstr ""
+
+#: templates/account/my_listings.php:115
+#: templates/booking/content-booking.php:255
+msgid "Renew"
+msgstr ""
+
+#: truelysell-core-template-functions.php:400
+#: includes/truelysell-core-post-types.php:477
+msgid "Rental"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:480
+msgid "Rental fields"
+msgstr ""
+
+#: truelysell-core-template-functions.php:442
+msgid "Rented"
+msgstr ""
+
+#: templates/account/reset_password.php:29
+msgid "Repeat new password"
+msgstr ""
+
+#: includes/class-truelysell-core.php:448
+msgid "Replied"
+msgstr ""
+
+#: templates/account/reviews.php:30
+msgid "Reply"
+msgstr ""
+
+#: templates/account/reviews.php:23
+msgid "Reply to review"
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:827
+msgid "Reply to this review"
+msgstr ""
+
+#: includes/truelysell-core-users.php:529
+#: includes/truelysell-core-widgets.php:1251
+msgid "Request Booking"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:617
+msgid "Request sent:"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:418
+msgid "Require admin approval for any edited service"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:411
+msgid "Require admin approval for any new services added"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:350
+#: includes/truelysell-core-submit.php:972
+msgid "Require online payment"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:352
+#: includes/truelysell-core-submit.php:974
+msgid "Require only cash payment"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:935
+msgid "Reservation expires after"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:920
+msgid "Reservation Fee"
+msgstr ""
+
+#: templates/compare-side.php:79
+msgid "Reset"
+msgstr ""
+
+#: includes/truelysell-core-search.php:1467
+msgid "Reset Filters"
+msgstr ""
+
+#: templates/account/lost_password.php:34
+#: templates/account/reset_password.php:37
+msgid "Reset Password"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:836
+msgid "Reset Password Page"
+msgstr ""
+
+#: includes/truelysell-core-shortcodes.php:95
+msgid "Results"
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:109
+msgid "Review has been deleted"
+msgstr ""
+
+#: templates/single-listing.php:265 templates/account/logged_section.php:104
+msgid "Reviews"
+msgstr ""
+
+#: includes/class-truelysell-core.php:407
+msgid "reviews"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:115
+msgid "Reviews  Module"
+msgstr ""
+
+#: templates/single-partials/single-listing-addreviews.php:20
+#: templates/single-partials/single-listing-reviews.php:101
+msgid "Reviews are closed."
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services.php:106
+msgid "Reviews Module"
+msgstr ""
+
+#: templates/listing-submit-package.php:156
+msgid "Reviews Module enabled"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:786
+msgid "Reviews Page"
+msgstr ""
+
+#: includes/truelysell-core-users.php:2649
+#, php-format
+msgid "Role: %s"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:304
+#: includes/truelysell-core-settings.php:159
+msgid "Romanian Leu"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:305
+#: includes/truelysell-core-settings.php:160
+msgid "Russian Ruble"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:667
+msgid "Sandbox / Testing"
+msgstr ""
+
+#: includes/truelysell-core-calendar.php:115
+msgid "SAT"
+msgstr ""
+
+#: truelysell-core-template-functions.php:1475
+#: truelysell-core-template-functions.php:2001
+#: includes/truelysell-core-bookings-calendar.php:915
+#: includes/truelysell-core-widgets.php:823 templates/form-fields/slots.php:10
+msgid "Saturday"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:702
+#: includes/truelysell-core-submit.php:710
+#: includes/truelysell-core-submit.php:1297
+#: includes/truelysell-core-submit.php:1305
+msgid "saturday Opening Hour"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:866
+#: templates/account/payout.php:146
+msgid "Save"
+msgstr ""
+
+#: templates/listing-preview.php:135 templates/my-account.php:175
+#: templates/my-account.php:259 templates/account/change_password.php:49
+msgid "Save Changes"
+msgstr ""
+
+#: templates/account/reviews.php:46 templates/account/reviews.php:284
+msgid "Save changes"
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:230
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:245
+#: includes/paid-services/truelysell-core-paid-services-admin-edit-listing-package.php:77
+msgid "Save Package"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1535
+#: includes/truelysell-core-admin.php:1553
+#: includes/truelysell-core-settings.php:360
+msgid "Save Settings"
+msgstr ""
+
+#: includes/truelysell-core-settings.php:194
+msgid "Scale"
+msgstr ""
+
+#: includes/truelysell-core-search.php:1266
+#: includes/truelysell-core-search.php:1628
+#: includes/truelysell-core-search.php:1633
+#: templates/archive/keyword-search.php:11
+msgid "Search"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:344
+#: includes/truelysell-core-post-types.php:422
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: templates/account/coupon-submit.php:156
+msgid "Search for a listing"
+msgstr ""
+
+#: includes/class-truelysell-core.php:425
+msgid "Select an Option"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:777
+#: includes/truelysell-core-submit.php:789
+msgid "Select condition of item for sale"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1119
+msgid "Select coupon"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:759
+msgid "Select date when even will end"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:748
+msgid "Select date when even will start"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:830
+msgid "Select page that holds [truelysell_lost_password] shortcode"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:837
+msgid "Select page that holds [truelysell_reset_password] shortcode"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1165
+msgid "Select product"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1184
+msgid "Select some of your products to display in this listing view"
+msgstr ""
+
+#: includes/class-truelysell-core.php:426
+msgid "Select Some Options "
+msgstr ""
+
+#: includes/truelysell-core-admin.php:663
+msgid "Select the Environment"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:348
+#: includes/truelysell-core-submit.php:964
+msgid "Select which payment type you require for a booking"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:637
+msgid ""
+"Selected which taxnomies should not be disaplyed in stores and products "
+"screen"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:424
+msgid "Send email about any new services added"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1723
+#: includes/truelysell-core-widgets.php:1730
+#: includes/truelysell-core-widgets.php:1739
+#: includes/truelysell-core-widgets.php:1742
+#: includes/truelysell-core-widgets.php:1867
+#: includes/truelysell-core-widgets.php:1877
+#: includes/truelysell-core-widgets.php:1888
+#: templates/dashboard-bookings.php:80 templates/dashboard-bookings.php:93
+msgid "Send Message"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:544
+msgid "Separate page"
+msgstr ""
+
+#: includes/class-truelysell-core.php:435
+msgid "September"
+msgstr ""
+
+#: includes/class-truelysell-core.php:371
+msgid "Server responded with {{statusCode}} code."
+msgstr ""
+
+#: truelysell-core-template-functions.php:89
+#: truelysell-core-template-functions.php:399
+#: includes/truelysell-core-activities-log.php:223
+#: includes/truelysell-core-activities-log.php:228
+#: includes/truelysell-core-activities-log.php:237
+#: includes/truelysell-core-admin.php:390
+#: includes/truelysell-core-meta-boxes.php:115
+#: includes/truelysell-core-post-types.php:474
+#: templates/listing-submit-type.php:92
+msgid "Service"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:467
+msgid "Service fields"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:409
+msgid "Service Gallery"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:436
+msgid "Service image maximum size (in MB)"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:429
+msgid "Service images upload limit"
+msgstr ""
+
+#: templates/single-listing.php:200
+msgid "Service Provider"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:914
+msgid "Service Published notification email"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:288
+msgid "Service Title"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:327
+#: includes/truelysell-core-post-types.php:335
+#: templates/account/dashboard.php:37
+msgid "Services"
+msgstr ""
+
+#. Description of the plugin
+msgid "Services Listing  Plugin"
+msgstr ""
+
+#: includes/truelysell-core-users.php:442
+#: includes/truelysell-core-users.php:624
+msgid "Session token has expired, please reload the page and try again"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:227
+msgid "Set  clock format  for timepickers"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:247
+#, php-format
+msgid "Set commision % for bookings"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:325
+msgid "Set currency symbol before or after"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:557
+msgid "Set default role for Registration Form"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:870
+msgid ""
+"Set here logo for emails, if nothing is set emails will be using default "
+"site logo"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:502
+msgid "Set how long booking will be waiting for payment before expiring"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1021
+msgid "Set maximum number of guests per reservation"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1008
+msgid "Set minimum number of days for reservation"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:566
+msgid "Set only minimum price to show \"Prices starts from \" instead of range"
+msgstr ""
+
+#: templates/account/payout.php:175
+msgid "Set Payout"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:337
+msgid ""
+"Set Precision of the number of decimal places (for example 4.56$ instead of "
+"5$)"
+msgstr ""
+
+#: includes/truelysell-core-calendar.php:168
+#: includes/truelysell-core-calendar.php:206
+msgid "Set price"
+msgstr ""
+
+#: includes/class-truelysell-core.php:380
+msgid "Set price for this date"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:580
+msgid "Set the maximum price for your service, used on filters in search form"
+msgstr ""
+
+#: includes/truelysell-core-settings.php:100
+msgid "Settings"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:440
+msgid "Share"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:352
+msgid "Share buttons"
+msgstr ""
+
+#: includes/class-truelysell-core.php:415
+msgctxt "Short for Friday"
+msgid "Fr"
+msgstr ""
+
+#: includes/class-truelysell-core.php:411
+msgctxt "Short for Monday"
+msgid "Mo"
+msgstr ""
+
+#: includes/class-truelysell-core.php:416
+msgctxt "Short for Saturday"
+msgid "Sa"
+msgstr ""
+
+#: includes/class-truelysell-core.php:410
+msgctxt "Short for Sunday"
+msgid "Su"
+msgstr ""
+
+#: includes/class-truelysell-core.php:414
+msgctxt "Short for Thursday"
+msgid "Th"
+msgstr ""
+
+#: includes/class-truelysell-core.php:412
+msgctxt "Short for Tuesday"
+msgid "Tu"
+msgstr ""
+
+#: includes/class-truelysell-core.php:413
+msgctxt "Short for Wednesday"
+msgid "We"
+msgstr ""
+
+#: includes/truelysell-core-search.php:65
+#, php-format
+msgid "Show all %s"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:496
+msgid "Show Expired Bookings in Dashboard page"
+msgstr ""
+
+#: templates/single-partials/single-listing-pricing.php:98
+msgid "Show Less"
+msgstr ""
+
+#: templates/single-partials/single-listing-pricing.php:98
+msgid "Show More"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1613
+msgid "Show Phone to logged in users only"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1619
+#: includes/truelysell-core-widgets.php:1787
+msgid "Show Send message button"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1203
+msgid "Show store card widget on listing sidebar"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:660
+msgid "Shows Booking Button for external site."
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:744
+msgid "Shows Booking Form."
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:2096
+msgid "Shows Listing Coupon."
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1779
+msgid "Shows Listing Owner box."
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1600
+msgid "Shows Listing Owner info on Classified ad."
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1380
+msgid "Shows Opening Hours."
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:2239
+msgid "Shows Vendor card on listing."
+msgstr ""
+
+#: templates/account/login-form.php:45 templates/account/login-register.php:48
+msgid "Sign in"
+msgstr ""
+
+#: templates/account/login-form.php:57 templates/account/login-form.php:65
+#: templates/account/login-register.php:68
+#: templates/account/login-register.php:76
+#: templates/account/register-form.php:169
+#: templates/account/register-form.php:177
+msgid "Sign In with Social Network"
+msgstr ""
+
+#: templates/account/login-form.php:47
+msgid "Sign up"
+msgstr ""
+
+#: templates/account/register-form.php:6
+#: templates/account/register-form.php:141
+msgid "Signup"
+msgstr ""
+
+#: templates/single-partials/single-listing-related.php:28
+msgid "Similar Properties"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:791
+#: includes/truelysell-core-meta-boxes.php:798
+msgid ""
+"Similar to the single jobs you can add image to the category header. It "
+"should be 1920px wide"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:306
+#: includes/truelysell-core-settings.php:161
+msgid "Singapore Dollar"
+msgstr ""
+
+#: includes/truelysell-core-settings.php:113
+msgid "Single listing related options"
+msgstr ""
+
+#: includes/class-truelysell-core.php:580
+msgid "Single listing sidebar"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:203
+msgid "Site logo here"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:211
+msgid "Site mobile logo here"
+msgstr ""
+
+#: includes/truelysell-core-users.php:1076
+msgid "Skype"
+msgstr ""
+
+#: truelysell-core-template-functions.php:2032
+#: truelysell-core-template-functions.php:2060
+#: templates/form-fields/slots.php:37 templates/form-fields/slots.php:65
+msgid "Slots"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:116
+#: includes/paid-services/truelysell-core-paid-services.php:135
+msgid "Social Links Module"
+msgstr ""
+
+#: templates/listing-submit-package.php:164
+msgid "Social Links Module enabled"
+msgstr ""
+
+#: truelysell-core-template-functions.php:439
+msgid "Sold"
+msgstr ""
+
+#: includes/truelysell-core-activities-log.php:211
+msgid "Someone bookmarked your "
+msgstr ""
+
+#: includes/truelysell-core-activities-log.php:217
+msgid "Someone unbookmarked your"
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:1807
+msgid "Sorry, it looks like you've already made that reservation"
+msgstr ""
+
+#: templates/account/owner_only.php:4
+msgid ""
+"Sorry, you can't view this page as Guest, register Owner account to get "
+"access."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:346
+msgid "sort by"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:308
+#: includes/truelysell-core-settings.php:162
+msgid "South African rand"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:293
+#: includes/truelysell-core-settings.php:148
+msgid "South Korean Won"
+msgstr ""
+
+#: includes/truelysell-core-settings.php:199
+msgid "Square feet"
+msgstr ""
+
+#: includes/truelysell-core-settings.php:198
+msgid "Square meter"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:294
+#: includes/truelysell-core-settings.php:149
+msgid "Sri Lankan Rupee"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:338
+msgid "Start date"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1022
+msgid "Start Time"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:818
+#: templates/account/payout.php:192 templates/account/wallet.php:31
+msgid "Status"
+msgstr ""
+
+#: templates/single-partials/single-listing-store.php:11
+msgid "Store"
+msgstr ""
+
+#: templates/account/logged_section.php:84
+msgid "Store Dashboard"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1178
+msgid "Store Section status"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1173
+msgid "Store Settings"
+msgstr ""
+
+#: templates/single-partials/single-listing-location.php:50
+msgid "Street View"
+msgstr ""
+
+#: truelysell-core-template-functions.php:1307
+#: includes/truelysell-core-submit.php:2384 templates/my-account.php:175
+#: templates/search-form/submit.php:4
+msgid "Submit"
+msgstr ""
+
+#: templates/account/coupon-submit.php:235
+msgid "Submit Coupon"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:126
+msgid "Submit Details"
+msgstr ""
+
+#: templates/account/my_listings.php:26 templates/account/my_packages.php:40
+#: templates/account/navigation.php:44
+msgid "Submit New Listing"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1825
+#: includes/truelysell-core-submit.php:1859 templates/listing-preview.php:132
+#: templates/listing-preview.php:137
+msgid "Submit Service"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:800
+msgid "Submit Service Page"
+msgstr ""
+
+#: includes/truelysell-core-calendar.php:109
+msgid "SUN"
+msgstr ""
+
+#: truelysell-core-template-functions.php:1476
+#: truelysell-core-template-functions.php:1481
+#: truelysell-core-template-functions.php:2002
+#: includes/truelysell-core-bookings-calendar.php:916
+#: includes/truelysell-core-widgets.php:824 templates/form-fields/slots.php:11
+msgid "Sunday"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:718
+#: includes/truelysell-core-submit.php:726
+#: includes/truelysell-core-submit.php:1313
+#: includes/truelysell-core-submit.php:1321
+msgid "sunday Opening Hour"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:386
+msgid "Supported service types"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:307
+msgid "Suriname Dollar"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:309
+#: includes/truelysell-core-settings.php:163
+msgid "Swedish Krona"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:310
+#: includes/truelysell-core-settings.php:164
+msgid "Swiss Franc"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:311
+#: includes/truelysell-core-settings.php:165
+msgid "Taiwan New Dollars"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:312
+#: includes/truelysell-core-settings.php:166
+msgid "Thai Baht"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:957
+msgid "Thank you for adding a listing"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1045
+#: includes/truelysell-core-admin.php:1076
+msgid "Thank you for your booking - {listing_name}"
+msgstr ""
+
+#: templates/booking-success.php:30 templates/booking-success.php:37
+msgid "Thank you for your booking!"
+msgstr ""
+
+#: templates/single-partials/single-listing-reviews.php:147
+msgid "Thank you for your review."
+msgstr ""
+
+#: templates/listing-submitted.php:3
+msgid "Thanks for your submission!"
+msgstr ""
+
+#: includes/class-truelysell-core.php:352
+msgid "The email address is not valid. Please add a valid email address."
+msgstr ""
+
+#: templates/account/login.php:41
+msgid "The email address you entered is not valid."
+msgstr ""
+
+#: templates/my-account.php:79
+msgid "The Email you entered is not valid or empty. Please try again."
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:648
+#, php-format
+msgid "The maximum spend for this coupon is %s."
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:641
+#, php-format
+msgid "The minimum spend for this coupon is %s."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:854
+msgid ""
+"The name from who the email is received, by default it is your site name."
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services.php:78
+msgid "The number of days that the listing will be active."
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services.php:64
+msgid "The number of listings a user can post with this package."
+msgstr ""
+
+#: includes/truelysell-core-users.php:2147 templates/account/login.php:22
+#: templates/account/login.php:60
+#, php-format
+msgid ""
+"The password you entered wasn't quite right. <a href='%s'>Did you forget "
+"your password</a>?"
+msgstr ""
+
+#: templates/my-account.php:217 templates/account/change_password.php:20
+msgid "The passwords do not match. Please retry.."
+msgstr ""
+
+#: truelysell-core-template-functions.php:102
+msgid "The physical condition of the business"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:950
+msgid "The tickets have sold out"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1108
+msgid "There is a new booking request for {listing_name}"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1140
+msgid "There is a new instant booking for {listing_name}"
+msgstr ""
+
+#: includes/truelysell-core-emails.php:133
+msgid "There is listing waiting for your approval \"{listing_name}\""
+msgstr ""
+
+#: includes/truelysell-core-emails.php:130
+msgid "There is new listing waiting for approval"
+msgstr ""
+
+#: includes/truelysell-core-tcal.php:225
+msgid "There was error with the import, please try again"
+msgstr ""
+
+#: includes/truelysell-core-tcal.php:163
+msgid "There was problem updating the field."
+msgstr ""
+
+#: includes/truelysell-core-users.php:1445
+msgid "This avatar will be displayed instead of default one"
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:621
+msgid "This coupon does not exist"
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:669
+msgid "This coupon has expired."
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:701
+#: includes/truelysell-core-bookings-calendar.php:728
+#: includes/truelysell-core-bookings-calendar.php:733
+msgid "This coupon is not applicable for this listing"
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:632
+msgid "This coupons can't be used with others."
+msgstr ""
+
+#: includes/truelysell-core-users.php:2131
+msgid "This email is already registered"
+msgstr ""
+
+#: templates/my-account.php:82
+msgid "This email is already used by another user, please try a different one."
+msgstr ""
+
+#: includes/truelysell-core-submit.php:304
+msgid "This is main listings category"
+msgstr ""
+
+#: includes/truelysell-core-users.php:646
+msgid "This is not valid email address"
+msgstr ""
+
+#: templates/listing-preview.php:2
+msgid ""
+"This is preview of service you've submitted, please confirm or edit your "
+"submission using buttons at the end of that page."
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:349
+#, php-format
+msgid "This is where you can create and manage %s."
+msgstr ""
+
+#: templates/account/single_message.php:20
+msgid "This message does not exists."
+msgstr ""
+
+#: includes/class-truelysell-core.php:396
+msgid "This Month"
+msgstr ""
+
+#: templates/listing-submit-package.php:129
+msgid "This plan includes "
+msgstr ""
+
+#: includes/truelysell-core-users.php:2134
+msgid "This username already exists"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:862
+msgid ""
+"This will act as the \"from\" and \"reply-to\" address. This emails should "
+"match your domain address"
+msgstr ""
+
+#: includes/class-truelysell-core.php:447
+msgid "Those dates are already booked"
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:2066
+msgid "Those dates are not available."
+msgstr ""
+
+#: includes/truelysell-core-calendar.php:113
+msgid "THU"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1339
+msgid "Thumbnail ID"
+msgstr ""
+
+#: truelysell-core-template-functions.php:1473
+#: truelysell-core-template-functions.php:1999
+#: includes/truelysell-core-bookings-calendar.php:913
+#: includes/truelysell-core-widgets.php:821 templates/form-fields/slots.php:8
+msgid "Thursday"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:667
+#: includes/truelysell-core-submit.php:676
+#: includes/truelysell-core-submit.php:1262
+#: includes/truelysell-core-submit.php:1271
+msgid "Thursday Opening Hour"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:295
+msgid "Tick the checkbox to make it Featured"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1093
+msgid "Ticket Price"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1162
+#: includes/truelysell-core-widgets.php:1166 templates/booking.php:271
+msgid "Tickets"
+msgstr ""
+
+#: templates/booking.php:223 templates/booking.php:248
+msgid "Time"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:986
+msgid "Time Slots"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:216
+msgid "Time zone"
+msgstr ""
+
+#: includes/class-truelysell-core.php:383
+#: includes/truelysell-core-widgets.php:242
+#: includes/truelysell-core-widgets.php:483
+#: includes/truelysell-core-widgets.php:594
+#: includes/truelysell-core-widgets.php:667
+#: includes/truelysell-core-widgets.php:751
+#: includes/truelysell-core-widgets.php:1387
+#: includes/truelysell-core-widgets.php:2103
+#: includes/truelysell-core-widgets.php:2246
+#: templates/form-fields/pricing.php:58 templates/form-fields/pricing.php:109
+msgid "Title"
+msgstr ""
+
+#: includes/class-truelysell-core.php:388
+msgid "To"
+msgstr ""
+
+#: includes/class-truelysell-core.php:392
+#: includes/truelysell-core-bookings-admin.php:260
+msgid "Today"
+msgstr ""
+
+#: templates/account/payout.php:191
+msgid "Total"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1315 templates/booking.php:342
+msgid "Total Cost"
+msgstr ""
+
+#: templates/account/payout.php:68
+msgid "Total Earnings"
+msgstr ""
+
+#: templates/account/payout.php:37
+msgid "Total Orders"
+msgstr ""
+
+#: templates/account/dashboard.php:104
+msgid "Total Reviews"
+msgstr ""
+
+#: templates/account/dashboard.php:66
+msgid "Total Views"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:715
+msgid "Transaction Note"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:746
+msgid "Truelysell Booking Form"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:342
+msgid "Truelysell Bookmarks & Share"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1602
+msgid "Truelysell Classified Owner Widget"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:478
+msgid "Truelysell Contact Widget"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:150
+msgid "Truelysell Core"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:150
+msgid "Truelysell Core "
+msgstr ""
+
+#: includes/truelysell-core-settings.php:70
+#: includes/truelysell-core-settings.php:71
+#: includes/truelysell-core-settings.php:71
+msgid "Truelysell Core Settings"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:2098
+msgid "Truelysell Coupon Widget "
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:2241
+msgid "Truelysell Dokan Vendor Widget "
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:662
+msgid "Truelysell External Booking"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1781
+msgid "Truelysell Message Widget"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1382
+msgid "Truelysell Opening Hours"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:589
+msgid "Truelysell Search Form"
+msgstr ""
+
+#. Name of the plugin
+msgid "Truelysell-Core"
+msgstr ""
+
+#: includes/truelysell-core-users.php:1427
+msgid "Truelysell_Core Avatar"
+msgstr ""
+
+#: includes/truelysell-core-calendar.php:111
+msgid "TUE"
+msgstr ""
+
+#: truelysell-core-template-functions.php:1471
+#: truelysell-core-template-functions.php:1997
+#: includes/truelysell-core-bookings-calendar.php:911
+#: includes/truelysell-core-widgets.php:819 templates/form-fields/slots.php:6
+msgid "Tuesday"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:633
+#: includes/truelysell-core-submit.php:1229
+msgid "Tuesday Opening Hour"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:313
+#: includes/truelysell-core-settings.php:167
+msgid "Turkish Lira"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:441
+msgid "Twitter"
+msgstr ""
+
+#: includes/truelysell-core-users.php:1070
+msgid "Twitter "
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:340
+#: includes/truelysell-core-bookings-admin.php:827
+#: includes/truelysell-core-post-types.php:453
+msgid "Type"
+msgstr ""
+
+#: templates/form-fields/text.php:34
+msgid "type and click here"
+msgstr ""
+
+#: templates/form-fields/text.php:35
+msgid "type and hit enter"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:291
+msgid ""
+"Type title that will also contains an unique feature of your listing (e.g. "
+"renovated, air contidioned)"
+msgstr ""
+
+#: templates/account/single_message.php:208
+msgid "Type your message..."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:314
+#: includes/truelysell-core-settings.php:168
+msgid "Ukrainian Hryvnia"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1350
+msgid ""
+"Unfortunately this request can't be processed. Try different dates please."
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:1934
+msgid "Unfortunately those dates are not available anymore."
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1348
+msgid "Unfortunately we are closed at selected hours. Try different please."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:264
+#: includes/truelysell-core-settings.php:123
+msgid "United Arab Emirates Dirham"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:83
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:59
+#: includes/paid-services/truelysell-core-paid-services.php:66
+msgid "Unlimited"
+msgstr ""
+
+#: templates/listing-submit-package.php:139
+msgid "Unlimited availability of listings"
+msgstr ""
+
+#: templates/listing-submit-package.php:125
+msgid "Unlimited number of listings"
+msgstr ""
+
+#: templates/account/coupon-submit.php:212
+#: templates/account/coupon-submit.php:219
+msgid "Unlimited usage"
+msgstr ""
+
+#: templates/booking/content-booking.php:61
+#: templates/booking/content-user-booking.php:40
+#: templates/booking/content-user-booking.php:54
+msgid "Unpaid"
+msgstr ""
+
+#: templates/account/messages.php:63 templates/account/single_message.php:107
+msgid "Unread"
+msgstr ""
+
+#: includes/truelysell-core-listing.php:617
+#: includes/truelysell-core-listing.php:629
+msgid "Up to "
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:258
+msgid "Upcoming bookings"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:427
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: templates/account/coupon-submit.php:233
+msgid "Update Coupon"
+msgstr ""
+
+#: templates/my-account.php:41
+msgid "Upload"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1757
+msgid "Upload an image"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:790
+#: includes/truelysell-core-meta-boxes.php:797
+#: includes/truelysell-core-meta-boxes.php:834
+#: includes/truelysell-core-meta-boxes.php:853
+#: includes/truelysell-core-users.php:1444
+#: templates/form-fields/floorplans.php:28
+#: templates/form-fields/floorplans.php:62
+msgid "Upload Image"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1757
+msgid "Upload new image"
+msgstr ""
+
+#: templates/account/coupon-submit.php:77
+msgid "Upload Widget Background"
+msgstr ""
+
+#: truelysell-core-template-functions.php:2250
+#, php-format
+msgid "Uploaded files need to be one of the following file types: %s"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:444
+msgid "URL to oEmbed supported service"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:263
+#: includes/truelysell-core-admin.php:315
+#: includes/truelysell-core-settings.php:122
+#: includes/truelysell-core-settings.php:169
+msgid "US Dollars"
+msgstr ""
+
+#: templates/account/coupon-submit.php:211
+msgid "Usage limit per coupon"
+msgstr ""
+
+#: templates/account/coupon-submit.php:218
+msgid "Usage limit per user"
+msgstr ""
+
+#: templates/account/coupon-submit.php:206
+msgid "Usage limits"
+msgstr ""
+
+#: templates/account/coupon-submit.php:120
+msgid "Usage restrictions"
+msgstr ""
+
+#: templates/account/coupons.php:23 templates/account/coupons.php:42
+msgid "Usage/Limit"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1757
+msgid "Use image"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:559
+#: includes/truelysell-core-meta-boxes.php:570
+msgid "use only 24:00 hour format"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:504
+#: includes/truelysell-core-submit.php:797
+msgid "Used"
+msgstr ""
+
+#: includes/truelysell-core-payouts.php:691
+#: includes/paid-services/truelysell-core-paid-services-admin-add-package.php:182
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:109
+msgid "User"
+msgstr ""
+
+#: includes/truelysell-core-commissions.php:457
+msgid "User Balance"
+msgstr ""
+
+#: templates/account/single_message.php:32
+#: templates/account/single_message.php:98
+msgid "User has been removed"
+msgstr ""
+
+#: includes/truelysell-core-commissions.php:473
+msgid "User ID"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:777
+msgid "User id"
+msgstr ""
+
+#: includes/truelysell-core-commissions.php:474
+msgid "User Name"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1698
+msgid "User since "
+msgstr ""
+
+#: templates/account/register-form.php:87
+msgid "Username"
+msgstr ""
+
+#: templates/account/register-form.php:89
+msgid "Username is required."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:570
+msgid "Username will be generated from email address (part before @)"
+msgstr ""
+
+#: includes/truelysell-core-users.php:2647
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: includes/truelysell-core-commissions.php:458
+msgid "Users Balance"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:490
+msgid "Users will have to pay for booking immediately to confirm the booking."
+msgstr ""
+
+#: includes/truelysell-core-users.php:429
+msgid "Validation user info, please wait..."
+msgstr ""
+
+#: truelysell-core-template-functions.php:93
+msgid "Value for Money"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:630
+msgid "Vendor"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:440 templates/single-listing.php:317
+msgid "Video"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-packages.php:118
+#: includes/paid-services/truelysell-core-paid-services.php:149
+msgid "Video Module"
+msgstr ""
+
+#: templates/listing-submit-package.php:180
+msgid "Video option enabled"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:316
+#: includes/truelysell-core-settings.php:170
+msgid "Vietnamese Dong"
+msgstr ""
+
+#: includes/truelysell-core-post-types.php:342
+#: includes/truelysell-core-post-types.php:343
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: templates/listing-submitted.php:26
+msgid "View &rarr;"
+msgstr ""
+
+#: includes/truelysell-core-bookings-admin.php:155
+#: includes/truelysell-core-bookings-admin.php:190
+#: includes/truelysell-core-payouts.php:811
+msgid "View Details"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:356
+msgid "Views"
+msgstr ""
+
+#: truelysell-core-template-functions.php:98
+msgid "Visibility, commute or nearby parking spots"
+msgstr ""
+
+#: templates/single-partials/single-listing-socials.php:61
+msgid "Visit website"
+msgstr ""
+
+#: templates/booking/content-user-booking.php:31
+msgid "Waiting for confirmation"
+msgstr ""
+
+#: templates/booking/content-booking.php:44
+msgid "Waiting for user payment"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:772
+msgid "Wallet Page"
+msgstr ""
+
+#: includes/truelysell-core-activities-log.php:232
+msgid "was approved"
+msgstr ""
+
+#: includes/truelysell-core-activities-log.php:228
+msgid "was created."
+msgstr ""
+
+#: includes/truelysell-core-activities-log.php:237
+msgid "was removed"
+msgstr ""
+
+#: includes/truelysell-core-activities-log.php:223
+msgid "was updated"
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:2092
+msgid "We are waiting for your payment."
+msgstr ""
+
+#: includes/truelysell-core-users.php:2143 templates/account/login.php:16
+msgid ""
+"We don't have any users with that email address. Maybe you used a different "
+"one when signing up?"
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:2078
+msgid ""
+"We have some technical problem, please try again later or contact "
+"administrator."
+msgstr ""
+
+#: templates/dashboard-bookings.php:49
+msgid "We haven't found any bookings for that criteria"
+msgstr ""
+
+#: templates/archive/no-found.php:5
+msgid ""
+"We&rsquo;re sorry but we do not have any listings matching your search, try "
+"to change you search settings"
+msgstr ""
+
+#: templates/archive/titlebar.php:26
+#, php-format
+msgid ""
+"We've found <em class=\"count_listings\">%s</em> <em class=\"count_text\">"
+"listing</em> for you"
+msgid_plural ""
+"We've found <em class=\"count_listings\">%s</em> <em class=\"count_text\">"
+"listings</em> for you"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/truelysell-core-tcal.php:147
+#, php-format
+msgid "We've successfully imported %s event"
+msgid_plural "We've successfully imported %s events"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/truelysell-core-tcal.php:190
+#, php-format
+msgid "We've successfully removed this calendar with %s event"
+msgid_plural "We've successfully removed this calendar with %s events"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/truelysell-core-submit.php:460
+msgid "Website"
+msgstr ""
+
+#: includes/truelysell-core-calendar.php:112
+msgid "WED"
+msgstr ""
+
+#: truelysell-core-template-functions.php:1472
+#: truelysell-core-template-functions.php:1998
+#: includes/truelysell-core-bookings-calendar.php:912
+#: includes/truelysell-core-widgets.php:820 templates/form-fields/slots.php:7
+msgid "Wednesday"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:651
+#: includes/truelysell-core-submit.php:659
+#: includes/truelysell-core-submit.php:1246
+#: includes/truelysell-core-submit.php:1254
+msgid "Wednesday Opening Hour"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:907
+msgid "Weekend Price"
+msgstr ""
+
+#: truelysell-core-template-functions.php:416
+msgid "Weekly"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:895
+msgid "Welcome Email Content"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:889
+msgid "Welcome Email Subject"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:890
+msgid "Welcome to {site_name}"
+msgstr ""
+
+#: includes/truelysell-core-search.php:1114
+#: includes/truelysell-core-search.php:1204
+#: includes/truelysell-core-search.php:1308
+msgid "What are you looking for?"
+msgstr ""
+
+#: includes/truelysell-core-users.php:1077
+msgid "WhatsApp"
+msgstr ""
+
+#: includes/truelysell-core-messages.php:171
+msgid "Whoops, we have a problem"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:952
+msgid "With this option enabled booking request will be immediately approved "
+msgstr ""
+
+#: includes/truelysell-core-submit.php:484
+msgid ""
+"With this option enabled listing will display Contact Form Widget that will "
+"send emails to this address"
+msgstr ""
+
+#: includes/truelysell-core-submit.php:981
+msgid ""
+"With this option enabled regular price and weekend price will be multiplied "
+"by number of guests to estimate total cost"
+msgstr ""
+
+#: templates/account/payout.php:52
+msgid "Withdraw Balance"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:311
+msgid "WooCommerce Product ID"
+msgstr ""
+
+#: includes/truelysell-core-meta-boxes.php:314
+msgid ""
+"WooCommerce Product ID. Don't change it unless you know what you are doing:)"
+msgstr ""
+
+#: includes/truelysell-core-users.php:821
+msgid "Wrong reCAPTCHA"
+msgstr ""
+
+#: includes/truelysell-core-users.php:474
+msgid "Wrong username or password."
+msgstr ""
+
+#: truelysell-core-template-functions.php:418
+msgid "Yearly"
+msgstr ""
+
+#: includes/class-truelysell-core.php:393
+msgid "Yesterday"
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:975
+msgid "You already voted "
+msgstr ""
+
+#: includes/truelysell-core-users.php:1751
+msgid "You are already signed in."
+msgstr ""
+
+#: templates/listing-submit.php:57
+msgid "You are currently editing:"
+msgstr ""
+
+#: templates/listing-submit.php:63
+#, php-format
+msgid "You are editing an existing listing. %s"
+msgstr ""
+
+#: templates/account/coupon-submit.php:28
+msgid "You are editing coupon."
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:112
+#: includes/truelysell-core-users.php:1012
+msgid "You are trying to remove not your listing"
+msgstr ""
+
+#: templates/compare-side.php:24
+msgid "You can compare only 4 listings"
+msgstr ""
+
+#: includes/class-truelysell-core.php:375
+msgid "You can not upload any more files."
+msgstr ""
+
+#: templates/listing-submit.php:9
+msgid "You can't edit that listing"
+msgstr ""
+
+#: templates/single-partials/single-listing-addreviews.php:34
+msgid "You can't review listings as an owner"
+msgstr ""
+
+#: includes/class-truelysell-core.php:370
+msgid "You can't upload files of this type."
+msgstr ""
+
+#: includes/truelysell-core-users.php:458
+#: includes/truelysell-core-users.php:2137 templates/account/login.php:10
+msgid "You do have an email address, right?"
+msgstr ""
+
+#: includes/truelysell-core-activities-log.php:272
+msgid "You don't have any activities logged yet."
+msgstr ""
+
+#: templates/dashboard-bookings.php:53
+msgid "You don't have any bookings yet"
+msgstr ""
+
+#: templates/account/bookmarks.php:112
+msgid "You don't have any bookmarks yet."
+msgstr ""
+
+#: templates/account/wallet.php:76
+msgid "You don't have any earnings yet"
+msgstr ""
+
+#: templates/account/messages.php:91
+msgid "You don't have any messages yet"
+msgstr ""
+
+#: templates/account/payout.php:235
+msgid "You don't have any payouts yet."
+msgstr ""
+
+#: templates/account/reviews.php:85
+msgid "You don't have any reviews"
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:775
+msgid "You don't have any reviews "
+msgstr ""
+
+#: templates/account/my_listings.php:29
+msgid "You don't have any services here"
+msgstr ""
+
+#: includes/truelysell-core-activities-log.php:274
+msgid "You don't have any services logged yet."
+msgstr ""
+
+#: includes/truelysell-core-users.php:829
+#: includes/truelysell-core-users.php:861
+msgid "You forgot about reCAPTCHA"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1362
+msgid "You got new conversation"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1393
+msgid "You got new message"
+msgstr ""
+
+#: templates/listing-submit-package.php:51 templates/account/my_packages.php:19
+#, php-format
+msgid "You have %1$s listings posted out of %2$d"
+msgid_plural "You have %1$s listings posted out of %2$d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/listing-submit-package.php:53 templates/account/my_packages.php:21
+#, php-format
+msgid "You have %s listings posted"
+msgid_plural "You have %s listings posted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/truelysell-core-activities-log.php:251
+msgid "You have added service"
+msgstr ""
+
+#: includes/truelysell-core-users.php:882
+msgid ""
+"You have been successfully registered,  you will be logged in a moment. "
+"Please check your email for the password."
+msgstr ""
+
+#: includes/truelysell-core-users.php:886
+msgid "You have been successfully registered, you can login now."
+msgstr ""
+
+#: includes/truelysell-core-users.php:880
+msgid "You have been successfully registered, you will be logged in a moment."
+msgstr ""
+
+#: includes/truelysell-core-users.php:888
+msgid ""
+"You have been successfully registered. Please check your email for the "
+"password."
+msgstr ""
+
+#: templates/account/login.php:56
+msgid "You have forgot about password."
+msgstr ""
+
+#: templates/account/login.php:82
+#, php-format
+msgid ""
+"You have successfully registered to <strong>%s</strong>. We have emailed "
+"your password to the email address you entered."
+msgstr ""
+
+#: templates/account/my_packages.php:37
+#, php-format
+msgid ""
+"You haven't bought any packages yet, you can do it while <a href=\"%s\">"
+"adding a listing</a> or by visiting <a href=\"%s\">shop</a>"
+msgstr ""
+
+#: includes/paid-services/truelysell-core-paid-services-admin-edit-listing-package.php:106
+msgid "You haven't changed package"
+msgstr ""
+
+#: templates/account/coupons.php:114
+msgid "You haven't created any coupons yet."
+msgstr ""
+
+#: templates/account/reviews.php:190
+msgid "You haven't reviewed anything"
+msgstr ""
+
+#: templates/account/bookmarks.php:90
+msgid "You haven't saved anything yet!"
+msgstr ""
+
+#: templates/account/my_listings.php:24
+#, php-format
+msgid ""
+"You haven't submitted any services yet, you can add your first one <a "
+"href=\"%s\">below</a>"
+msgstr ""
+
+#: templates/my-account.php:16
+msgid "You must be logged in to edit your profile."
+msgstr ""
+
+#: includes/truelysell-core-submit.php:1692
+#: includes/truelysell-core-submit.php:1743
+msgid "You must be signed in to post a new listing."
+msgstr ""
+
+#: includes/truelysell-core-users.php:1796
+msgid "You need to be signed in to access your listings."
+msgstr ""
+
+#: includes/truelysell-core-commissions.php:319
+#: includes/truelysell-core-commissions.php:363
+msgid "You need to be signed in to access your wallet."
+msgstr ""
+
+#: includes/truelysell-core-bookmarks.php:142
+msgid "You need to be signed in to manage your bookmarks."
+msgstr ""
+
+#: includes/truelysell-core-coupons.php:38
+msgid "You need to be signed in to manage your coupons."
+msgstr ""
+
+#: includes/truelysell-core-users.php:1821
+msgid "You need to be signed in to manage your listings."
+msgstr ""
+
+#: includes/truelysell-core-messages.php:449
+msgid "You need to be signed in to manage your messages."
+msgstr ""
+
+#: includes/truelysell-core-users.php:1855
+msgid "You need to be signed in to manage your packages."
+msgstr ""
+
+#: includes/truelysell-core-reviews.php:478
+msgid "You need to be signed in to manage your reviews."
+msgstr ""
+
+#: includes/truelysell-core-users.php:464
+#: includes/truelysell-core-users.php:2140 templates/account/login.php:13
+msgid "You need to enter a password to login."
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:1722
+msgid "You shouldn't be here :)"
+msgstr ""
+
+#: templates/account/login.php:53
+msgid "You're a bot, aren't you?."
+msgstr ""
+
+#: includes/truelysell-core-bookmarks.php:41
+msgid "You've already added that post"
+msgstr ""
+
+#: templates/single-partials/single-listing-reviews.php:144
+msgid ""
+"You've already reviewed this service, your review is waiting for approval."
+msgstr ""
+
+#: templates/my-account.php:33
+msgid "Your Avatar"
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:2086
+msgid "Your booking is waiting for confirmation."
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1331
+msgid "Your booking request for {listing_name} was cancelled"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1172
+#: includes/truelysell-core-admin.php:1206
+msgid "Your booking request was approved {listing_name}"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1239
+msgid "Your booking request was approved {listing_name}, please pay"
+msgstr ""
+
+#: includes/truelysell-core-bookings-calendar.php:2107
+msgid "Your booking was cancelled"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1270
+msgid "Your booking was paid by user - {listing_name}"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1300
+msgid "Your booking was paid {listing_name}"
+msgstr ""
+
+#: includes/class-truelysell-core.php:367
+msgid "Your browser does not support drag'n'drop file uploads."
+msgstr ""
+
+#: templates/listing-submitted.php:18
+msgid "Your changes have been saved."
+msgstr ""
+
+#: templates/my-account.php:214 templates/account/change_password.php:17
+msgid "Your current password does not match. Please retry."
+msgstr ""
+
+#: templates/account/wallet.php:28
+msgid "Your Earning"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:985
+msgid "Your listing has expired - {listing_name}"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:926
+msgid "Your listing was published - {listing_name}"
+msgstr ""
+
+#: templates/dashboard-bookings.php:90
+msgid "Your message"
+msgstr ""
+
+#: includes/truelysell-core-widgets.php:1727
+#: includes/truelysell-core-widgets.php:1885
+msgid "Your message to "
+msgstr ""
+
+#: includes/truelysell-core-messages.php:146
+#: includes/truelysell-core-messages.php:185
+msgid "Your message was successfully sent"
+msgstr ""
+
+#: templates/my-account.php:206 templates/account/change_password.php:9
+msgid "Your password has been updated."
+msgstr ""
+
+#: templates/my-account.php:201 templates/account/change_password.php:58
+msgid "Your password should be at least 12 random characters long to be safe"
+msgstr ""
+
+#: templates/my-account.php:10
+msgid "Your profile has been updated."
+msgstr ""
+
+#: includes/truelysell-core-activities-log.php:232
+#: includes/truelysell-core-activities-log.php:244
+msgid "Your Service"
+msgstr ""
+
+#: templates/listing-submitted.php:8
+msgid "Your service has been published."
+msgstr ""
+
+#: templates/listing-submitted.php:15
+msgid "Your service has been saved and is awaiting admin approval"
+msgstr ""
+
+#: templates/listing-submitted.php:11
+msgid ""
+"Your service has been saved and is pending payment. It will be published "
+"once the order is completed"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:1015
+msgid "Your service is expiring in 5 days - {listing_name}"
+msgstr ""
+
+#: templates/booking.php:89
+msgid "Your short message to the service owner (optional)"
+msgstr ""
+
+#: includes/truelysell-core-users.php:1075
+msgid "YouTube"
+msgstr ""
+
+#: includes/truelysell-core-admin.php:318
+#: includes/truelysell-core-settings.php:172
+msgid "Zambian Kwacha"
+msgstr ""
+
+msgid "Show all photos"
+msgstr ""
+
+msgid "Service Details"
+msgstr ""
+
+msgid "Inbox"
+msgstr ""

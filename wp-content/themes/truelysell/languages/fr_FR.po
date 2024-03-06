@@ -1,0 +1,1276 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Truelysell\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-09 06:37+0000\n"
+"PO-Revision-Date: 2023-06-15 09:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: French (France)\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: truelysell"
+
+#: woocommerce/checkout/form-pay.php:95
+msgid " at "
+msgstr "à"
+
+#: template-parts/content-single.php:45 template-parts/blog/content.php:81
+msgid " Comment"
+msgstr "Commentaire"
+
+#: template-parts/content-single.php:37 template-parts/blog/content.php:73
+msgid " Comments"
+msgstr "Commentaires"
+
+#: inc/template-tags.php:173 inc/template-tags.php:219
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#. 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:36
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] "%1$s avis pour %2$s"
+msgstr[1] "%1$s avis pour %2$s"
+
+#: inc/mini-cart.php:4 inc/woocommerce.php:204
+#, php-format
+msgid "%d"
+msgid_plural "%d"
+msgstr[0] "%d"
+msgstr[1] "%d"
+
+#: woocommerce/checkout/form-pay.php:119
+#, php-format
+msgid "%d Child"
+msgid_plural "%s Children"
+msgstr[0] "%d enfant"
+msgstr[1] "%s enfants"
+
+#: woocommerce/checkout/form-pay.php:122
+#, php-format
+msgid "%d Guest"
+msgid_plural "%s Guests"
+msgstr[0] "%d invité"
+msgstr[1] "%s invités"
+
+#: woocommerce/single-product/tabs/description.php:42
+#, php-format
+msgid "%d job"
+msgid_plural "%s jobs"
+msgstr[0] "%d travail"
+msgstr[1] "%s travaux"
+
+#: inc/woocommerce.php:82 woocommerce/content-product.php:94
+#, php-format
+msgid "%d listing"
+msgid_plural "%s listings"
+msgstr[0] "%d liste"
+msgstr[1] "%s annonces"
+
+#: woocommerce/single-product/tabs/description.php:66
+#, php-format
+msgid "%d resume"
+msgid_plural "%s resumes"
+msgstr[0] "%d reprendre"
+msgstr[1] "%d reprendre"
+
+#: woocommerce/checkout/form-pay.php:125
+#, php-format
+msgid "%d Ticket"
+msgid_plural "%s Tickets"
+msgstr[0] "%d ticket"
+msgstr[1] "%s Billets"
+
+#: inc/template-tags.php:151 inc/template-tags.php:208
+msgid "(Edit)"
+msgstr "(Modifier)"
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:105 inc/template-tags.php:111
+msgid ", "
+msgstr ", "
+
+#: inc/shop-func.php:87
+msgid "-"
+msgstr "-"
+
+#: template-parts/listing-category.php:67
+msgid "0 Service"
+msgstr "0 Service"
+
+#: header.php:230
+msgid "404"
+msgstr "404"
+
+#: 404.php:27
+msgid "404 Oops! Page Not Found"
+msgstr "404 Oups ! "
+
+#: functions.php:429 functions.php:504 functions.php:574
+msgid "<i class=\"fas fa-angle-left\"></i>"
+msgstr "<i class=\"fas fa-angle-left\"></i>"
+
+#: functions.php:459 functions.php:536 functions.php:606
+msgid "<i class=\"fas fa-angle-right\"></i>"
+msgstr "<i class=\"fas fa-angle-right\"></i>"
+
+#: woocommerce/single-product/meta.php:38
+msgid "<span class=\"label\">Category:</span>"
+msgid_plural "<span class=\"label\">Categories:</span>"
+msgstr[0] "<span class=\"label\">Catégorie:</span>"
+msgstr[1] "<span class=\"label\">Catégories:</span>"
+
+#: woocommerce/single-product/meta.php:40
+msgid "<span class=\"label\">Tag:</span>"
+msgid_plural "<span class=\"label\">Tags:</span>"
+msgstr[0] "<span class=\"label\">Étiqueter:</span>"
+msgstr[1] "<span class=\"label\">Mots clés:</span>"
+
+#: template-parts/template-dashboard.php:424
+msgid "Account"
+msgstr "Compte"
+
+#: template-parts/template-dashboard.php:230
+msgid "Active"
+msgstr "Actif"
+
+#: template-parts/template-dashboard.php:517
+msgid "Active Services"
+msgstr "Services actifs"
+
+#: woocommerce/single-product-reviews.php:77
+msgid "Add a review"
+msgstr "Ajouter un avis"
+
+#: woocommerce/single-product-reviews.php:72
+msgid "Add Review"
+msgstr "Ajouter un avis"
+
+#: template-parts/template-dashboard.php:220
+msgid "Add Service"
+msgstr "Ajouter un service"
+
+#: woocommerce/content-product.php:110
+msgid "Add to cart"
+msgstr "Ajouter au panier"
+
+#: functions.php:89 functions.php:99 functions.php:110 functions.php:121
+#: functions.php:132 functions.php:144 functions.php:156 functions.php:168
+#: functions.php:179
+msgid "Add widgets here."
+msgstr "Ajouter des widgets ici."
+
+#: woocommerce/checkout/form-shipping.php:57
+msgid "Additional information"
+msgstr "Informations supplémentaires"
+
+#: template-parts/template-register.php:273
+msgid "Already have an account?"
+msgstr "Vous avez déjà un compte ?"
+
+#: template-parts/template-dashboard.php:62
+#: template-parts/template-login.php:62 template-parts/template-register.php:62
+msgid "An account exists with this email address."
+msgstr "Un compte existe avec cette adresse e-mail."
+
+#: woocommerce/cart/cart.php:143
+msgid "Apply Coupon"
+msgstr "Appliquer le coupon"
+
+#: woocommerce/checkout/form-coupon-old.php:42
+#: woocommerce/checkout/form-coupon.php:39
+#: woocommerce/checkout/form-coupon.php:39
+msgid "Apply coupon"
+msgstr "Appliquer le bon de réduction"
+
+#: template-parts/template-dashboard.php:278
+msgid "Approved"
+msgstr "Approuvé"
+
+#: template-parts/template-dashboard.php:492
+msgid "Approved Bookings"
+msgstr "Réservations approuvées"
+
+#: woocommerce/checkout/form-pay.php:79
+msgid "at"
+msgstr "à"
+
+#: woocommerce/cart/cart.php:77
+msgid "Available on backorder"
+msgstr "Disponible en rupture de stock"
+
+#: woocommerce/single-product-reviews.php:102
+msgid "Average"
+msgstr "Moyenne"
+
+#: 404.php:29
+msgid "Back to Home"
+msgstr "Retour à l'accueil"
+
+#: woocommerce/single-product-reviews.php:77
+msgid "Be the first to review"
+msgstr "Soyez le premier à donner votre avis"
+
+#: woocommerce/checkout/form-billing.php:24
+msgid "Billing &amp; Shipping"
+msgstr "Facturation"
+
+#: woocommerce/checkout/form-billing.php:28
+msgid "Billing details"
+msgstr "Détails de facturation"
+
+#: header.php:163 header.php:183
+msgid "Blog"
+msgstr "Blogue"
+
+#. Name of the template
+msgid "Blog Grid Template"
+msgstr "Modèle de grille de blog"
+
+#: header.php:169
+msgid "Blog List"
+msgstr "Liste des blogs"
+
+#: woocommerce/checkout/form-pay.php:115
+msgid "Booking Details:"
+msgstr "Détails de la réservation :"
+
+#: template-parts/template-dashboard.php:268
+#: template-parts/template-dashboard.php:313
+msgid "Booking List"
+msgstr "Liste de réservation"
+
+#: template-parts/template-dashboard.php:505
+msgid "Bookings"
+msgstr "Réservations"
+
+#: functions.php:166
+msgid "Bookmark Widget"
+msgstr "Widget de signet"
+
+#: functions.php:177
+msgid "Bookservice Widget"
+msgstr "Widget de service de réservation"
+
+#: inc/theme-options.php:130
+msgid "Breadcrumb color"
+msgstr "Couleur du fil d'Ariane"
+
+#: woocommerce/add-to-wishlist-added.php:39
+msgid "Browse Wishlist"
+msgstr "Parcourir la liste de souhaits"
+
+#: inc/template-tags.php:26 inc/template-tags.php:61
+msgid "By"
+msgstr "Par"
+
+#: template-parts/template-dashboard.php:285
+msgid "Cancelled"
+msgstr "Annulé"
+
+#: template-parts/template-dashboard.php:501
+msgid "Cancelled Bookings"
+msgstr "Réservations annulées"
+
+#: template-parts/template-dashboard.php:526
+msgid "Cancelled Services"
+msgstr "Services annulés"
+
+#. Name of the template
+msgid "Categories Page"
+msgstr "Page des catégories"
+
+#: template-parts/template-dashboard.php:357
+msgid "Chat "
+msgstr "Discuter"
+
+#: woocommerce/checkout/form-coupon-old.php:26
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Click here to enter your code"
+msgstr "Cliquez ici pour entrer votre code"
+
+#: woocommerce/checkout/form-login.php:26
+msgid "Click here to login"
+msgstr "Cliquez ici pour vous connecter"
+
+#: comments.php:32 comments.php:64
+msgid "Comment navigation"
+msgstr "Navigation dans les commentaires"
+
+#: comments.php:80
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: inc/template-tags.php:53 inc/template-tags.php:89
+msgid "Comments are off"
+msgstr "Les commentaires sont désactivés"
+
+#: inc/tgmpa.php:85
+msgid "Contact Form 7"
+msgstr "Formulaire de contact 7"
+
+#. %s: Name of current post.
+#: template-parts/content.php:34
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuez à lire %s <span class=\"meta-nav\">"
+
+#: woocommerce/cart/cart.php:138
+msgid "Coupon"
+msgstr "Coupon"
+
+#: woocommerce/cart/cart.php:139 woocommerce/checkout/form-coupon-old.php:35
+#: woocommerce/checkout/form-coupon.php:35
+msgid "Coupon code"
+msgstr "Code de réduction"
+
+#: woocommerce/checkout/form-coupon.php:34
+msgid "Coupon:"
+msgstr "Coupon :"
+
+#: woocommerce/checkout/form-billing.php:53
+msgid "Create an account?"
+msgstr "Créer un compte ?"
+
+#: template-parts/template-register.php:195
+msgid "Customer"
+msgstr "Client"
+
+#: template-parts/template-dashboard.php:212
+#: template-parts/template-dashboard.php:486
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#. Name of the template
+msgid "Dashboard Page"
+msgstr "Page du tableau de bord"
+
+#. Description of the theme
+msgid "Directory WordPress Theme by Dreamguys"
+msgstr "Thème WordPress Annuaire par Dreamguys"
+
+#: inc/add-demo-metaboxes.php:33
+msgid "Disable"
+msgstr "Désactiver"
+
+#: template-parts/template-login.php:207
+msgid "Don't have an account ?"
+msgstr "Vous n'avez pas de compte ?"
+
+#. Author of the theme
+msgid "Dreamguys Technologies"
+msgstr "Dreamguys Technologies"
+
+#: template-parts/template-dashboard.php:335
+msgid "Earnings"
+msgstr "Gains"
+
+#. %s: Name of current post
+#: inc/template-tags.php:127
+#, php-format
+msgid "Edit %s"
+msgstr "Modifier %s"
+
+#. Name of the template
+msgid "Elementor Template"
+msgstr "Modèle d'élémentaire"
+
+#: inc/tgmpa.php:97
+msgid "Elementor Website Builder"
+msgstr "Créateur de site Web Elementor"
+
+#: template-parts/template-login.php:178
+#: template-parts/template-register.php:221
+#: woocommerce/single-product-reviews.php:85
+msgid "Email"
+msgstr "Courriel"
+
+#: woocommerce/myaccount/form-login.php:86
+msgid "Email address"
+msgstr "Adresse e-mail"
+
+#: template-parts/template-login.php:180
+#: template-parts/template-register.php:223
+msgid "Email is required."
+msgstr "L'e-mail est requis."
+
+#: inc/add-demo-metaboxes.php:34
+msgid "Enable, always"
+msgstr "Activer, toujours"
+
+#: inc/add-demo-metaboxes.php:28
+msgid ""
+"Enables full-width header for this page, even if it disabled in global "
+"settings"
+msgstr ""
+"Active l'en-tête pleine largeur pour cette page, même s'il est désactivé "
+"dans les paramètres globaux"
+
+#: template-parts/template-dashboard.php:248
+#: template-parts/template-dashboard.php:293
+msgid "Expired"
+msgstr "expiré"
+
+#: template-parts/template-dashboard.php:498
+msgid "Expired Bookings"
+msgstr "Réservations expirées"
+
+#: template-parts/template-dashboard.php:523
+msgid "Expired Services"
+msgstr "Services expirés"
+
+#: template-parts/template-dashboard.php:344
+msgid "Favourites"
+msgstr "Favoris"
+
+#: woocommerce/content-product.php:72
+msgid "Featured"
+msgstr "En vedette"
+
+#: template-parts/template-register.php:208
+msgid "First Name"
+msgstr "Prénom"
+
+#: template-parts/template-register.php:210
+msgid "First Name is required."
+msgstr "Le prénom est requis."
+
+#: functions.php:97
+msgid "Footer Area1"
+msgstr "Zone de pied de page1"
+
+#: functions.php:108
+msgid "Footer Area2"
+msgstr "Zone de pied de page2"
+
+#: functions.php:119
+msgid "Footer Area3"
+msgstr "Zone de pied de page3"
+
+#: functions.php:130
+msgid "Footer Area4"
+msgstr "Zone de pied de page4"
+
+#: functions.php:154
+msgid "Footer Copyright Menu"
+msgstr "Menu Copyright du pied de page"
+
+#: functions.php:142
+msgid "Footer Copyright Text"
+msgstr "Texte de droit d'auteur du pied de page"
+
+#: inc/woocommerce.php:89 woocommerce/content-product.php:99
+#: woocommerce/single-product/tabs/description.php:49
+#: woocommerce/single-product/tabs/description.php:73
+#, php-format
+msgid "for %s day"
+msgid_plural "for %s days"
+msgstr[0] "pour %s jour"
+msgstr[1] "pendant %s jours"
+
+#: template-parts/template-login.php:200
+msgid "Forgot password?"
+msgstr "Mot de passe oublié ?"
+
+#: template-parts/content-none.php:13
+msgid "Found"
+msgstr "Trouvé"
+
+#. 1: Orders URL 2: Address URL 3: Account URL.
+#: woocommerce/myaccount/dashboard.php:44
+#, php-format
+msgid ""
+"From your account dashboard you can view your <a href=\"%1$s\">recent "
+"orders</a>, manage your <a href=\"%2$s\">billing address</a>, and <a "
+"href=\"%3$s\">edit your password and account details</a>."
+msgstr ""
+"Depuis le tableau de bord de votre compte, vous pouvez consulter vos <a "
+"href=\"%1$s\">commandes  récentes</a>, gérer votre <a href=\"%2$s\">adresse "
+"de facturation</a>, et <a href=\"%3$s\">modifier votre mot de passe et les "
+"détails de votre compte</a>."
+
+#. 1: Orders URL 2: Addresses URL 3: Account URL.
+#: woocommerce/myaccount/dashboard.php:47
+#, php-format
+msgid ""
+"From your account dashboard you can view your <a href=\"%1$s\">recent "
+"orders</a>, manage your <a href=\"%2$s\">shipping and billing addresses</a>, "
+"and <a href=\"%3$s\">edit your password and account details</a>."
+msgstr ""
+"Depuis le tableau de bord de votre compte, vous pouvez consulter vos <a "
+"href=\"%1$s\">commandes  récentes</a>, gérer votre <a href=\"%2$s\">adresses "
+"de livraison et de facturation</a>, et <a href=\"%3$s\">modifier votre mot "
+"de passe et les détails de votre compte</a>."
+
+#: inc/add-demo-metaboxes.php:48
+msgid "Full width"
+msgstr "pleine largeur"
+
+#: inc/add-demo-metaboxes.php:27
+msgid "Full-width header"
+msgstr "En-tête pleine largeur"
+
+#: woocommerce/single-product-reviews.php:101
+msgid "Good"
+msgstr "Bien"
+
+#: woocommerce/checkout/form-coupon-old.php:26
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Have a coupon?"
+msgstr "Vous avez un bon de réduction ?"
+
+#: inc/theme-options.php:168
+msgid "Heading color"
+msgstr "Couleur de l'en-tête"
+
+#. 1: user display name 2: logout url
+#: woocommerce/myaccount/dashboard.php:34
+#, php-format
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)"
+msgstr "Bonjour %1$s (pas %1$s ? <a href=\"%2$s\">Déconnexion</a>)"
+
+#: inc/template-tags.php:240
+msgid "Helpful Review"
+msgstr "Avis utile"
+
+#: header.php:167 header.php:187 header.php:208 header.php:228 header.php:247
+#: header.php:267 header.php:287
+msgid "Home"
+msgstr "Domicile"
+
+#. Name of the template
+msgid "Home Page with Search Form"
+msgstr "Page d'accueil avec formulaire de recherche"
+
+#. URI of the theme
+msgid "https://dreamguystech.com/"
+msgstr "https://dreamguystech.com/"
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/dreamguys"
+msgstr "https://themeforest.net/user/dreamguys"
+
+#: woocommerce/checkout/form-coupon-old.php:31
+#: woocommerce/checkout/form-coupon.php:31
+msgid "If you have a coupon code, please apply it below."
+msgstr "Si vous avez un code promo, veuillez l'appliquer ci-dessous."
+
+#: woocommerce/checkout/form-login.php:32
+msgid ""
+"If you have shopped with us before, please enter your details below. If you "
+"are a new customer, please proceed to the Billing section."
+msgstr ""
+"Si vous avez déjà acheté chez nous, veuillez entrer vos coordonnées ci-"
+"dessous. If you êtes un nouveau client, veuillez passer à la section "
+"Facturation."
+
+#: template-parts/content-none.php:40
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Il semble que nous ne puissions pas trouver ce que vous cherchez. Peut-être "
+"la recherche peut aider."
+
+#: woocommerce/single-product/tabs/description.php:49
+msgid "Jobs are posted "
+msgstr "Les offres d'emploi sont publiées"
+
+#: template-parts/template-register.php:214
+msgid "Last Name"
+msgstr "Nom de famille"
+
+#: template-parts/template-register.php:216
+msgid "Last Name is required."
+msgstr "Le nom de famille est requis."
+
+#. %s: post title
+#: inc/template-tags.php:120
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+"Laissez un commentaire<span class=\"screen-reader-text\"> sur %s</span>"
+
+#: woocommerce/single-product-reviews.php:78
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Laisser une réponse à %s"
+
+#: inc/add-demo-metaboxes.php:49
+msgid "Left Sidebar"
+msgstr "Barre latérale gauche"
+
+#: inc/theme-options.php:154
+msgid "Link color"
+msgstr "Couleur du lien"
+
+#: inc/woocommerce.php:88
+msgid "Listings are published "
+msgstr "Les annonces sont publiées"
+
+#: woocommerce/content-product.php:99
+msgid "Listings are visible "
+msgstr "Les annonces sont visibles"
+
+#: template-parts/template-register.php:273
+#: woocommerce/global/form-login.php:51 woocommerce/global/form-login.php:51
+#: woocommerce/myaccount/form-login.php:32
+#: woocommerce/myaccount/form-login.php:51
+msgid "Login"
+msgstr "Connexion"
+
+#. Name of the template
+msgid "Login Page"
+msgstr "Page de connexion"
+
+#: template-parts/template-dashboard.php:374
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: woocommerce/global/form-login.php:54 woocommerce/myaccount/form-login.php:57
+msgid "Lost your password?"
+msgstr "Mot de passe perdu ?"
+
+msgid "Member Since"
+msgstr "Membre depuis"
+
+#: template-parts/template-login.php:195
+msgid "Must be 6 Characters at Least"
+msgstr "Doit comporter au moins 6 caractères"
+
+#: template-parts/template-dashboard.php:318
+msgid "My Bookings"
+msgstr "Mes réservations"
+
+#: template-parts/template-dashboard.php:226
+msgid "My Services"
+msgstr "Mes services"
+
+#: template-parts/template-dashboard.php:434
+msgid "My Subscriptions"
+msgstr "Mes abonnements"
+
+#: woocommerce/single-product/meta.php:33
+msgid "N/A"
+msgstr "N/A"
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Name"
+msgstr "Nom"
+
+#: comments.php:36 comments.php:68
+msgid "Newer Comments"
+msgstr "Nouveaux commentaires"
+
+#: single.php:56
+msgid "Next Post"
+msgstr "Article suivant"
+
+#: template-parts/content-single.php:41 template-parts/blog/content.php:77
+msgid "No Comments"
+msgstr "Aucun commentaire"
+
+#: inc/mini-cart.php:73 inc/woocommerce.php:301
+msgid "No products in the cart."
+msgstr "Aucun produit dans le panier."
+
+#: woocommerce/single-product-reviews.php:103
+msgid "Not that bad"
+msgstr "Pas si mal"
+
+#: template-parts/template-register.php:254
+msgid ""
+"Note: Your password will be generated automatically and sent to your email "
+"address."
+msgstr ""
+"Remarque : Votre mot de passe sera généré automatiquement et envoyé à votre "
+"adresse e-mail adresse."
+
+#: template-parts/content-none.php:13
+msgid "Nothing"
+msgstr "Rien"
+
+#: comments.php:35 comments.php:67
+msgid "Older Comments"
+msgstr "Commentaires plus anciens"
+
+#: woocommerce/single-product-reviews.php:118
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"Seuls les clients connectés qui ont acheté ce produit peuvent laisser un "
+"avis."
+
+#: inc/add-demo-metaboxes.php:42
+msgid "Page Layout"
+msgstr "Mise en page"
+
+#: header.php:224
+msgid "Page Not Found"
+msgstr "Page introuvable"
+
+#: inc/add-demo-metaboxes.php:21
+msgid "Page Options"
+msgstr "Options de page"
+
+#: template-parts/content-page.php:64 template-parts/content.php:39
+msgid "Pages:"
+msgstr "Pages :"
+
+#: template-parts/template-login.php:184
+#: template-parts/template-register.php:238
+#: woocommerce/global/form-login.php:38 woocommerce/myaccount/form-login.php:43
+#: woocommerce/myaccount/form-login.php:93
+msgid "Password"
+msgstr "Mot de passe"
+
+#: template-parts/template-login.php:188
+#: template-parts/template-register.php:242
+msgid "Password is required."
+msgstr "Le mot de passe est requis."
+
+#: template-parts/template-dashboard.php:326
+msgid "Payout"
+msgstr "Paiement"
+
+#: template-parts/template-dashboard.php:464
+msgid "PayPal email missing!"
+msgstr "E-mail PayPal manquant !"
+
+#: template-parts/template-dashboard.php:237
+#: template-parts/template-dashboard.php:271
+msgid "Pending"
+msgstr "En attente"
+
+#: template-parts/template-dashboard.php:495
+msgid "Pending Bookings"
+msgstr "Réservations en attente"
+
+#: template-parts/template-dashboard.php:520
+msgid "Pending Services"
+msgstr "Services en attente"
+
+#: woocommerce/single-product-reviews.php:100
+msgid "Perfect"
+msgstr "Parfait"
+
+#: inc/template-tags.php:151 inc/template-tags.php:208
+msgid "Pingback:"
+msgstr "Ping:"
+
+#: template-parts/template-dashboard.php:77
+#: template-parts/template-login.php:77 template-parts/template-register.php:77
+msgid "Please accept the Privacy Policy to register account."
+msgstr ""
+"Veuillez accepter la politique de confidentialité pour enregistrer un compte."
+
+#: template-parts/template-dashboard.php:80
+#: template-parts/template-login.php:80 template-parts/template-register.php:80
+msgid "Please accept the Terms and Conditions to register account."
+msgstr "Veuillez accepter les termes et conditions pour créer un compte."
+
+#: template-parts/template-dashboard.php:465
+msgid ""
+"Please add your PayPal email address. This is required to get your payments "
+"for booking using PayPal Payout service."
+msgstr ""
+"Veuillez ajouter votre adresse e-mail PayPal. Ceci est nécessaire pour "
+"recevoir vos paiements pour la réservation en utilisant le service de "
+"paiement PayPal."
+
+#: template-parts/template-dashboard.php:68
+#: template-parts/template-login.php:68 template-parts/template-register.php:68
+msgid "Please check reCAPTCHA checbox to register."
+msgstr "Veuillez cocher la case reCAPTCHA pour vous inscrire."
+
+#: template-parts/template-dashboard.php:83
+#: template-parts/template-login.php:83 template-parts/template-register.php:83
+msgid "Please provide your first name"
+msgstr "Veuillez indiquer votre prénom"
+
+#: template-parts/template-dashboard.php:86
+#: template-parts/template-login.php:86 template-parts/template-register.php:86
+msgid "Please provide your last name"
+msgstr "Veuillez indiquer votre nom de famille"
+
+#: template-parts/template-dashboard.php:89
+#: template-parts/template-login.php:89 template-parts/template-register.php:89
+msgid "Please provide your user login"
+msgstr "Veuillez fournir votre identifiant d'utilisateur"
+
+#: inc/template-tags.php:107
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Publié dans %1$s"
+
+#: single.php:47
+msgid "Prev Post"
+msgstr "Article précédent"
+
+#: woocommerce/cart/cart.php:31 woocommerce/cart/cart.php:82
+msgid "Price"
+msgstr "Prix"
+
+#: inc/theme-options.php:90
+msgid "Primary color"
+msgstr "Couleur primaire"
+
+#: inc/theme-options.php:104
+msgid "Primary Hover color"
+msgstr "Couleur de survol primaire"
+
+#: woocommerce/cart/cart.php:30 woocommerce/cart/cart.php:62
+#: woocommerce/checkout/form-pay.php:29
+#: woocommerce/checkout/review-order.php:23
+msgid "Product"
+msgstr "Produit"
+
+#: woocommerce/single-product/tabs/description.php:25
+msgid "Product Description"
+msgstr "Description du produit"
+
+#: template-parts/template-register.php:190
+msgid "Provider"
+msgstr "Fournisseur"
+
+#: woocommerce/checkout/form-pay.php:30
+msgid "Qty"
+msgstr "Qté"
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:88
+msgid "Quantity"
+msgstr "Quantité"
+
+#: woocommerce/single-product-reviews.php:99
+msgid "Rate&hellip;"
+msgstr "Taux"
+
+#: woocommerce/single-product/review.php:37
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "Noté %d sur 5"
+
+#: woocommerce/single-product/rating1.php:37
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "%s noté sur 5"
+
+#: template-parts/template-bloggrid.php:83
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Prêt à publier votre premier poste? <a href=\"%1$s\">Commencez ici</a>."
+
+#: template-parts/template-login.php:207
+#: woocommerce/myaccount/form-login.php:70
+#: woocommerce/myaccount/form-login.php:103
+msgid "Register"
+msgstr "Enregistrez-vous"
+
+#. Name of the template
+msgid "Register Page"
+msgstr "Page d'enregistrement"
+
+#: template-parts/template-dashboard.php:65
+#: template-parts/template-login.php:65 template-parts/template-register.php:65
+msgid "Registering new users is currently not allowed."
+msgstr ""
+"L'enregistrement de nouveaux utilisateurs n'est actuellement pas autorisé."
+
+#: template-parts/template-register.php:171
+msgid "Registration is disabled"
+msgstr "L'enregistrement est désactivé"
+
+#: inc/template-tags.php:411
+msgid "Related Posts"
+msgstr "Messages connexes"
+
+#: woocommerce/single-product/related.php:27
+msgid "Related Products"
+msgstr "Produits connexes"
+
+#: woocommerce/global/form-login.php:47 woocommerce/myaccount/form-login.php:53
+msgid "Remember me"
+msgstr "Souviens-toi de moi"
+
+#: inc/woocommerce.php:135 woocommerce/cart/cart.php:118
+msgid "Remove this item"
+msgstr "Supprimer cet élément"
+
+#: inc/template-tags.php:177
+msgid "Reply"
+msgstr "Répondre"
+
+#: woocommerce/single-product/tabs/description.php:73
+msgid "Resumes are posted "
+msgstr "Les CV sont affichés"
+
+#: woocommerce/checkout/form-login.php:26
+msgid "Returning customer?"
+msgstr "Client de retour ?"
+
+#: template-parts/template-dashboard.php:350
+#: woocommerce/single-product-reviews.php:39
+msgid "Reviews"
+msgstr "Avis"
+
+#: inc/add-demo-metaboxes.php:50
+msgid "Right Sidebar"
+msgstr "Barre latérale droite"
+
+#: header.php:243
+msgid "Search"
+msgstr "Rechercher"
+
+#: woocommerce/product-searchform.php:24
+msgid "Search for:"
+msgstr "Rechercher :"
+
+#: woocommerce/product-searchform.php:25
+msgid "Search products&hellip;"
+msgstr "Rechercher des produits"
+
+#: search.php:28
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de la recherche pour : %s"
+
+#: searchform.php:11 template-parts/content-none.php:30
+msgid "Search..."
+msgstr "Recherche..."
+
+#: inc/theme-options.php:118
+msgid "Secondary color"
+msgstr "couleur secondaire"
+
+#: inc/add-demo-metaboxes.php:43
+msgid "Select page layout, default is full-width"
+msgstr "Sélectionnez la mise en page, la largeur par défaut est pleine"
+
+#: inc/add-demo-metaboxes.php:55
+msgid "Selected Sidebar"
+msgstr "Barre latérale sélectionnée"
+
+#: template-parts/listing-category.php:63
+msgid "Service"
+msgstr "Service"
+
+#: header.php:263
+msgid "Service Detail"
+msgstr "Détail des services"
+
+#: template-parts/listing-category.php:65
+#: template-parts/template-dashboard.php:530
+msgid "Services"
+msgstr "Prestations de service"
+
+#: template-parts/template-dashboard.php:370
+msgid "Settings"
+msgstr "Paramètres"
+
+#: woocommerce/checkout/form-shipping.php:26
+msgid "Ship to a different address?"
+msgstr "Expédier à une autre adresse ?"
+
+#: functions.php:87
+msgid "Sidebar"
+msgstr "Barre latérale"
+
+#: inc/theme-options.php:180
+msgid "Sidebar Background"
+msgstr "Arrière-plan de la barre latérale"
+
+#: template-parts/template-login.php:206
+msgid "Sign in"
+msgstr "Se connecter"
+
+#: template-parts/template-login.php:213 template-parts/template-login.php:220
+#: template-parts/template-register.php:290
+#: template-parts/template-register.php:298
+msgid "Sign In with Social Network"
+msgstr "Connectez-vous avec le réseau social"
+
+#: template-parts/template-register.php:272
+msgid "Signup"
+msgstr "S'inscrire"
+
+#: woocommerce/single-product/meta.php:32
+msgid "SKU:"
+msgstr "SKU :"
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Désolé, mais rien ne correspond à vos termes de recherche. Veuillez "
+"réessayer avec d'autres mots-clés."
+
+#: woocommerce/checkout/form-pay.php:166
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"Désolé, il semble qu'il n'y ait pas de méthodes de paiement disponibles pour "
+"votre emplacement. Veuillez nous contacter si vous avez besoin d'aide ou "
+"souhaitez faire arrangements alternatifs."
+
+#: template-parts/template-dashboard.php:380
+msgid "Store"
+msgstr "Magasin"
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Submit"
+msgstr "Soumettre"
+
+#: woocommerce/product-searchform.php:26
+msgctxt "submit button"
+msgid "Search"
+msgstr "Rechercher"
+
+#: inc/woocommerce.php:220 woocommerce/checkout/review-order.php:24
+#: woocommerce/checkout/review-order.php:57
+msgid "Subtotal"
+msgstr "Sous-total"
+
+#: inc/template-tags.php:113
+#, php-format
+msgid "Tagged %1$s"
+msgstr "%1$s tagué"
+
+#: inc/theme-options.php:142
+msgid "Text color"
+msgstr "Couleur du texte"
+
+#: template-parts/template-dashboard.php:59
+#: template-parts/template-login.php:59 template-parts/template-register.php:59
+msgid "The email address you entered is not valid."
+msgstr "L'adresse e-mail que vous avez saisie n'est pas valide."
+
+#: template-parts/template-dashboard.php:40
+#: template-parts/template-login.php:40 template-parts/template-register.php:40
+msgid "The password you entered wasn't quite right."
+msgstr "Le mot de passe que vous avez saisi n'est pas tout à fait correct."
+
+#: template-parts/template-dashboard.php:95
+#: template-parts/template-login.php:95 template-parts/template-register.php:95
+msgid "The password you entered wasn't quite right. "
+msgstr "Le mot de passe que vous avez saisi n'est pas tout à fait correct."
+
+#: woocommerce/single-product-reviews.php:62
+msgid "There are no reviews yet."
+msgstr "Il n'y a pas encore de commentaires."
+
+#: 404.php:28
+msgid "This page doesnt exist or was removed! We suggest you back to home."
+msgstr "Cette page n'existe pas ou a été supprimée ! "
+
+#: inc/woocommerce.php:81 woocommerce/content-product.php:94
+#: woocommerce/single-product/tabs/description.php:42
+#: woocommerce/single-product/tabs/description.php:66
+msgid "This plan includes "
+msgstr "Ce plan comprend"
+
+#: template-parts/author-content-none.php:14
+msgid "This user doesn't have any listings available right now."
+msgstr "Cet utilisateur n'a pas d'annonces disponibles pour le moment."
+
+#: template-parts/template-dashboard.php:30
+#: template-parts/template-dashboard.php:71
+#: template-parts/template-login.php:30 template-parts/template-login.php:71
+#: template-parts/template-register.php:30
+#: template-parts/template-register.php:71
+msgid "This username already exists."
+msgstr "Ce nom d'utilisateur existe déjà."
+
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:106
+#: woocommerce/checkout/review-order.php:104
+msgid "Total"
+msgstr "Totale"
+
+#: woocommerce/checkout/form-pay.php:31
+msgid "Totals"
+msgstr "Totaux"
+
+#. Name of the theme
+#: demo-content/demo/manifest.php:7
+msgid "Truelysell"
+msgstr "Vraiment vendu"
+
+#: woocommerce/single-product/tabs/description.php:38
+msgid "Unlimited number of jobs"
+msgstr "Nombre illimité d'emplois"
+
+#: inc/woocommerce.php:77 woocommerce/content-product.php:90
+msgid "Unlimited number of listings"
+msgstr "Nombre illimité d'annonces"
+
+#: woocommerce/single-product/tabs/description.php:62
+msgid "Unlimited number of Resumes"
+msgstr "Nombre illimité de CV"
+
+#: inc/tgmpa.php:103
+msgid "Unyson"
+msgstr "Unyson"
+
+#: woocommerce/cart/cart.php:150
+msgid "Update Cart"
+msgstr "Mettre à jour le panier"
+
+#: inc/add-demo-metaboxes.php:32
+msgid "Use Global setting from Customizer"
+msgstr "Utiliser le paramètre Global de Customizer"
+
+#: template-parts/template-register.php:230
+#: woocommerce/myaccount/form-login.php:79
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: template-parts/template-register.php:232
+msgid "Username is required."
+msgstr "Le nom d'utilisateur est requis."
+
+#: woocommerce/global/form-login.php:34
+msgid "Username or email"
+msgstr "Nom d'utilisateur ou e-mail"
+
+#: woocommerce/myaccount/form-login.php:39
+msgid "Username or email address"
+msgstr "Nom d'utilisateur ou adresse e-mail"
+
+#: woocommerce/single-product/review.php:52
+msgid "verified owner"
+msgstr "propriétaire vérifié"
+
+#: woocommerce/single-product-reviews.php:104
+msgid "Very Poor"
+msgstr "Très pauvre"
+
+#: inc/template-tags.php:383
+msgid "View all posts by"
+msgstr "Afficher tous les messages de"
+
+#: template-parts/template-dashboard.php:466
+msgid "View Wallet and set the Payout Method there &#8594;"
+msgstr "Afficher le portefeuille et y définir la méthode de paiement"
+
+#: inc/theme-options.php:76
+msgid "Visible Section Name"
+msgstr "Nom de section visible"
+
+#: template-parts/template-dashboard.php:34
+#: template-parts/template-login.php:34 template-parts/template-register.php:34
+msgid ""
+"We don't have any users with that email address. Maybe you used a different "
+"one when signing up?"
+msgstr ""
+"Nous n'avons aucun utilisateur avec cette adresse e-mail. Peut-être avez-"
+"vous utilisé un autre un lors de l'inscription?"
+
+#: template-parts/header-parallax.php:31
+#, php-format
+msgid ""
+"We've found <em class=\"count_properties\">%s</em> <em class=\"count_text\">"
+"listing</em> for you"
+msgid_plural ""
+"We've found <em class=\"count_properties\">%s</em> <em class=\"count_text\">"
+"listings</em> for you"
+msgstr[0] ""
+"Nous avons trouvé <em class=\"count_properties\">%s</em> <em "
+"class=\"count_text\">Annonces</em> pour toi"
+msgstr[1] ""
+"Nous avons trouvé <em class=\"count_properties\">%s</em> <em "
+"class=\"count_text\">Annonces</em> pour toi"
+
+#: template-parts/content-none.php:47
+msgid "What are you looking for?"
+msgstr "Que recherchez-vous ?"
+
+#: inc/template-tags.php:53 inc/template-tags.php:89
+#, php-format
+msgid "With % comments"
+msgstr "Avec % de commentaires"
+
+#: inc/template-tags.php:53 inc/template-tags.php:89
+msgid "With 0 comments"
+msgstr "Avec 0 commentaires"
+
+#: inc/template-tags.php:53 inc/template-tags.php:89
+msgid "With 1 comment"
+msgstr "Avec 1 commentaire"
+
+#: inc/tgmpa.php:91
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: template-parts/template-dashboard.php:24
+#: template-parts/template-login.php:24 template-parts/template-register.php:24
+msgid "You do have an email address, right?"
+msgstr "Vous avez une adresse e-mail, n'est-ce pas ?"
+
+#: template-parts/template-dashboard.php:154
+#: template-parts/template-login.php:152
+#: template-parts/template-register.php:154
+#, php-format
+msgid "You have successfully registered to %s."
+msgstr "Vous vous êtes enregistré avec succès sur %s."
+
+#: template-parts/template-dashboard.php:159
+#: template-parts/template-login.php:157
+#: template-parts/template-register.php:159
+#, php-format
+msgid ""
+"You have successfully registered to <strong>%s</strong>. We have emailed "
+"your password to the email address you entered."
+msgstr ""
+"Vous vous êtes inscrit avec succès sur <strong>%s</strong>. Nous avons "
+"envoyé un e-mail votre mot de passe à l'adresse e-mail que vous avez saisie."
+
+#: woocommerce/single-product-reviews.php:94
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr "Vous devez être <a href=\"%s\">connecté</a> pour publier un avis."
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr "Vous devez être connecté pour passer à la caisse."
+
+#: template-parts/template-dashboard.php:27
+#: template-parts/template-login.php:27 template-parts/template-register.php:27
+msgid "You need to enter a password to login."
+msgstr "Vous devez entrer un mot de passe pour vous connecter."
+
+#: template-parts/template-dashboard.php:74
+#: template-parts/template-login.php:74 template-parts/template-register.php:74
+msgid "You're a bot, aren't you?."
+msgstr "Tu es un bot, n'est-ce pas ?."
+
+#: woocommerce/single-product/review.php:46
+msgid "Your comment is awaiting approval"
+msgstr "Votre commentaire est en attente d'approbation"
+
+#: woocommerce/checkout/form-checkout.php:56
+msgid "Your order"
+msgstr "Votre commande"
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Your Rating"
+msgstr "Votre évaluation"
+
+#: woocommerce/single-product-reviews.php:108
+msgid "Your Review"
+msgstr "Votre avis"

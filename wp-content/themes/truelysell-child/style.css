@@ -1,0 +1,43 @@
+/*
+Author:      Truelysell
+Theme Name:  Truelysell Child
+Theme URI: https://dreamguystech.com/
+Author: Dreamguys Technologies
+Author URI: https://themeforest.net/user/dreamguys
+Description: Directory WordPress Theme by Dreamguys
+Version:     1.0.3
+Text Domain: truelysell-child
+Template:    truelysell
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Domain Path: /languages
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+/* NOTE: Main theme's style.css file is already added in head tag. /*
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+.page-template-template-staff-dashboard #main{
+    display: inline-block;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+}
+
+.page-template-template-staff-dashboard .fof{
+	  display: inline-block;
+	  vertical-align: middle;
+}
+
+.page-template-template-staff-dashboard .fof h2{
+	  font-size: 50px;
+	  display: inline-block;
+	  padding-right: 12px;
+	  animation: type .5s alternate infinite;
+}
+
+@keyframes type{
+	  from{box-shadow: inset -3px 0px 0px #888;}
+	  to{box-shadow: inset -3px 0px 0px transparent;}
+}
