@@ -1,0 +1,8 @@
+2024-02-08T20:29:02+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in C:\xampp\htdocs\servicesite\wp-content\themes\truelysell\template-parts\template-dashboard.php:181
+Stack trace:
+#0 C:\xampp\htdocs\servicesite\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\servicesite\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\servicesite\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\servicesite\wp-content\themes\truelysell\template-parts\template-dashboard.php on line 181
+

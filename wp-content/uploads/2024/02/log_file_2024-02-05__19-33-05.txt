@@ -1,0 +1,362 @@
+
+---Downloaded files---
+The import files for: Truelysell Multipurpose were successfully downloaded!
+Initial max execution time = 4000
+Files info:
+Site URL = http://localhost/servicesite
+Data file = C:\xampp\htdocs\servicesite/wp-content/themes/truelysell/demo-content/demo-multipurpose/content.xml
+Widget file = C:\xampp\htdocs\servicesite/wp-content/themes/truelysell/demo-content/demo-multipurpose/widgets.wie
+Customizer file = C:\xampp\htdocs\servicesite/wp-content/themes/truelysell/demo-content/demo-multipurpose/truelysell-export.dat
+Redux files:
+truelysell_theme_options -> C:\xampp\htdocs\servicesite/wp-content/themes/truelysell/demo-content/redux.json 
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "service-03" (Media)
+[ERROR] Failed to import "service-02" (Media)
+[ERROR] Failed to import "service-04" (Media)
+[ERROR] Failed to import "service-03" (Media)
+[ERROR] Failed to import "service-04" (Media)
+[ERROR] Failed to import "service-03" (Media)
+[ERROR] Failed to import "service-02" (Media)
+[ERROR] Failed to import "service-04" (Media)
+[ERROR] Failed to import "service-05" (Media)
+[ERROR] Failed to import "service-02" (Media)
+[ERROR] Failed to import "service-03" (Media)
+[ERROR] Failed to import "service-04" (Media)
+[ERROR] Failed to import "service-05" (Media)
+[ERROR] Failed to import "service-01" (Media)
+[ERROR] Failed to import "service-02" (Media)
+[ERROR] Failed to import "service-06" (Media)
+[ERROR] Failed to import "service-07" (Media)
+[ERROR] Failed to import "servicenew" (Media)
+[ERROR] Failed to import "servicenew" (Media)
+[ERROR] Failed to import "gallery-big-02-1" (Media)
+[ERROR] Failed to import "gallery-big-02-1" (Media)
+[ERROR] Failed to import "phone" (Media)
+[ERROR] Failed to import "mail" (Media)
+[ERROR] Failed to import "map-pin" (Media)
+[ERROR] Failed to import "contact-us" (Media)
+[ERROR] Failed to import "about-01" (Media)
+[ERROR] Failed to import "provider-04" (Media)
+[ERROR] Failed to import "provider-03" (Media)
+[ERROR] Failed to import "provider-05" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "provider-10" (Media)
+[ERROR] Failed to import "about-02" (Media)
+[ERROR] Failed to import "service-06-3" (Media)
+[ERROR] Failed to import "servicenew" (Media)
+[ERROR] Failed to import "serviceonetowthree" (Media)
+[ERROR] Failed to import "woocommerce-placeholder" (Media)
+[ERROR] Failed to import "blog-06" (Media)
+[ERROR] Failed to import "service-20" (Media)
+[ERROR] Failed to import "logo" (Media)
+[ERROR] Failed to import "footer-logo" (Media)
+[ERROR] Failed to import "blog-07" (Media)
+[ERROR] Failed to import "blog-1" (Media)
+[ERROR] Failed to import "blog-2" (Media)
+[ERROR] Failed to import "blog-3" (Media)
+[ERROR] Failed to import "blog-4" (Media)
+[ERROR] Failed to import "blog-5" (Media)
+[ERROR] Failed to import "blog-6" (Media)
+[ERROR] Failed to import "blog-7" (Media)
+[ERROR] Failed to import "Blog-8" (Media)
+[ERROR] Failed to import "Blog-9" (Media)
+[ERROR] Failed to import "blog-10" (Media)
+[ERROR] Failed to import "blog-1" (Media)
+[ERROR] Failed to import "avatar-11" (Media)
+[ERROR] Failed to import "category-09" (Media)
+[ERROR] Failed to import "feature-icon-02" (Media)
+[ERROR] Failed to import "service-08" (Media)
+[ERROR] Failed to import "category-08" (Media)
+[ERROR] Failed to import "service-03" (Media)
+[ERROR] Failed to import "feature-icon-04" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "service-09" (Media)
+[ERROR] Failed to import "feature-icon-07" (Media)
+[ERROR] Failed to import "service-06" (Media)
+[ERROR] Failed to import "feature-icon-01" (Media)
+[ERROR] Failed to import "service-02" (Media)
+[ERROR] Failed to import "feature-icon-03" (Media)
+[ERROR] Failed to import "feature-icon-05" (Media)
+[ERROR] Failed to import "service-07" (Media)
+[ERROR] Failed to import "category-07" (Media)
+[ERROR] Failed to import "service-11" (Media)
+[ERROR] Failed to import "find-icon" (Media)
+[ERROR] Failed to import "place-icon" (Media)
+[ERROR] Failed to import "work-icon" (Media)
+[ERROR] Failed to import "offer-image" (Media)
+[ERROR] Failed to import "favicon" (Media)
+[ERROR] Failed to import "avatar-02" (Media)
+[ERROR] Failed to import "avatar-06" (Media)
+[ERROR] Failed to import "service-01" (Media)
+[ERROR] Failed to import "avatar-17" (Media)
+[ERROR] Failed to import "avatar-07" (Media)
+[ERROR] Failed to import "avatar-08" (Media)
+[ERROR] Failed to import "avatar-09" (Media)
+[ERROR] Failed to import "services-01" (Media)
+[ERROR] Failed to import "services-02" (Media)
+[ERROR] Failed to import "services-03" (Media)
+[ERROR] Failed to import "services-04" (Media)
+[ERROR] Failed to import "services-05" (Media)
+[ERROR] Failed to import "services-06" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "services-07" (Media)
+[ERROR] Failed to import "services-08" (Media)
+[ERROR] Failed to import "services-09" (Media)
+[ERROR] Failed to import "services-10" (Media)
+[ERROR] Failed to import "services-11" (Media)
+[ERROR] Failed to import "services-12" (Media)
+[ERROR] Failed to import "services-13" (Media)
+[ERROR] Failed to import "vietnamese-woman-g6f8d870e3_1920" (Media)
+[ERROR] Failed to import "WhatsApp Image 2023-01-18 at 3.02.09 PM" (Media)
+[ERROR] Failed to import "GOOGLDAD1 (3)" (Media)
+[ERROR] Failed to import "GOOGLDAD1 (4)" (Media)
+[ERROR] Failed to import "f4hMPmlb-estero-el-salado" (Media)
+[ERROR] Failed to import "Martin-Gore-y-Dave-Gahan-Depeche-Mode" (Media)
+[ERROR] Failed to import "IMG_20230227_182346" (Media)
+[ERROR] Failed to import "34__02 [Converted]" (Media)
+[ERROR] Failed to import "9-Pasi-Simpli-Ca-Sa-Gasesti-Un-Instalator-Bun-poza" (Media)
+[ERROR] Failed to import "Nissan_logo" (Media)
+[ERROR] Failed to import "Screenshot_20" (Media)
+[ERROR] Failed to import "sunset-river-water-picture-full-260nw-1855196134" (Media)
+[ERROR] Failed to import "view-beautiful-nature-khuean-srinagarindra-national-park-kanchanaburi-thailand-stock-photograph_csp22688494" (Media)
+[ERROR] Failed to import "pexels-photo-268533" (Media)
+[ERROR] Failed to import "tree-736885__480" (Media)
+[ERROR] Failed to import "tree-736885__480" (Media)
+[ERROR] Failed to import "image" (Media)
+[ERROR] Failed to import "2-Fonda-floor2" (Media)
+[ERROR] Failed to import "Binatone iron" (Media)
+[ERROR] Failed to import "3" (Media)
+[ERROR] Failed to import "avatar-02" (Media)
+[ERROR] Failed to import "4" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "00s0s_85uRhYQ68rgz_0CI0zm_1200x900" (Media)
+[ERROR] Failed to import "20230317_195902" (Media)
+[ERROR] Failed to import "Wallpaper New (1)" (Media)
+[ERROR] Failed to import "work3" (Media)
+[ERROR] Failed to import "pmi-acp-600px" (Media)
+[ERROR] Failed to import "Group 116 (1)" (Media)
+[ERROR] Failed to import "avatar-01" (Media)
+[ERROR] Failed to import "banner1" (Media)
+[ERROR] Failed to import "banner2" (Media)
+[ERROR] Failed to import "banner3" (Media)
+[ERROR] Failed to import "banner4" (Media)
+[ERROR] Failed to import "placeholder.png" (Media)
+[ERROR] Failed to import "placeholder.png" (Media)
+[ERROR] Failed to import "placeholder.png" (Media)
+[ERROR] Failed to import "placeholder.png" (Media)
+[ERROR] Failed to import "banner.jpg" (Media)
+[ERROR] Failed to import "banner-02.jpg" (Media)
+[ERROR] Failed to import "banner-03.jpg" (Media)
+[ERROR] Failed to import "work-icon-01.svg" (Media)
+[ERROR] Failed to import "work-icon-02.svg" (Media)
+[ERROR] Failed to import "work-icon-03.svg" (Media)
+[ERROR] Failed to import "avatar-03.jpg" (Media)
+[ERROR] Failed to import "avatar-04.jpg" (Media)
+[ERROR] Failed to import "avatar-01.jpg" (Media)
+[ERROR] Failed to import "avatar-02.jpg" (Media)
+[ERROR] Failed to import "partner1.svg" (Media)
+[ERROR] Failed to import "partner2.svg" (Media)
+[ERROR] Failed to import "partner3.svg" (Media)
+[ERROR] Failed to import "partner4.svg" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "partner5.svg" (Media)
+[ERROR] Failed to import "partner6.svg" (Media)
+[ERROR] Failed to import "banner-04.jpg" (Media)
+[ERROR] Failed to import "scissor.svg" (Media)
+[ERROR] Failed to import "saloon-bg.jpg" (Media)
+[ERROR] Failed to import "placeholder.png" (Media)
+[ERROR] Failed to import "placeholder.png" (Media)
+[ERROR] Failed to import "placeholder.png" (Media)
+[ERROR] Failed to import "service-30.jpg" (Media)
+[ERROR] Failed to import "service-25.jpg" (Media)
+[ERROR] Failed to import "scissor-white.svg" (Media)
+[ERROR] Failed to import "placeholder.png" (Media)
+[ERROR] Failed to import "placeholder.png" (Media)
+[ERROR] Failed to import "placeholder.png" (Media)
+[ERROR] Failed to import "catering-banner.jpg" (Media)
+[ERROR] Failed to import "server.svg" (Media)
+[ERROR] Failed to import "Fries.svg" (Media)
+[ERROR] Failed to import "Vector-1.svg" (Media)
+[ERROR] Failed to import "working-1.svg" (Media)
+[ERROR] Failed to import "working-2.svg" (Media)
+[ERROR] Failed to import "working-3.svg" (Media)
+[ERROR] Failed to import "working-4.svg" (Media)
+[ERROR] Failed to import "banner-fiver-bg.jpg" (Media)
+[ERROR] Failed to import "audi.png" (Media)
+[ERROR] Failed to import "car-five-arrow.png" (Media)
+[ERROR] Failed to import "car-wash-header-1.svg" (Media)
+[ERROR] Failed to import "car-wash-header-2.svg" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "car-category-five.png" (Media)
+[ERROR] Failed to import "works-3.jpg" (Media)
+[ERROR] Failed to import "works-2.jpg" (Media)
+[ERROR] Failed to import "works-1.jpg" (Media)
+[ERROR] Failed to import "bubbles-offering-section.png" (Media)
+[ERROR] Failed to import "offering-worker.png" (Media)
+[ERROR] Failed to import "placeholder.png" (Media)
+[ERROR] Failed to import "placeholder.png" (Media)
+[ERROR] Failed to import "banner-six-bg2.png" (Media)
+[ERROR] Failed to import "banner-six-bg.png" (Media)
+[ERROR] Failed to import "cleaner-detergent.svg" (Media)
+[ERROR] Failed to import "banner-six-side.png" (Media)
+[ERROR] Failed to import "cleaner-six.svg" (Media)
+[ERROR] Failed to import "quality-cleaning.svg" (Media)
+[ERROR] Failed to import "cdn-globe.svg" (Media)
+[ERROR] Failed to import "technical-support.svg" (Media)
+[ERROR] Failed to import "money-cash.svg" (Media)
+[ERROR] Failed to import "trophy.svg" (Media)
+[ERROR] Failed to import "our-company-six-bg.png" (Media)
+[ERROR] Failed to import "our-company-six.png" (Media)
+[ERROR] Failed to import "gui-calendar-planner.svg" (Media)
+[ERROR] Failed to import "like-svg.svg" (Media)
+[ERROR] Failed to import "carpet.svg" (Media)
+[ERROR] Failed to import "hero-section-seven.png" (Media)
+[ERROR] Failed to import "hero-section-seven-ryt.png" (Media)
+[ERROR] Failed to import "work-seven-3.svg" (Media)
+[ERROR] Failed to import "work-seven-2.svg" (Media)
+[ERROR] Failed to import "work-seven-1.svg" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "testimonials-seven.png" (Media)
+[ERROR] Failed to import "her-section-eight-bg.png" (Media)
+[ERROR] Failed to import "dog.svg" (Media)
+[ERROR] Failed to import "hero-section-eight.png" (Media)
+[ERROR] Failed to import "gui-calendar-planner-eight.svg" (Media)
+[ERROR] Failed to import "pointer-eight.svg" (Media)
+[ERROR] Failed to import "dog-face-eight.svg" (Media)
+[ERROR] Failed to import "pay-per-eight.svg" (Media)
+[ERROR] Failed to import "about-us-eight.png" (Media)
+[ERROR] Failed to import "pink-dog-feet.svg" (Media)
+[ERROR] Failed to import "win.svg" (Media)
+[ERROR] Failed to import "placeholder.png" (Media)
+[ERROR] Failed to import "placeholder.png" (Media)
+[ERROR] Failed to import "placeholder.png" (Media)
+[ERROR] Failed to import "professional-eight.png" (Media)
+[ERROR] Failed to import "healthy-pets.png" (Media)
+[ERROR] Failed to import "avatar-15.jpg" (Media)
+[ERROR] Failed to import "banner-img-04.jpg" (Media)
+[ERROR] Failed to import "banner-img-03.jpg" (Media)
+[ERROR] Failed to import "banner-img-02.jpg" (Media)
+[ERROR] Failed to import "banner-img-01.jpg" (Media)
+[ERROR] Failed to import "blog-13.jpg" (Media)
+[ERROR] Failed to import "blog-12.jpg" (Media)
+[ERROR] Failed to import "journey-bg.jpg" (Media)
+[ERROR] Failed to import "choose-icon-4.svg" (Media)
+[ERROR] Failed to import "choose-icon-3.svg" (Media)
+[ERROR] Failed to import "choose-icon-2.svg" (Media)
+[ERROR] Failed to import "choose-icon-1.svg" (Media)
+[ERROR] Failed to import "customer-review-before.png" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "customer-review-after.png" (Media)
+[ERROR] Failed to import "placeholder.png" (Media)
+[ERROR] Failed to import "placeholder.png" (Media)
+[ERROR] Failed to import "service-img-9.jpg" (Media)
+[ERROR] Failed to import "service-img-10.jpg" (Media)
+[ERROR] Failed to import "provider-04" (Media)
+[ERROR] Failed to import "provider-03-590x590" (Media)
+[ERROR] Failed to import "provider-05" (Media)
+[ERROR] Failed to import "provider-10" (Media)
+[ERROR] Failed to import "provider-10" (Media)
+[ERROR] Failed to import "avatar-02" (Media)
+[ERROR] Failed to import "avatar-10" (Media)
+[ERROR] Failed to import "avatar-07" (Media)
+[ERROR] Failed to import "avatar-11" (Media)
+[ERROR] Failed to import "avatar-09" (Media)
+[ERROR] Failed to import "avatar-06" (Media)
+[ERROR] Failed to import "avatar-06" (Media)
+[ERROR] Failed to import "avatar-06" (Media)
+[ERROR] Failed to import "avatar-02" (Media)
+[ERROR] Failed to import "avatar-02" (Media)
+[ERROR] Failed to import "service-10" (Media)
+[ERROR] Failed to import "feature-icon-14" (Media)
+[ERROR] Failed to import "feature-icon-10" (Media)
+[ERROR] Failed to import "feature-icon-11" (Media)
+[ERROR] Failed to import "feature-icon-12" (Media)
+[ERROR] Failed to import "feature-icon-13" (Media)
+[ERROR] Failed to import "service-01" (Media)
+[ERROR] Failed to import "logo-02" (Media)
+[ERROR] Failed to import "services-01" (Media)
+
+
+---Importing widgets---
+Sidebar : 
+
+Search - No Title - Imported
+Categories - Blog Categories - Imported
+Truelysell Recent Posts - Latest News - Imported
+Tag Cloud - Tags - Imported
+Archives - Archives - Imported
+
+Footer Area1 : 
+
+Custom HTML - No Title - Imported
+
+Footer Area2 : 
+
+Navigation Menu - Quick Links - Imported
+
+Footer Area3 : 
+
+Custom HTML - Contact Us - Imported
+
+Footer Area4 : 
+
+Custom HTML - Follow Us - Imported
+Text - Newsletter Signup - Imported
+
+Footer Copyright Menu : 
+
+Navigation Menu - No Title - Imported
+
+Bookmark Widget : 
+
+Truelysell Bookmarks &amp; Share - No Title - Imported
+
+Bookservice Widget : 
+
+Truelysell Booking Form - Booking - Imported
+
+Single listing sidebar : 
+
+Truelysell Opening Hours - Service Availability - Imported
+
+Listings sidebar : 
+
+Truelysell Search Form - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: truelysell_theme_options finished successfully!
+
+---Importing customizer settings---
+Error: The customizer import file is not in a correct format. Please make sure to use the correct customizer import file.
+
+---ocdi/after_import---
+
