@@ -165,9 +165,9 @@
             'content' => __( '<p>This is the tab content, HTML is allowed.</p>', 'truelysell' )
         )
     );
-    Redux::setHelpTab( $opt_name, $tabs );
+    Redux::set_help_tab( $opt_name, $tabs );
     $content = __( '<p>This is the sidebar content, HTML is allowed.</p>', 'truelysell' );
-    Redux::setHelpSidebar( $opt_name, $content );
+    Redux::set_help_sidebar( $opt_name, $content );
     
 
     /*** General Tab ***/

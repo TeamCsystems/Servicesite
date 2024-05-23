@@ -401,6 +401,7 @@ Redux::set_section(
 );
 
 require_once Redux_Core::$dir . '../sample/sections/presentation-fields/divide.php';
+require_once Redux_Core::$dir . '../sample/sections/presentation-fields/content.php';
 require_once Redux_Core::$dir . '../sample/sections/presentation-fields/info.php';
 require_once Redux_Core::$dir . '../sample/sections/presentation-fields/section.php';
 
@@ -516,6 +517,7 @@ Redux::set_section(
 );
 
 require_once Redux_Core::$dir . '../sample/sections/extensions/accordion.php';
+require_once Redux_Core::$dir . '../sample/sections/extensions/color-scheme.php';
 require_once Redux_Core::$dir . '../sample/sections/extensions/custom-fonts.php';
 require_once Redux_Core::$dir . '../sample/sections/extensions/google-maps.php';
 require_once Redux_Core::$dir . '../sample/sections/extensions/icon-select.php';
@@ -528,10 +530,6 @@ require_once Redux_Core::$dir . '../sample/sections/extensions/tabbed.php';
 require_once Redux_Core::$dir . '../sample/sections/extensions/widget-areas.php';
 require_once Redux_Core::$dir . '../sample/sections/extensions/taxonomy.php';
 require_once Redux_Core::$dir . '../sample/sections/extensions/users.php';
-
-if ( class_exists( 'Redux_Pro' ) ) {
-	require_once Redux_Core::$dir . '../sample/sections/extensions/color-scheme.php';
-}
 
 /**
  * Metaboxes

@@ -168,7 +168,7 @@ class OrderController {
 	 */
 	public function validate_order_before_payment( \WC_Order $order ) {
 		$needs_shipping          = wc()->cart->needs_shipping();
-		$chosen_shipping_methods = wc()->session->get( 'chosen_shipping_methods' );
+		$chosen_shipping_methods = wc()->session->get( 'chosen_shipping_methods', [] );
 
 		$this->validate_coupons( $order );
 		$this->validate_email( $order );
@@ -339,6 +339,7 @@ class OrderController {
 
 		$errors_by_code = array();
 		$error_codes    = $errors->get_error_codes();
+
 		foreach ( $error_codes as $code ) {
 			$errors_by_code[ $code ] = $errors->get_error_messages( $code );
 		}
@@ -415,6 +416,16 @@ class OrderController {
 			if ( empty( $address[ $address_field_key ] ) && $address_field['required'] ) {
 				/* translators: %s Field label. */
 				$errors->add( $address_type, sprintf( __( '%s is required', 'woocommerce' ), $address_field['label'] ), $address_field_key );
+			}
+		}
+
+		// Validate additional fields.
+		$result = $this->additional_fields_controller->validate_fields_for_location( $address, 'address', $address_type );
+
+		if ( $result->has_errors() ) {
+			// Add errors to main error object but ensure they maintain the billing/shipping error code.
+			foreach ( $result->get_error_codes() as $code ) {
+				$errors->add( $address_type, $result->get_error_message( $code ), $code );
 			}
 		}
 	}
@@ -538,18 +549,30 @@ class OrderController {
 	 * @param array   $chosen_shipping_methods Array of shipping methods.
 	 */
 	public function validate_selected_shipping_methods( $needs_shipping, $chosen_shipping_methods = array() ) {
-		if ( ! $needs_shipping || ! is_array( $chosen_shipping_methods ) ) {
+		if ( ! $needs_shipping ) {
 			return;
 		}
 
+		$exception = new RouteException(
+			'woocommerce_rest_invalid_shipping_option',
+			__( 'Sorry, this order requires a shipping option.', 'woocommerce' ),
+			400,
+			array()
+		);
+
+		if ( ! is_array( $chosen_shipping_methods ) || empty( $chosen_shipping_methods ) ) {
+			throw $exception;
+		}
+
+		$valid_methods = array_keys( WC()->shipping()->get_shipping_methods() );
+
 		foreach ( $chosen_shipping_methods as $chosen_shipping_method ) {
-			if ( false === $chosen_shipping_method ) {
-				throw new RouteException(
-					'woocommerce_rest_invalid_shipping_option',
-					__( 'Sorry, this order requires a shipping option.', 'woocommerce' ),
-					400,
-					array()
-				);
+			if (
+				false === $chosen_shipping_method ||
+				! is_string( $chosen_shipping_method ) ||
+				! in_array( current( explode( ':', $chosen_shipping_method ) ), $valid_methods, true )
+			) {
+				throw $exception;
 			}
 		}
 	}

@@ -119,18 +119,34 @@ class Truelysell_Core_Emails {
 			return;
 		}
 		
+        
+		$email = get_option('admin_email'); 
+	$admin_name = get_option('site_name');
+$price = get_post_meta($post_id, '_normal_price', true); // Replace 'price_meta_key' with the actual meta key storing the price
 
-		$email = get_option('admin_email');
+    // $args['price'] = $price;
+		
+		$author   	= 	get_userdata( $post->post_author ); 
 		$args = array(
-			
+		    'site_name' => $admin_name,
+			'user_name' 	=>$author->display_name ,
 			'user_mail' 	=> get_option('admin_email'),
 			'listing_name' => $post->post_title,
+			'price' => $price,
 			);
 
-		$subject 	 = esc_html__('There is new listing waiting for approval','truelysell_core');
+		$subject 	 = esc_html__('New Service Created on {user_name} ','truelysell_core');
 		$subject 	 = $this->replace_shortcode( $args, $subject );
 
-		$body 	 = esc_html__('There is listing waiting for your approval "{listing_name}"','truelysell_core');
+		$body 	 = esc_html__('Dear {site_name},<br><br>
+I hope this message finds you well.<br><br>
+I wanted to inform you that a new service has been created on the website by {user_name}.<br><br>
+The service details are as follows:<br>
+Service Name: {listing_name}<br>
+Pricing: {price}<br><br>
+Please review the new service and ensure that it meets our standards and guidelines.<br><br>
+Best regards,<br>
+Kaltime','truelysell_core');
 		$body 	 = $this->replace_shortcode( $args, $body );
 
 		self::send( $email, $subject, $body );

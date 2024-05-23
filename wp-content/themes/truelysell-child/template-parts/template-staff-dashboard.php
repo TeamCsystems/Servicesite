@@ -11,39 +11,48 @@
  * @package Truelysell
  */
 get_header();
-    session_start();
+    // session_start();
 
 
 // Check if the user ID is set in the session
-if (isset($_SESSION['user_id'])) {
-    $current_user_id = $_SESSION['user_id'];
-    // You can use $user_id as needed
-
-//  print_r($current_user_id);
-//  die;
+if (is_user_logged_in()) {
+    $current_user = wp_get_current_user();
+    $user_status = $current_user->user_status;
+    // print_r($user_status);
+    // die;
+    if($user_status == 0){
+    $current_user_id = get_current_user_id() ;
 
 global $wpdb;
-$table_name = $wpdb->prefix . 'staffs'; 
+//$table_name = $wpdb->prefix . 'staffs'; 
 
 // Query the database for data associated with the current user
-$query = $wpdb->prepare("SELECT * FROM $table_name WHERE id = %d", $current_user_id);
+$query = $wpdb->prepare("SELECT u.ID,u.display_name, u.user_email,u.user_pass, u.user_status, um1.meta_key AS business_id_key, um1.meta_value AS business_id_value, um2.meta_key AS access_control_key, um2.meta_value AS access_control_value
+    FROM {$wpdb->users} AS u
+    LEFT JOIN {$wpdb->usermeta} AS um1 ON u.ID = um1.user_id AND um1.meta_key = 'business_id'
+    LEFT JOIN {$wpdb->usermeta} AS um2 ON u.ID = um2.user_id AND um2.meta_key = 'access_control'
+    WHERE u.ID = %d", $current_user_id);
 $results = $wpdb->get_results( $query );
 foreach($results as $result ){
     $resultArray = (array) $result;
+    /*echo"<pre>";
+    print_r($resultArray);
+    echo"</pre>";*/
 }
 if(empty($query)){
 
-    wp_redirect(home_url('/staff-login-page'));
+    do_action('truelysell_login_form');
 }
 else { //is logged
 
 	// get_header('dashboard');
-   $staff_id = $resultArray['id'];
-  $current_business_id = $resultArray['current_userid'];
-    $staff_email = $resultArray['staff_email'];
-    $staff_name = $resultArray['staff_name'];
-    $staff_role = $resultArray['role'];
-	$staff_status = $resultArray['status'];
+   $staff_id = $resultArray['ID'];
+  $current_business_id = $resultArray['business_id_value'];
+    $staff_email = $resultArray['user_email'];
+    $staff_name = $resultArray['display_name'];
+    $staff_access = $resultArray['access_control_value'];
+	$staff_status = $resultArray['user_status'];
+	$staff_booking_id=  $resultArray['booking_id'];
 
 ?>
 	<!-- Dashboard -->
@@ -69,17 +78,21 @@ if ($login_success_message) {
 				<div class="widget settings-menu sidebar-menu" id="sidebar-menu">
 					<ul >
 					
-					<?php
 					
-						if (($staff_role == 'staff')) : ?>
+					
+						
 							
-						<li class="active"><a  href="#"><i class="feather-book"></i> <?php esc_html_e('My Bookings', 'truelysell'); ?></a></li>
-							
+						<li class="active"><a  href="<?php echo esc_url( home_url( '/staff-dashboard' ) )?>" ><i class="feather-book"></i> <?php esc_html_e('My Bookings', 'truelysell'); ?></a></li>
+						<?php if (($staff_access == '1')) : ?>
+						<li ><a href="<?php echo esc_url( home_url( '/staff-all-bookings' ) )?>" ><i class="feather-users"></i> <?php esc_html_e('All Bookings', 'truelysell'); ?></a></li>
 					<?php endif; ?>
+						<li class=""><a href="<?php echo esc_url( home_url( '/staff-booking-history' ) )?>"><i class="feather-user"></i> <?php esc_html_e('Booking History', 'truelysell'); ?></a></li>
+						<li class=""><a href="<?php echo esc_url( home_url( '/staff-profile' ) )?>"><i class="feather-user"></i> <?php esc_html_e('My Profile', 'truelysell'); ?></a></li>
+					
 					
 					<!-- Logout -->
 					<li>
-					    <a href="<?php echo esc_url( home_url( '/staff-login-page' ) ) . '?id=' . $staff_id . '&action=' . esc_url( home_url( '/staff-dashboard' ) ); ?>">
+					    <a href="<?php echo wp_logout_url(home_url()); ?>">
 						<i class="feather-log-out"></i> <?php esc_html_e('Logout', 'truelysell'); ?>
 					    </a>
 					</li>
@@ -102,28 +115,22 @@ if ($login_success_message) {
 		</div>
 		<div class="col-md-8 col-lg-9 dashboard-nav">
 				<div id="main">
-    					<!--<div class="fof">
-        					<h2>No Bookings</h2>
-        					
-    					</div>
-    					</br>
-    					<img src="<?php //echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2024/02/bookshelf-1.png" width="85px"/>-->
-    					
-    					
     					<!--Starting Boooking Section-->
     	<?php
     	global $wpdb;
 	$table_b = $wpdb->prefix . 'bookings_calendar';
+   $table_s = $wpdb->prefix . 'staffs';
 
-	$query = $wpdb->prepare("SELECT * FROM $table_b WHERE staff_id = %d", $staff_id);
+$query = $wpdb->prepare("SELECT * FROM $table_b JOIN wp_staffs ON $table_b.staff_id = $table_s.staff_id WHERE $table_b.staff_id = %d", $staff_id);
 	$result = $wpdb->get_results( $query );
 	if (!empty($result)) {
 	foreach($result as $datas ){
 	   $data = (array) $datas;
+	   
 	    $booking_data = json_decode($data['comment']);
-	    
-	    
-	 
+	    $staff_assign =  $data['assign_status'];
+	   // print_r($staff_assign);
+	  
 	?>
 	<div class="booking-list " id="booking-list">
 	 <div class="booking-widget">
@@ -233,26 +240,46 @@ if ($login_success_message) {
 					   
 
 				</li>
+				<li>
+				    <span class="book-item"><?php esc_html_e('Mark Service Status', 'truelysell_core'); ?></span>:
+					<div class="user-book">
+					</div>
+					<?php if ($staff_assign == 'assigned'): ?>
+					<form method="post">
+                        <input type="hidden" name="staff_id" value="<?php echo $staff_id; ?>">
+                        <button type="submit" class="btn btn-danger" name="update_status_booking">Working Status</button>
+                    </form>
+					<?php elseif ($staff_assign == 'processing'): ?>
+					<form method="post">
+                        <input type="hidden" name="staff_id" value="<?php echo $staff_id; ?>">
+                        <button type="submit" class="btn btn-success" name="complete_status_booking">Complete Status</button>
+                    </form>
+                    <?php elseif ($staff_assign == 'completed'): ?>
+                    <p style="background-color: green; color:white;">Task is Completed</p>
+					<?php endif; ?> <p class="assign-message"></p>
+                       
+				</li>
 				
-
 			</ul>
 		</div>
 	</div>
 </div>
+
+
 <?php }
 }
 else{
-?><div class="fof">
-        					<h2>No Bookings</h2>
+?><div class="no-booking"><div class="fof">
+        					<h2>No Assigned Bookings</h2>
         					
     					</div>
     					</br>
     					<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2024/02/bookshelf-1.png" width="85px"/>
+    </div>
 <?php }?>
+
 			
-			<!--End-->	
-				</div>
-			
+			<!--End-->			
 		</div>
 		
 	      </div>
@@ -263,9 +290,16 @@ else{
 <?php
 }
 	get_footer();
+    }
+	else{
+	?>
+	<script>window.alert('You are blocked. Please contact to the Business Owner!');</script>
+	<?php
+	    do_action('truelysell_login_form');
+	}
 }
 else{
-    wp_redirect(home_url('/staff-login-page'));
+    do_action('truelysell_login_form');
 }
 ?>
 

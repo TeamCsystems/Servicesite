@@ -1,6 +1,0 @@
-2024-02-06T15:17:30+00:00 CRITICAL Unclosed '{' on line 89 in C:\xampp\htdocs\servicesite\wp-content\themes\truelysell-child\functions.php on line 91
-
-2024-02-06T19:02:15+00:00 CRITICAL syntax error, unexpected token "." in C:\xampp\htdocs\servicesite\wp-content\themes\truelysell-child\functions.php on line 112
-
-2024-02-06T22:07:45+00:00 CRITICAL syntax error, unexpected token "echo" in C:\xampp\htdocs\servicesite\wp-content\themes\truelysell-child\functions.php on line 139
-

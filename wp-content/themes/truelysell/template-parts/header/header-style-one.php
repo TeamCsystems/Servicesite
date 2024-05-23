@@ -13,14 +13,17 @@
                 <div class="navbar-brand logo">
                     <?php
                     $header_logo = truelysell_fl_framework_getoptions('logo_image');
+                    
+                   
+                    
                     if (isset($header_logo) && $header_logo != '') {
                        // $header_logo_url = $header_logo['url'];
-                        $header_logo_url = 'https://truelysell-wordpress.dreamstechnologies.com/multipurpose/wp-content/uploads/2024/01/logo-02.svg';
+                        $header_logo_url = $header_logo['url'];
                     } else {
-                        $header_logo_url = get_theme_file_uri() . '/assets/images/logo.svg';
+                        $header_logo_url = $header_logo['url'];
                     }
                     ?>
-                    <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo esc_url($header_logo_url); ?>"></a>
+                    <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo esc_url($header_logo['url']); ?>"></a>
                 </div>
 
                 <div class="navbar-brand logo-small">
@@ -43,6 +46,8 @@
                     </div>
                     <a id="menu_close" class="menu-close" href="javascript:void(0);"> <i class="fas fa-times"></i></a>
                 </div>
+                
+                
 
                 <?php
                 if (has_nav_menu('header_menu')) {
@@ -60,6 +65,8 @@
                     ));
                 }
                 ?>
+                
+               
 
                 <?php if (is_user_logged_in()) { ?>
                 <?php } else { ?>

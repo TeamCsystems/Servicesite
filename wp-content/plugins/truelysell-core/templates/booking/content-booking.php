@@ -28,7 +28,6 @@ if($_payment_option == "pay_cash"){
 }
 
 
-
 switch ($data->status) {
 	case 'waiting' :
 		$class[] = 'waiting-booking';
@@ -70,11 +69,11 @@ switch ($data->status) {
 	break;
 
 	case 'paid' :
-
-		$class[] = 'approved-booking';
-		$tag[] = '<span class="booking-status badge badge-pill badge-prof badge-success">'.esc_html__('Approved', 'truelysell_core').'</span>';
-		if($data->price>0){
-			$tag[] = '<span class="booking-status paid badge badge-pill badge-prof badge-success">'.esc_html__('Paid', 'truelysell_core').'</span>';
+		
+		$class[] = 'approved-booking';				$booking_status = ucfirst($data->booking_status);if($data->booking_status =='assigned' ){$tag[] = '<span class="booking-status badge badge-pill badge-prof badge-danger"> Booking Status: '.$booking_status.'</span>';}elseif($data->booking_status =='completed'){$tag[] = '<span class="booking-status badge badge-pill badge-prof badge-success"> Booking Status: '.$booking_status.'</span>';}else{$tag[] = '<span class="booking-status badge badge-pill badge-prof badge-danger"> Booking Status: '.$booking_status.'</span>';}
+		//$tag[] = '<span class="booking-status badge badge-pill badge-prof badge-success">'.esc_html__('Approved', 'truelysell_core').'</span>';
+		if($data->price>0){						$tag[] = '<span class="booking-status paid badge badge-pill badge-prof badge-success">Payment Status: '.esc_html__('Paid', 'truelysell_core').'</span>';
+			//$tag[] = '<span class="booking-status paid badge badge-pill badge-prof badge-success">'.esc_html__('Paid', 'truelysell_core').'</span>';
 		}
 		$show_approve = false;
 		$show_renew = false;
@@ -126,8 +125,10 @@ if($data->status != 'paid' && isset($data->order_id) && !empty($data->order_id) 
 }
 ?>
 
+ <div class="message-container"></div>
  
 <div class="booking-list <?php echo implode(' ',$class); ?>" id="booking-list-<?php echo esc_attr($data->ID);?>">
+
 	<div class="booking-widget">
 		<?php if (has_post_thumbnail( $data->listing_id ) ): ?>
 			<div class="booking-img">
@@ -140,7 +141,9 @@ if($data->status != 'paid' && isset($data->order_id) && !empty($data->order_id) 
 			</div>
 			<?php endif; ?>
 		<div class="booking-det-info">
+		<div style="color:green;" id="staff_selected_message"></div>
 			<h3 id="title"><a href="<?php echo get_permalink($data->listing_id); ?>"><?php echo get_the_title($data->listing_id); ?></a><?php echo implode(' ',$tag); ?></h3>
+			
 			<ul class="booking-details">
 				<li>
 				<span class="book-item"><?php esc_html_e('Booking Date', 'truelysell_core'); ?></span> :
@@ -251,33 +254,48 @@ if (isset($details->billing_address_1) && !empty($details->billing_address_1)) {
 			</ul>
 		</div>
 	</div>
+	
 	<div class="buttons-to-right booking-action">
+	<?php 
+	global $wpdb;
+	 $booking_id = $data->ID;
+        $staff_table_names = $wpdb->prefix . 'bookings_calendar';
+		$query = $wpdb->prepare("SELECT * FROM $staff_table_names WHERE ID = %d", $booking_id);
+        $results = $wpdb->get_results($query);
+        foreach($results as $datas){
+            $booking_payment = $datas->status;
+            $booking_status = $datas->booking_status;
+        }
+            if($booking_status !== 'completed'){?>
 	       <!--Assign Staff for a service-->
 		<span><?php esc_html_e('Assign Staff','truelysell_core') ?></span>
 		<?php 
 		
 		$user_id = get_current_user_id();
-		global $wpdb;
-		$table_name = $wpdb->prefix . 'staffs'; 
-
 		// Query the database for data associated with the current user
-		$query = $wpdb->prepare("SELECT * FROM $table_name WHERE current_userid = %d AND status = 'active'", $user_id);
+	$query = $wpdb->prepare("SELECT u.ID,u.display_name, u.user_email,u.user_status, um1.meta_key AS business_id_key, um1.meta_value AS business_id_value, um2.meta_key AS access_control_key, um2.meta_value AS access_control_value
+    FROM {$wpdb->users} AS u
+    LEFT JOIN {$wpdb->usermeta} AS um1 ON u.ID = um1.user_id AND um1.meta_key = 'business_id'
+    LEFT JOIN {$wpdb->usermeta} AS um2 ON u.ID = um2.user_id AND um2.meta_key = 'access_control'
+    WHERE um1.meta_value = %d", $user_id);
 		$results = $wpdb->get_results( $query );
 
-		?><select class="form-select" id="staff_select">
+		?><select class="form-select staff_select" >
 		  <option><?php esc_html_e('Choose Staff..','truelysell_core') ?></option>
 		  <?php
 		  foreach($results as $result ){
 		    $resultArray = (array) $result;
-		    $staff_id = $resultArray['id'];
-		    $staff_name = $resultArray['staff_name'];
+		    $staff_id = $resultArray['ID'];
+		    $staff_name = $resultArray['display_name'];
+		    $business_id = $resultArray['business_id_value'];
 		    $booking_id = $data->ID;
 		    $table_names = $wpdb->prefix . 'bookings_calendar';
-		    $additional_query = $wpdb->prepare("SELECT * FROM $table_names WHERE staff_id = %d", $staff_id);
+		    $additional_query = $wpdb->prepare("SELECT * FROM $table_names WHERE $table_names.ID = %d", $booking_id);
+		   
     $booking_result = $wpdb->get_results( $additional_query );
     
     foreach ($booking_result as $booking_results) {
-    print_r($booking_results);
+    
         $assigned_booking_id = $booking_results->ID; 
         $assigned_staff_id = $booking_results->staff_id; 
         $assigned_staff_name = $booking_results->staff_name; 
@@ -285,11 +303,30 @@ if (isset($details->billing_address_1) && !empty($details->billing_address_1)) {
     if($assigned_staff_id == $staff_id ){
     echo '<option value="' . esc_attr($assigned_staff_id) . '" data-booking-id="' . esc_attr($assigned_booking_id) . '"data-staff-name="' . esc_attr($assigned_staff_name) . '" class="yes" selected>' . esc_html($assigned_staff_name) . '</option>';}
     else{
-		    echo '<option value="' . esc_attr($staff_id) . '" data-booking-id="' . esc_attr($booking_id) . '"data-staff-name="' . esc_attr($staff_name) . '">' . esc_html($staff_name) . '</option>';
+		    echo '<option value="' . esc_attr($staff_id) . '" data-business-id="' . esc_attr($business_id) . '" data-booking-id="' . esc_attr($booking_id) . '"data-staff-name="' . esc_attr($staff_name) . '">' . esc_html($staff_name) . '</option>';
 		    }
 		  }
 		  ?>
 		</select>
+		
+		
+		<?php }?>
+		<?php 
+		global $wpdb;
+        $staff_table_name = $wpdb->prefix . 'staffs';
+		$query = $wpdb->prepare("SELECT * FROM $staff_table_name WHERE staff_id = %d", $assigned_staff_id);
+        $results = $wpdb->get_results($query);
+        foreach($results as $datas){
+            $booking_status = $datas->assign_status;
+            if($booking_status === 'assigned' || $booking_status === 'processing') {
+                echo"<span style='color: red;text-align:center;font-size: 14px;'>Already Assigned</span>";
+            }else{
+                echo"<span style='color: green;text-align:center;font-size: 14px;'>Available</span>";
+            }
+        }
+		
+		?>
+
 		<!-----End------>
 		<a data-bs-toggle="modal" data-bs-target="#booking_messages" data-recipient="<?php echo esc_attr($data->bookings_author); ?>" data-booking_id="booking_<?php echo esc_attr($data->ID); ?>" class="btn btn-sm btn btn-primary booking-message rate-review popup-with-zoom-anim"><i class="far fa-eye me-2"></i><?php esc_attr_e('Chat','truelysell_core') ?></a>
 		<?php if($payment_method == 'cod'){ ?>

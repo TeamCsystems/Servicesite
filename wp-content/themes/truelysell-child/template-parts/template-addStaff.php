@@ -221,15 +221,18 @@ if (!is_user_logged_in()) {
 							<li class="active"><a><i class="feather-user"></i> <?php esc_html_e('My Staffs', 'truelysell'); ?> <span class="menu-arrow"></span></a>
 
 								<ul>
-									<li class="active">
-
-										<a href="<?php echo get_template_directory_uri(); ?>/add-staff"><?php esc_html_e('Add Staff', 'truelysell'); ?>
+								<li>
+										<a class="all-staffs " href="<?php echo esc_url( home_url( '/' ) ); ?>all-staffs/"><?php esc_html_e('All Staffs', 'truelysell'); ?>
 										</a>
 									</li>
-									<li>
-										<a href="<?php echo get_template_directory_uri(); ?>/all-staffs"><?php esc_html_e('All Staffs', 'truelysell'); ?>
-										</a>
-									</li>
+									<!--<li>-->
+									<!--	<a class="waiting-staff " href="<?php //echo esc_url( home_url( '/' ) ); ?>/staff-wait-list-page"><?php //esc_html_e('Waiting List', 'truelysell'); ?>-->
+									<!--	</a>-->
+									<!--</li>-->
+									<!--<li>-->
+									<!--	<a class="complete-staff" href="<?php //echo esc_url( home_url( '/' ) ); ?>/available-staffs"><?php //esc_html_e('Available Staffs', 'truelysell'); ?>-->
+									<!--	</a>-->
+									<!--</li>-->
 
 								</ul>
 							</li>
@@ -359,7 +362,11 @@ if (!is_user_logged_in()) {
 							</li>
 						<?php endif; ?>
 					<?php endif; ?>
-
+                    <!-------Notification------>
+                    <?php if (in_array($role, array( 'owner'))) : ?>
+							<li  class="" ><a href="<?php echo esc_url( home_url( '/' ) ); ?>customer-email-notification"><i class="feather-gift"></i> <?php esc_html_e('Customer Email Notification', 'truelysell'); ?> </a></li>
+						<?php endif; ?>
+                    <!------------END-------------->
 
                      <?php if (!in_array($role, array('owner', 'seller'))) : ?>
 						<?php $bookmarks_page = truelysell_fl_framework_getoptions('bookmarks_page');

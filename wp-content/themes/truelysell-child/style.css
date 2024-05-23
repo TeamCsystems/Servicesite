@@ -41,3 +41,70 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	  from{box-shadow: inset -3px 0px 0px #888;}
 	  to{box-shadow: inset -3px 0px 0px transparent;}
 }
+#social-icons {
+    display: none;
+}
+@media only screen and (min-width: 992px){
+.single-listing .daterangepicker {width: 80%!important;left:10%!important;right:10%!important;}
+.drp-calendar .calendar-table table tbody {height: 300px;!important;}
+.daterangepicker {top: 650px !important;}
+}
+.drp-calendar .calendar-table table thead {color:#000000 !important;}
+.drp-calendar .calendar-table table tbody {color: #fff!important;background: #4c40ed!important;}
+/*.drp-calendar .calendar-table table tbody td.today.available {background: crimson!important;}*/
+.drp-calendar .calendar-table table tbody td{border-radius: 0px!important; font-size: 18px !important;}
+
+.available-container {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: space-between !important;
+    }
+    .available-box {
+        width: 49% !important; 
+        padding: 20px !important;
+        margin-bottom: 20px !important;
+        border: 1px solid #ccc !important;
+        box-sizing: border-box !important;
+    }
+.clickable-booking.hidden{display:none;}
+td.highlight-custom-dates.available {
+    background-color: darkcyan;
+    border-color: black;
+     animation: random 5s infinite;
+}
+
+@keyframes  random {
+    15% { background-color: red; } 
+    30% { background-color: darkcyan; } 
+    45% { background-color: crimson; } 
+    60% { background-color: #4c40ed; }
+    75% { background-color: black; }  
+}
+.daterangepicker .calendar-table th.month {
+    position: relative;
+}
+
+.daterangepicker .calendar-table th.month:after {
+    content: "Available Booking";
+    display: block;
+    position: absolute;
+    padding: 0 5px 0 5px;
+    top: 0;
+    left: 10%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #fff;
+    animation: random 5s infinite;
+}
+div.booking-time-disabled{color:red;}
+div.booking-time-enabled{color:green;}
+.time-ranges-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .time-range {
+        flex: 1 0 calc(33.33% - 10px); 
+        margin: 5px; 
+    }
+
+    

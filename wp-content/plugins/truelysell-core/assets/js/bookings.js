@@ -441,14 +441,40 @@
 		$('.input-date').on('cancel.daterangepicker', function(ev, picker) {
 			$(this).val('');
 		});
-	
-	
+// 	//get booking slot detail and user booking details	
+// 	$.ajax({
+//     url: my_ajax_object.ajax_url, 
+//     type: 'POST',
+//     dataType: 'json',
+//     data: {
+//         action: 'get_table_data' 
+//     },
+//     success: function(response) {
+//         // Process the data
+//         console.log(response); 
+        
+//         response.forEach(function(row) {
+//             // Access individual fields in each row
+//             var bookingStartDate = row.date_start;
+//             var bookingEndDate = row.date_end;
+//             console.log(bookingStartDate);
+//             console.log(bookingEndDate);
+//         });
+//     },
+//     error: function(xhr, status, error) {
+//         console.error(xhr.responseText); 
+//     }
+// });
+
+	//--------------END----------
 		function wpkGetThisDateSlots( date ) {
 	
 			var slots = {
 				isFirstSlotTaken: false,
 				isSecondSlotTaken: false
 			}
+			
+		
 			
 			if ( $( '#listing_type' ).val() == 'event' )
 				return slots;
@@ -473,84 +499,133 @@
 			return jQuery.inArray( date.format("YYYY-MM-DD"), array ) !== -1;
 		}
 	
-	
-		$('#date-picker').daterangepicker({
-			"opens": "left",
-			// checking attribute listing type and set type of calendar
-			singleDatePicker: ( $('#date-picker').data('listing_type') == 'rental' ? false : true ), 
-			timePicker: false,
-			minDate: moment().subtract(0, 'days'),
-			minSpan : { days:  $('#date-picker').data('minspan') },
-			startDate : Cookies.get('truelysell_rental_startdate'),
-			endDate : Cookies.get('truelysell_rental_enddate'),
-			locale: {
-				format: wordpress_date_format.date,
-				"firstDay": parseInt(wordpress_date_format.day),
-				"applyLabel"	: truelysell_core.applyLabel,
-				"cancelLabel"	: truelysell_core.cancelLabel,
-				"fromLabel"		: truelysell_core.fromLabel,
-				"toLabel"		: truelysell_core.toLabel,
-				"customRangeLabel": truelysell_core.customRangeLabel,
-				"daysOfWeek": [
-					truelysell_core.day_short_su,
-					truelysell_core.day_short_mo,
-					truelysell_core.day_short_tu,
-					truelysell_core.day_short_we,
-					truelysell_core.day_short_th,
-					truelysell_core.day_short_fr,
-					truelysell_core.day_short_sa
-				],
-				"monthNames": [
-					truelysell_core.january,
-					truelysell_core.february,
-					truelysell_core.march,
-					truelysell_core.april,
-					truelysell_core.may,
-					truelysell_core.june,
-					truelysell_core.july,
-					truelysell_core.august,
-					truelysell_core.september,
-					truelysell_core.october,
-					truelysell_core.november,
-					truelysell_core.december,
-				],
-			  
-			},
-	
-			isCustomDate: function( date ) {
-	
-				var slots = wpkGetThisDateSlots( date );
-	
-				if ( ! slots.isFirstSlotTaken && ! slots.isSecondSlotTaken )
-					return [];
-	
-				if ( slots.isFirstSlotTaken && ! slots.isSecondSlotTaken ) {
-					return [ 'first-slot-taken' ];
-				}
-	
-				if ( slots.isSecondSlotTaken && ! slots.isFirstSlotTaken ) {
-					return [ 'second-slot-taken' ];
-				}
-				
-			},
-	
-			isInvalidDate: function(date) {
-	
-							
-	
-				if ($('#listing_type').val() == 'event' ) return false;
-				if ($('#listing_type').val() == 'service' && typeof disabledDates != 'undefined' ) {
-					if ( jQuery.inArray( date.format("YYYY-MM-DD"), disabledDates ) !== -1) return true;
-				}
-				if ($('#listing_type').val() == 'rental' ) {
-		
-					var slots = wpkGetThisDateSlots( date );
-	
-					return slots.isFirstSlotTaken && slots.isSecondSlotTaken;
-				}
-			}
-	
-		}); 
+
+
+
+	$('#date-picker').daterangepicker({
+    "opens": "left",
+    singleDatePicker: ($('#date-picker').data('listing_type') == 'rental' ? false : true),
+    timePicker: false,
+    onSelect: function(dateText){
+         $('#bookservice-dialog').modal('show');
+        },
+    minDate: moment().startOf('day'),
+    maxDate: moment().add(7, 'days').endOf('day'),
+    minSpan: { days: $('#date-picker').data('minspan') },
+    startDate: Cookies.get('truelysell_rental_startdate'),
+    endDate: Cookies.get('truelysell_rental_enddate'),
+    locale: {
+        format: wordpress_date_format.date,
+        "firstDay": parseInt(wordpress_date_format.day),
+        "applyLabel": truelysell_core.applyLabel,
+        "cancelLabel": truelysell_core.cancelLabel,
+        "fromLabel": truelysell_core.fromLabel,
+        "toLabel": truelysell_core.toLabel,
+        "customRangeLabel": truelysell_core.customRangeLabel,
+        "daysOfWeek": [
+            truelysell_core.day_short_su,
+            truelysell_core.day_short_mo,
+            truelysell_core.day_short_tu,
+            truelysell_core.day_short_we,
+            truelysell_core.day_short_th,
+            truelysell_core.day_short_fr,
+            truelysell_core.day_short_sa
+        ],
+        "monthNames": [
+            truelysell_core.january,
+            truelysell_core.february,
+            truelysell_core.march,
+            truelysell_core.april,
+            truelysell_core.may,
+            truelysell_core.june,
+            truelysell_core.july,
+            truelysell_core.august,
+            truelysell_core.september,
+            truelysell_core.october,
+            truelysell_core.november,
+            truelysell_core.december,
+        ],
+        
+    },
+
+    isCustomDate: function(date) {
+        var classes = [];
+         //---selected date showing----
+        $('.available-info li').each(function() {
+            var spanTexts = []; // Array to store span texts
+
+            // Get all <span> elements within this <li>
+            $(this).find('span').each(function() {
+                var spanText = $(this).text().trim();
+                spanTexts.push(spanText); // Push span text into the array
+            });
+
+            // Concatenate span texts with comma if there are multiple, or use the single one
+            var finalText = spanTexts.length > 1 ? spanTexts.join(', ') : spanTexts[0];
+
+            var additionalText = $(this).contents().filter(function() {
+                return this.nodeType === 3 && $(this).text().trim().match(/\d{2}:\d{2} [AP]M\s*-\s*\d{2}:\d{2} [AP]M/);
+            }).text().trim();
+
+            if (additionalText.length > 0 && finalText === date.format('dddd')) {
+                classes.push('highlight-custom-dates');
+            }
+        });
+         //---End----
+
+        return classes;
+    },
+
+    isInvalidDate: function(date) {
+        if ($('#listing_type').val() == 'event') return false;
+        if ($('#listing_type').val() == 'service' && typeof disabledDates != 'undefined') {
+            if (jQuery.inArray(date.format("YYYY-MM-DD"), disabledDates) !== -1) return true;
+        }
+        if ($('#listing_type').val() == 'rental') {
+            var slots = wpkGetThisDateSlots(date);
+            return slots.isFirstSlotTaken && slots.isSecondSlotTaken;
+        }
+        //---selected date showing----
+        var isHighlightedDate = false;
+        
+        $('.available-info li').each(function() {
+            var spanTexts = []; // Array to store span texts
+
+            // Get all <span> elements within this <li>
+            $(this).find('span').each(function() {
+                var spanText = $(this).text().trim();
+                spanTexts.push(spanText); // Push span text into the array
+            });
+
+            // Concatenate span texts with comma if there are multiple, or use the single one
+            var finalText = spanTexts.length > 1 ? spanTexts.join(', ') : spanTexts[0];
+
+            var additionalText = $(this).contents().filter(function() {
+                return this.nodeType === 3 && $(this).text().trim().match(/\d{2}:\d{2} [AP]M\s*-\s*\d{2}:\d{2} [AP]M/);
+            }).text().trim();
+
+            if (additionalText.length > 0 && finalText === date.format('dddd')) {
+                isHighlightedDate = true;
+            }
+        });
+
+        // If the date is not highlighted, return true to disable it, otherwise return false
+        return !isHighlightedDate;
+        
+        // -----End---
+
+    }
+});
+
+
+        $('#date-picker').on('apply.daterangepicker', function(ev, picker) {
+
+            $('#bookservice-dialog').modal('show');
+        });
+
+
+
+
 	
 		$('#date-picker').on('show.daterangepicker', function(ev, picker) {
 	
@@ -651,6 +726,7 @@
 		
 		function check_booking() 
 		{
+		 
 			inputClicked = true;
 			if ( is_open === false ) return 0;
 			
@@ -772,7 +848,6 @@
 		// update slots and check hours setted to this day
 		function update_booking_widget () 
 		{
-	
 			// function only for services
 			if ( $('#date-picker').data('listing_type') != 'service') return;
 			$('a.book-now').addClass('loading');
@@ -937,6 +1012,7 @@
 	
 		// hours picker
 		if ( $(".time-picker").length ) {
+		    
 			var time24 = false;
 			
 			if(truelysell_core.clockformat){
@@ -946,6 +1022,7 @@
 				enableTime: true,
 				noCalendar: true,
 				dateFormat: "H:i",
+				minuteIncrement: 30,
 				time_24hr: time24,
 				 disableMobile: "true",
 				 

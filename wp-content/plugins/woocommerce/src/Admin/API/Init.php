@@ -93,6 +93,7 @@ class Init {
 			'Automattic\WooCommerce\Admin\API\OnboardingTasks',
 			'Automattic\WooCommerce\Admin\API\OnboardingThemes',
 			'Automattic\WooCommerce\Admin\API\OnboardingPlugins',
+			'Automattic\WooCommerce\Admin\API\OnboardingProducts',
 			'Automattic\WooCommerce\Admin\API\NavigationFavorites',
 			'Automattic\WooCommerce\Admin\API\Taxes',
 			'Automattic\WooCommerce\Admin\API\MobileAppMagicLink',
@@ -189,8 +190,8 @@ class Init {
 	 * object in REST API responses. For use in formatAmount().
 	 *
 	 * @internal
-	 * @param {WP_REST_Response} $response REST response object.
-	 * @returns {WP_REST_Response}
+	 * @param WP_REST_Response $response REST response object.
+	 * @returns WP_REST_Response
 	 */
 	public static function add_currency_symbol_to_order_response( $response ) {
 		$response_data                    = $response->get_data();

@@ -27,9 +27,9 @@ if (true == $submit_display) : ?>
 		if ($submit_page) : 
 		if($role == "owner"){
 		?>
-		<li class="nav-item desc-list">
-			<a href="<?php echo esc_url(get_permalink($submit_page)); ?>" class="button bsp_service with-icon header-login"> <i class="feather-plus-circle me-1"></i> <?php esc_html_e('Post a Service', 'truelysell_core'); ?></a>
-		</li>
+		<!--<li class="nav-item desc-list">-->
+		<!--	<a href="<?php //echo esc_url(get_permalink($submit_page)); ?>" class="button bsp_service with-icon header-login"> <i class="feather-plus-circle me-1"></i> <?php //esc_html_e('Post a Service', 'truelysell_core'); ?></a>-->
+		<!--</li>-->
 		<?php } endif; ?>
 	<?php } ?>
 
@@ -51,17 +51,19 @@ if (true == $submit_display) : ?>
 									</span>
 									<div class="user-info">
 										<h6><?php echo esc_html($name, 'truelysell_core'); ?></h6>
-										<p><?php
- 											if($role == "owner"){ ?>
-											<?php echo esc_html_e('Business', 'truelysell_core'); ?>
-												 
-											<?php }
-											else if($role == "guest"){ ?>
-                                                <?php echo esc_html_e('Customer', 'truelysell_core'); ?>
-											 
-											<?php } else { ?>
-												<?php echo esc_html_e('Admin', 'truelysell_core'); ?>
-												<?php  }	?></p>
+										<p>
+										    <?php
+										    if ($role == "owner") {
+											echo esc_html_e('Business', 'truelysell_core');
+										    } else if ($role == "guest") {
+											echo esc_html_e('Customer', 'truelysell_core');
+										    } else if ($role == "staff") { // Check for the "Staff" role
+											echo esc_html_e('Staff', 'truelysell_core'); // Display "Staff"
+										    } else {
+											echo esc_html_e('Admin', 'truelysell_core');
+										    }
+										    ?>
+										</p>
 									</div>
 								</div>
 							</a>
@@ -86,7 +88,7 @@ if (true == $submit_display) : ?>
 						endif;
 					endif;
 				endif; ?>
-				<?php if (!in_array($role, array('owner', 'seller'))) : ?>
+				<?php if (!in_array($role, array('owner', 'seller', 'staff'))) : ?>
 					<?php $user_bookings_page = truelysell_fl_framework_getoptions('user_bookings_page');
 					if ($user_bookings_page) : ?>
 						<a class="dropdown-item" href="<?php echo esc_url(get_permalink($user_bookings_page)); ?>"><i class="feather-box me-2"></i><?php esc_html_e('My Bookings', 'truelysell_core'); ?></a>
@@ -98,27 +100,29 @@ if (true == $submit_display) : ?>
 						<a class="dropdown-item" href="<?php echo esc_url(get_permalink($listings_page)); ?>"><i class="feather-cpu me-2"></i><?php esc_html_e('My Services', 'truelysell_core'); ?></a>
 					<?php endif; ?>
 				<?php endif; ?>
-				<?php if (!in_array($role, array('owner', 'seller'))) : ?>
+				<?php if (!in_array($role, array('owner', 'seller', 'staff'))) : ?>
 					<?php $reviews_page = truelysell_fl_framework_getoptions('reviews_page');
 					if ($reviews_page) : ?>
 						<a class="dropdown-item" href="<?php echo esc_url(get_permalink($reviews_page)); ?>"><i class="feather-award me-2"></i><?php esc_html_e('Reviews', 'truelysell_core'); ?></a>
 					<?php endif; ?>
 				<?php endif; ?>
 
-				<?php if (!in_array($role, array('owner', 'seller'))) : ?>
+				<?php if (!in_array($role, array('owner', 'seller','staff'))) : ?>
 					<?php $bookmarks_page = truelysell_fl_framework_getoptions('bookmarks_page');
 					if ($bookmarks_page) : ?>
 						<a class="dropdown-item" href="<?php echo esc_url(get_permalink($bookmarks_page)); ?>"><i class="feather-heart me-2"></i> <?php esc_html_e('Favourites', 'truelysell_core'); ?></a>
 					<?php endif; ?>
 				<?php endif; ?>
-
+            <?php if (in_array($role, array('staff'))) : ?>
+					<a href="<?php echo esc_url( home_url( '/staff-dashboard' ) )?>" ><i class="feather-users"></i> <?php esc_html_e('Dashboard', 'truelysell_core'); ?></a>
+            <?php endif; ?>
+            <?php if (!in_array($role, array('staff'))) : ?>
 				<?php $messages_page = truelysell_fl_framework_getoptions('messages_page');
 				if ($messages_page) : ?>
-					<a class="dropdown-item" href="<?php echo esc_url(get_permalink($messages_page)); ?>"><i class="feather-message-square me-2"></i><?php esc_html_e('Messages', 'truelysell_core'); ?>
-							
+					<a class="dropdown-item" href="<?php echo esc_url(get_permalink($messages_page)); ?>"><i class="feather-message-square me-2"></i><?php esc_html_e('Messages', 'truelysell_core'); ?>	
 						</a>
-				<?php endif; ?>
-
+					<?php endif; ?>
+            <?php endif; ?>
 				<?php if (in_array($role, array('administrator', 'admin', 'owner', 'seller'))) : ?>
 					<?php $bookings_page = truelysell_fl_framework_getoptions('bookings_page');
 					if ($bookings_page) : ?>
@@ -127,12 +131,12 @@ if (true == $submit_display) : ?>
 					<?php endif; ?>
 				<?php endif; ?>
 
-
+            <?php if (!in_array($role, array('staff'))) : ?>
 				<?php $profile_page = truelysell_fl_framework_getoptions('profile_page');
 				if ($profile_page) : ?>
 					<a class="dropdown-item" href="<?php echo esc_url(get_permalink($profile_page)); ?>"><i class="feather-user me-2"></i><?php esc_html_e('My Profile', 'truelysell_core'); ?></a>
 				<?php endif; ?>
-
+            <?php endif;?>
 
 				
 					<a class="dropdown-item" href="<?php echo wp_logout_url(home_url()); ?>"><i class="feather-log-out me-2"></i> <?php esc_html_e('Logout', 'truelysell_core'); ?></a>
@@ -183,25 +187,6 @@ if (true == $submit_display) : ?>
 		endif; ?>
 	<?php } 
 		
-    $current_user_id = $_SESSION['user_id'];
-    
-		global $wpdb;
-		$table_name = $wpdb->prefix . 'staffs'; 
-
-		$query = $wpdb->prepare("SELECT * FROM $table_name WHERE id = %d", $current_user_id);
-		$results = $wpdb->get_results( $query );
-		foreach($results as $result ){
-		    $resultArray = (array) $result;
-		    $staff_id = $resultArray['id'];
-		}
-		
-		if($staff_id):
-		
-		?> 
-		<a class="staff-login-page btn-primary" style="color:white;" href="<?php echo esc_url( home_url( '/staff-dashboard' ) ); ?>"><i class="feather-user me-2"></i><?php esc_html_e('My Profile', 'truelysell_core'); ?></a> &nbsp;&nbsp; <a class="btn-danger" href="<?php echo esc_url( home_url( '/staff-login-page' ) ) . '?id=' . $staff_id . '&action=' . esc_url( home_url( '/staff-dashboard' ) ); ?>">
-						<i class="feather-log-out"></i><?php esc_html_e('Logout', 'truelysell'); ?>
-					    </a>
-		<?php endif; 
 		 ?>
 				 </li>
 						

@@ -127,6 +127,15 @@ if (have_posts()) :
 						
 						
 						<div class="serv-action">
+						<a class="btn btn-danger" id="share-button" href="#"><i class="feather-share-2"></i></a>
+						</br></br>
+<div id="social-icons" style="display: none;">
+    <a class="social-icon" href="#" data-network="twitter"><i class="feather-twitter" style="font-size: 30px;display: inline-block;vertical-align: text-bottom;" ></i></a>
+    <a class="social-icon" href="#" data-network="facebook"><i class="feather-facebook" style="font-size: 30px;display: inline-block;vertical-align: text-bottom;"></i></a>
+    <a class="social-icon" href="#" data-network="linkedin"><i class="feather-linkedin" style="font-size: 30px;display: inline-block;vertical-align: text-bottom;"></i></a>
+    <a class="social-icon" href="#" data-network="whatsapp"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2024/03/whatsapp.png" style="width: 32px !important; height: 32px !important; border: none; display: inline-block;vertical-align: text-bottom;"></a>
+</div>
+</br>
 						<div class="fav-btn fav-btn-big">			
 										<?php
 										if ( is_active_sidebar( 'bookmark_widget' ) ) {
@@ -262,6 +271,36 @@ if(has_post_thumbnail($post->ID)){
 										</div>
 									</div>
 								</div>
+								<!--Added New Icon-->
+								<div class="col-md-4">
+									<div class="provide-box">
+										<span><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2024/03/whatsapp.png" style="width: 30px !important; height: 30px !important; border: none; display: inline-block;vertical-align: text-bottom;"></i></span>
+										<div class="provide-info">
+											<h6><?php echo esc_html_e('Whatsapp','truelysell_core'); ?></h6>
+											<p><?php the_author_meta( '_whatsapp', $current_user->ID ); ?></p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="provide-box">
+										<span><i class="feather-instagram"></i></span>
+										<div class="provide-info">
+											<h6><?php echo esc_html_e('Instagram','truelysell_core'); ?></h6>
+											<p><?php the_author_meta( '_instagram_link', $current_user->ID ); ?></p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="provide-box">
+										<span><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2024/03/gps.png" style="width: 30px !important; height: 30px !important; border: none; display: inline-block;vertical-align: text-bottom;"></span>
+										<div class="provide-info">
+											<h6><?php echo esc_html_e('Waze','truelysell_core'); ?></h6>
+											<p><?php the_author_meta( '_waze', $current_user->ID ); ?></p>
+										</div>
+									</div>
+								</div>
+								<!--End-->
+								
 								<div class="col-md-4">
 									<div class="provide-box">
 										<span><i class="feather-star"></i></span>
@@ -324,19 +363,35 @@ if(has_post_thumbnail($post->ID)){
 							<?php $template_loader->get_template_part('single-partials/single-listing', 'video');  ?>
 					</div>
 
-					<div class="service-wrap">
-					 
-					<?php if ($load_reviews && !truelysell_fl_framework_getoptions('disable_reviews')) {
+				<?php if (is_user_logged_in()): ?>	
+	<?php 
+	$current_customer_id = get_current_user_id();
+	global $wpdb;
+	$table_b = $wpdb->prefix . 'bookings_calendar';
+	$query = $wpdb->prepare("SELECT * FROM $table_b WHERE bookings_author = %d AND listing_id = %d", $current_customer_id, $post->ID );
+	$result = $wpdb->get_results( $query );
+	$has_booking = false;
+	foreach($result as $customer) {
+		if ($customer->bookings_author == $current_customer_id) {
+			$has_booking = true;
+			break;
+		}
+	}
 
-$template_loader->get_template_part('single-partials/single-listing', 'reviews');
-} ?>
+	if ($has_booking):
+	?>
+	<div class="service-wrap">
+		<?php if ($load_reviews && !truelysell_fl_framework_getoptions('disable_reviews')) {
+			$template_loader->get_template_part('single-partials/single-listing', 'reviews');
+		} ?>
 
-<?php if ( !truelysell_fl_framework_getoptions('disable_reviews')) { ?>
-<?php 
- $template_loader->get_template_part('single-partials/single-listing', 'addreviews');
- ?>
-<?php  }  ?>
-</div>
+		<?php if (!truelysell_fl_framework_getoptions('disable_reviews')) { 
+			$template_loader->get_template_part('single-partials/single-listing', 'addreviews');
+		} ?>
+	</div>
+	<?php endif; ?>
+<?php endif; ?>
+
 
 <div class="service-wrap related_services_carousel">
 
@@ -512,10 +567,25 @@ $template_loader->get_template_part('single-partials/single-listing', 'reviews')
 							<?php } ?>
 							<?php  if(!truelysell_fl_framework_getoptions('bookings_disabled')) { ?>
 							<!-- <div class="service-book "></div>-->
+							<?php if (is_user_logged_in()): ?>
 							<div class="d-grid gap-2">
-								<button type="button" class="btn btn-primary btn-block popup-with-zoom-anim" data-bs-toggle="modal" data-bs-target="#bookservice-dialog">
+									<!--<button type="button" class="btn btn-primary btn-block popup-with-zoom-anim" data-bs-toggle="modal" data-bs-target="#bookservice-dialog">-->
+
+								<button type="button" class="btn btn-primary btn-block popup-with-zoom-anim book_now" id="cbook_now">
 								<?php echo esc_html_e('Book Service','truelysell_core'); ?></button>
+								<!--<button type="button" class="btn btn-primary btn-block popup-with-zoom-anim book_now">-->
+								<!--test</button>-->
+								
+								<!--<button type="button" class="btn btn-primary btn-block popup-with-zoom-anim book_now">-->
+								<!--test</button>-->
 							</div>
+							<?php else: ?>
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-primary btn-block popup-with-zoom-anim book_now" id="cbook_now" title="Please login as a Customer" disabled>
+                                        <?php echo esc_html_e('Book Service (Please login as a Customer)', 'truelysell_core'); ?>
+                                    </button>
+                                </div>
+                            <?php endif; ?>
 							<?php } ?>
 								<!-- /Bookservice Modal -->
 
@@ -631,6 +701,19 @@ $template_loader->get_template_part('single-partials/single-listing', 'reviews')
 		<?php get_template_part('content', 'none'); ?>
 
 	<?php endif; ?>
+ <script type="text/javascript">
+ jQuery(document).ready(function($){
+     
+     $('#cbook_now').on('click', function(){
+        //  $("#cbook_now").click(function(){
 
+         $('#date-picker').trigger('click');
+         
+     });
+     
+
+     
+ });
+ </script>
 
 	<?php get_footer(); ?>

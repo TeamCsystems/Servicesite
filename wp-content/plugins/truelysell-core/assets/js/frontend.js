@@ -1451,7 +1451,7 @@ if($("#avatar-uploader").length>0) {
     });
 
     // Sotrable Script
-    $( ".slots-container" ).sortable();
+ //   $( ".slots-container" ).sortable();
 
   // 24 hour clock type switcher
   if ( $('.availability-slots').attr('data-clock-type') == '24hr' ) {

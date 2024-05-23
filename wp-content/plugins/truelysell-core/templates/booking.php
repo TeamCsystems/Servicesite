@@ -61,8 +61,8 @@ if(!$image){
 				<div class="col-md-6">
 					<div class="form-group">
 						<div class="input-with-icon medium-icons">
-							<label><?php esc_html_e('E-Mail Address', 'truelysell_core'); ?></label>
-							<input type="text" <?php if($email_required) { echo "required"; } ?> name="email" class="form-control" value="<?php esc_html_e($email); ?>" >
+							<label><?php esc_html_e('E-Mail Address', 'truelysell_core'); ?><span style="color:red;">*</span></label>
+							<input type="email" <?php if($email_required) { echo "required"; } ?> name="email" class="form-control" value="<?php esc_html_e($email); ?>" >
  						</div>
 					</div>
 				</div>
@@ -70,7 +70,7 @@ if(!$image){
 				<div class="col-md-6">
 					<div class="form-group">
 						<div class="input-with-icon medium-icons">
-							<label><?php esc_html_e('Phone', 'truelysell_core'); ?></label>
+							<label><?php esc_html_e('Phone', 'truelysell_core'); ?><span style="color:red;">*</span></label>
 							<?php if($phone_required == "on"){ ?>
 								<span class="text-danger">*</span>
 							<?php } ?>

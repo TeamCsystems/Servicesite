@@ -204,7 +204,6 @@ if (!is_user_logged_in()) {
 								 
  								<?php wp_nonce_field( 'truelysell-ajax-login-nonce', 'login_security' ); ?>
 					            <input type="submit" class="btn btn-primary w-100 login-btn mb-0" id="loginbtn" name="login" value="<?php esc_html_e('Sign in','truelysell') ?>" />
-  								<p class="no-acc " style="color:red;border: 1px solid mediumblue;padding: 10px;"><?php esc_html_e("*Staff Login Here",'truelysell'); ?>  <a href="<?php echo get_template_directory_uri(); ?>/staff-login-page"><?php esc_html_e('Login','truelysell'); ?></a></p>
 								  <p class="no-acc "><?php esc_html_e("Don't have an account ?",'truelysell'); ?>  <a href="<?php echo esc_url(get_permalink(truelysell_fl_framework_getoptions('register_page'))); ?>"><?php esc_html_e('Register','truelysell'); ?></a></p>
 							</form>
 							<!-- /Login Form -->
